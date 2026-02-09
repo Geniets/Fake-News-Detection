@@ -1,0 +1,701 @@
+domain,has_https,domain_age_years,ssl_valid,ssl_issuer,redirect_count,page_load_time_sec,server_location,server_response_code,ads_density_score,external_links_count,social_media_presence,contact_info_available,privacy_policy_exists,terms_of_service_exists,whois_privacy_enabled,domain_registrar,content_update_frequency,mobile_responsive,security_headers_score,tls_version,certificate_type,hosting_type,cdn_used,javascript_obfuscation_score,popups_present,malware_flag_score,domain_age_bucket
+mayo.edu,True,151,True,GlobalSign,0,1.4,USA,200,0.03,35,high,True,True,True,False,CSC Corporate,hourly,False,96,TLS1.3,OV,enterprise,yes,3,no,0,legacy
+theguardian.com,True,93,True,Amazon,1,1.0,USA,200,0.1,68,high,True,True,True,False,Verisign,daily,True,89,TLS1.3,OV,cloud,yes,13,no,0,established
+bbc.com.co,True,7,True,Cloudflare,1,6.1,Offshore,200,0.95,111,low,True,False,False,True,Namecheap,daily,False,39,none,self_signed,cloud,no,28,no,26,new
+nature.com,True,175,True,InCommon,0,1.1,USA,200,0.32,58,high,True,True,True,False,GoDaddy,hourly,True,94,TLS1.2,EV,enterprise,yes,5,no,0,legacy
+rt.com,True,8,True,Let's Encrypt,1,4.4,Offshore,200,0.41,211,low,False,False,True,True,GoDaddy,irregular,True,40,TLS1.2,none,shared,yes,22,yes,0,new
+bipartisanreport.com,True,13,True,none,3,2.5,Offshore,200,0.52,151,low,False,True,True,False,eNom,irregular,True,67,TLS1.2,none,offshore,no,55,no,0,growing
+apnews.com,True,114,True,GlobalSign,0,1.9,Canada,200,0.04,36,high,True,True,True,False,Network Solutions,daily,True,96,TLS1.3,EV,cloud,yes,3,no,0,legacy
+abcnews.com.co,False,3,False,none,2,4.9,USA,200,0.61,106,medium,False,False,False,True,GoDaddy,irregular,False,74,none,self_signed,cloud,no,61,no,79,new
+nypost.com,True,22,False,none,4,1.9,USA,200,0.68,102,none,False,False,True,True,GoDaddy,weekly,True,15,TLS1.0,DV,shared,no,66,no,0,growing
+zerohedge.com,True,17,True,Let's Encrypt,5,5.2,Offshore,200,0.7,165,medium,True,False,False,True,Namecheap,weekly,False,10,none,DV,shared,yes,81,no,0,growing
+mercola.com,True,6,False,none,1,10.0,Offshore,200,0.93,167,low,False,False,False,True,Unknown,irregular,False,72,TLS1.2,DV,shared,yes,54,yes,26,new
+infowars.com,True,35,False,none,1,5.3,UK,200,0.75,135,medium,False,False,False,True,Unknown,daily,False,27,TLS1.3,DV,shared,no,95,yes,28,established
+dailywire.com,True,18,False,none,0,2.8,Offshore,200,0.9,185,none,False,False,False,True,Namecheap,daily,True,34,TLS1.2,OV,shared,no,36,no,74,growing
+wsj.com,True,14,True,GlobalSign,0,0.9,USA,200,0.28,27,high,True,True,True,False,CSC Corporate,daily,False,94,TLS1.3,OV,enterprise,no,5,no,0,growing
+thegatewaypundit.com,True,27,True,Let's Encrypt,5,4.0,Offshore,200,0.62,99,low,True,False,False,True,Namecheap,weekly,False,77,none,none,cloud,no,85,yes,0,established
+nytimes.com,True,78,True,Let's Encrypt,1,1.1,UK,200,0.38,31,high,True,True,True,False,Verisign,hourly,True,90,TLS1.3,DV,cloud,yes,17,no,0,established
+cam.ac.uk,True,22,True,GlobalSign,1,0.7,USA,200,0.3,65,medium,True,False,True,False,Network Solutions,hourly,True,87,TLS1.3,DV,enterprise,yes,17,no,0,growing
+activistpost.com,True,14,True,Let's Encrypt,2,5.2,Offshore,200,0.49,171,medium,False,False,False,True,GoDaddy,daily,True,12,TLS1.2,self_signed,cloud,no,65,yes,14,growing
+wikipedia.org,True,15,True,DigiCert,1,0.8,USA,200,0.23,37,high,True,True,True,True,Network Solutions,daily,True,94,TLS1.2,OV,enterprise,yes,5,no,0,growing
+cam.ac.uk,True,46,True,InCommon,0,1.2,UK,200,0.04,55,high,True,True,True,False,CSC Corporate,weekly,True,87,TLS1.3,OV,cloud,yes,9,no,0,established
+newspunch.com,True,52,True,GeoTrust,2,5.8,UK,200,0.99,172,medium,False,False,False,True,GoDaddy,irregular,True,75,TLS1.2,self_signed,shared,no,24,yes,12,established
+naturalnews.com,True,10,True,Cloudflare,1,4.5,USA,200,0.76,103,low,False,False,False,True,GoDaddy,daily,False,59,TLS1.0,DV,cloud,no,57,yes,15,new
+bbc.com,True,69,True,DigiCert,1,0.8,France,200,0.11,43,high,True,True,True,True,Network Solutions,daily,True,82,TLS1.3,OV,enterprise,yes,15,no,0,established
+nasa.gov,True,65,True,InCommon,2,0.6,UK,200,0.3,54,high,True,True,True,False,Network Solutions,daily,True,89,TLS1.3,OV,enterprise,yes,19,no,0,established
+naturalnews.com,True,47,False,Cloudflare,2,3.0,USA,200,0.6,114,none,False,False,False,True,GoDaddy,irregular,True,32,TLS1.3,DV,cloud,no,47,yes,17,established
+globalresearch.ca,True,22,True,none,1,9.3,USA,200,0.71,152,low,False,True,True,False,eNom,weekly,True,36,TLS1.3,none,offshore,no,76,yes,24,growing
+dailymail.co.uk,False,12,False,none,3,6.7,Russia,200,0.49,113,medium,True,True,True,True,Namecheap,irregular,False,45,TLS1.2,DV,cloud,no,28,yes,0,growing
+abcnews.com.co,True,8,True,self-signed,1,4.5,Russia,200,0.56,114,none,False,False,False,True,Namecheap,weekly,False,28,TLS1.3,none,cloud,no,72,yes,13,new
+cam.ac.uk,True,81,True,DigiCert,0,0.7,Canada,200,0.02,61,medium,True,True,True,False,MarkMonitor,daily,True,94,TLS1.3,OV,enterprise,yes,8,no,0,established
+dailymail.co.uk,True,3,True,Let's Encrypt,4,4.6,USA,200,0.94,64,none,False,False,True,True,GoDaddy,irregular,False,70,TLS1.2,self_signed,shared,no,78,no,18,new
+mercola.com,True,17,True,none,2,1.5,Offshore,200,0.78,180,low,False,False,True,True,eNom,daily,False,20,TLS1.2,DV,shared,yes,76,yes,0,growing
+bloomberg.com,True,173,True,InCommon,1,0.5,France,200,0.37,51,medium,True,True,True,False,CSC Corporate,daily,True,85,TLS1.3,DV,cloud,yes,13,no,0,legacy
+cnn.com,True,199,True,InCommon,2,1.9,Canada,200,0.05,61,high,True,True,True,False,MarkMonitor,daily,True,83,TLS1.2,OV,cloud,yes,2,no,0,legacy
+davidwolfe.com,True,37,False,Let's Encrypt,4,6.0,Offshore,200,0.99,72,none,False,False,False,False,Unknown,irregular,False,38,TLS1.2,none,offshore,no,50,no,10,established
+occupydemocrats.com,False,6,False,none,1,3.7,Offshore,200,0.39,148,low,True,False,False,False,GoDaddy,irregular,False,38,TLS1.2,DV,cloud,yes,29,yes,79,new
+thedailysheeple.com,True,3,True,Let's Encrypt,2,5.7,Offshore,200,0.56,158,none,False,False,False,True,GoDaddy,irregular,False,77,TLS1.2,self_signed,shared,yes,22,yes,26,new
+cnn.com,True,91,True,DigiCert,0,2.0,USA,200,0.43,17,high,True,True,True,False,MarkMonitor,daily,True,83,TLS1.2,EV,enterprise,yes,18,no,0,established
+conservativetribune.com,True,21,False,Let's Encrypt,0,3.6,Offshore,200,0.86,136,low,True,False,True,True,GoDaddy,daily,False,60,TLS1.2,self_signed,offshore,yes,25,yes,9,growing
+globalresearch.ca,True,13,True,Cloudflare,3,3.0,USA,200,0.99,51,medium,False,True,False,True,GoDaddy,irregular,False,26,TLS1.0,DV,cloud,no,47,yes,0,growing
+nytimes.com,True,59,True,GlobalSign,0,0.5,Canada,200,0.38,20,high,False,True,True,False,CSC Corporate,daily,True,89,TLS1.3,OV,cloud,yes,2,no,0,established
+rt.com,False,23,False,none,0,1.5,Offshore,200,0.99,190,low,True,True,True,True,GoDaddy,irregular,True,75,TLS1.2,DV,shared,no,66,no,78,growing
+wakingtimes.com,False,4,False,none,0,5.7,USA,200,0.87,108,medium,False,False,False,True,Namecheap,daily,True,32,TLS1.1,DV,cloud,yes,64,yes,37,new
+sciencemag.org,True,181,True,InCommon,2,1.2,UK,200,0.18,22,medium,True,True,True,False,Network Solutions,daily,True,83,TLS1.2,EV,cloud,yes,16,no,0,legacy
+beforeitsnews.com,True,23,False,none,3,6.8,USA,200,0.72,115,low,False,False,False,True,Namecheap,weekly,True,37,TLS1.0,DV,shared,no,67,no,0,growing
+britannica.com,True,123,True,Amazon,1,1.9,UK,200,0.08,18,medium,True,True,True,False,MarkMonitor,hourly,True,84,TLS1.3,EV,cloud,yes,13,no,0,legacy
+who.int,True,92,True,DigiCert,2,0.8,Germany,200,0.07,27,high,True,True,True,False,Network Solutions,daily,True,89,TLS1.2,OV,enterprise,yes,19,no,0,established
+theguardian.com,True,134,True,GlobalSign,0,0.9,USA,200,0.03,27,high,True,False,True,False,CSC Corporate,daily,True,98,TLS1.3,EV,cloud,yes,6,no,0,legacy
+washingtonpost.com,True,82,True,Amazon,0,1.4,USA,200,0.13,17,high,True,True,True,False,Network Solutions,daily,True,89,TLS1.3,EV,cloud,yes,15,no,0,established
+stanford.edu,True,16,True,DigiCert,0,1.6,USA,200,0.12,22,medium,True,True,True,False,MarkMonitor,hourly,True,83,TLS1.3,EV,enterprise,yes,3,no,0,growing
+dailybuzzlive.com,False,36,False,none,0,3.3,Canada,200,0.94,219,none,False,True,True,True,OVH,irregular,False,77,TLS1.3,DV,cloud,no,71,yes,0,established
+sciencemag.org,True,19,True,Let's Encrypt,0,1.2,UK,200,0.02,16,high,True,True,True,False,MarkMonitor,weekly,True,96,TLS1.2,EV,enterprise,yes,14,no,0,growing
+beforeitsnews.com,False,14,False,none,2,2.1,Canada,200,0.54,131,low,True,False,False,True,GoDaddy,weekly,False,28,TLS1.1,DV,shared,yes,72,no,13,growing
+fda.gov,True,8,True,Amazon,1,1.7,USA,200,0.34,16,high,True,True,True,False,CSC Corporate,daily,True,89,TLS1.3,OV,enterprise,no,5,no,0,new
+sciencemag.org,True,30,True,DigiCert,0,0.8,Switzerland,200,0.02,19,high,True,True,True,True,GoDaddy,hourly,True,90,TLS1.3,EV,enterprise,yes,14,no,0,established
+apnews.com,True,115,True,Let's Encrypt,0,0.7,USA,200,0.1,54,high,True,True,True,False,MarkMonitor,hourly,True,84,TLS1.3,EV,cloud,yes,15,no,0,legacy
+abcnews.com.co,True,7,True,GeoTrust,5,5.0,UK,200,0.85,61,low,False,False,True,True,Namecheap,irregular,False,12,TLS1.2,DV,cloud,no,83,no,39,new
+infowars.com,True,46,False,none,0,5.9,Offshore,200,0.85,140,medium,False,False,False,True,GoDaddy,irregular,True,55,TLS1.2,none,shared,no,23,yes,3,established
+newspunch.com,True,2,True,self-signed,0,6.3,Russia,200,0.83,212,medium,False,False,True,True,Namecheap,irregular,False,29,TLS1.0,none,shared,no,97,no,38,new
+bloomberg.com,True,32,True,GlobalSign,1,0.9,UK,200,0.34,50,high,True,True,True,False,Network Solutions,daily,True,93,TLS1.3,OV,cloud,no,12,no,0,established
+fda.gov,True,45,True,InCommon,0,0.9,USA,200,0.08,29,high,True,True,True,False,MarkMonitor,daily,True,86,TLS1.2,EV,cloud,yes,17,no,0,established
+thegatewaypundit.com,True,13,True,GeoTrust,1,6.2,UK,200,0.25,137,low,True,False,False,True,Namecheap,weekly,False,46,TLS1.2,DV,offshore,no,68,yes,7,growing
+gov.uk,True,69,True,DigiCert,2,2.0,UK,200,0.1,58,high,True,True,True,False,CSC Corporate,daily,True,93,TLS1.3,EV,cloud,yes,8,no,0,established
+occupydemocrats.com,True,4,True,Cloudflare,4,4.3,Offshore,200,0.74,215,medium,False,False,True,False,Unknown,weekly,False,57,TLS1.0,DV,offshore,no,46,no,97,new
+yournewswire.com,False,33,False,none,2,2.2,Offshore,200,0.73,170,none,False,True,True,True,Unknown,weekly,False,49,TLS1.0,self_signed,shared,no,30,no,0,established
+infowars.com,True,17,True,self-signed,5,5.9,USA,200,0.91,85,low,False,True,False,True,eNom,irregular,False,34,TLS1.2,DV,offshore,no,54,yes,14,growing
+npr.org,True,18,True,InCommon,0,1.6,USA,200,0.05,44,high,True,True,True,True,MarkMonitor,daily,True,85,TLS1.2,OV,enterprise,yes,16,no,0,growing
+cdc.gov,False,129,False,none,1,0.7,USA,200,0.27,38,medium,True,True,True,False,CSC Corporate,hourly,True,89,TLS1.2,OV,cloud,yes,7,no,0,legacy
+rt.com,True,11,True,self-signed,0,2.7,Offshore,200,0.32,74,low,False,False,False,False,GoDaddy,irregular,False,60,TLS1.1,self_signed,shared,no,28,no,70,growing
+mercola.com,True,7,True,GeoTrust,1,7.2,Canada,200,0.57,200,none,False,False,True,True,GoDaddy,daily,True,22,TLS1.0,none,cloud,yes,47,yes,44,new
+mayo.edu,True,145,True,Let's Encrypt,1,1.4,USA,200,0.11,26,high,True,True,True,True,Network Solutions,hourly,True,87,TLS1.2,OV,enterprise,yes,9,no,0,legacy
+reuters.com,True,123,True,GlobalSign,0,2.0,Canada,200,0.12,18,high,True,True,True,False,CSC Corporate,hourly,True,92,TLS1.3,OV,cloud,yes,12,no,0,legacy
+washingtonpost.com,True,167,True,DigiCert,2,0.5,USA,200,0.02,51,medium,True,True,True,False,GoDaddy,hourly,True,98,TLS1.3,EV,enterprise,yes,17,no,0,legacy
+bipartisanreport.com,True,2,True,GeoTrust,2,6.1,USA,200,0.99,218,low,False,True,False,True,Namecheap,irregular,True,51,TLS1.2,OV,offshore,no,64,yes,50,new
+yournewswire.com,False,36,False,none,5,2.4,UK,200,0.46,114,medium,False,False,False,True,Namecheap,irregular,False,62,TLS1.1,none,cloud,no,91,no,17,established
+washingtonpost.com,True,189,True,Amazon,1,0.8,USA,200,0.1,44,medium,True,False,True,False,MarkMonitor,hourly,True,86,TLS1.3,EV,cloud,yes,9,no,0,legacy
+stanford.edu,True,125,True,DigiCert,0,0.5,USA,200,0.37,16,high,True,True,True,False,Verisign,weekly,True,88,TLS1.3,EV,cloud,no,19,no,0,legacy
+stanford.edu,True,39,True,Amazon,0,0.5,USA,200,0.07,37,high,True,True,True,False,Network Solutions,hourly,True,98,TLS1.3,EV,enterprise,yes,18,no,0,established
+conservativetribune.com,False,33,False,none,1,4.7,Offshore,200,0.96,204,medium,True,False,False,True,Namecheap,daily,True,69,none,OV,cloud,yes,40,yes,41,established
+economist.com,True,107,True,DigiCert,0,1.8,France,200,0.06,36,high,True,True,True,True,Network Solutions,daily,True,93,TLS1.3,OV,enterprise,yes,11,no,0,legacy
+dailywire.com,True,19,True,Let's Encrypt,0,3.8,Offshore,200,0.25,210,none,True,False,False,True,GoDaddy,daily,True,19,none,none,shared,yes,44,no,26,growing
+britannica.com,True,17,True,DigiCert,1,1.5,UK,200,0.11,55,medium,True,True,True,False,Network Solutions,weekly,True,99,TLS1.3,OV,cloud,yes,12,no,0,growing
+bbc.com.co,True,14,True,self-signed,1,5.5,USA,200,0.9,65,medium,True,False,False,True,OVH,weekly,True,33,TLS1.2,none,cloud,no,32,yes,3,growing
+cdc.gov,True,77,True,DigiCert,2,1.2,USA,200,0.1,68,high,True,True,True,False,Network Solutions,hourly,True,83,TLS1.2,EV,enterprise,yes,15,no,0,established
+berkeley.edu,True,172,True,DigiCert,2,1.5,USA,200,0.32,41,high,True,True,True,True,GoDaddy,hourly,False,83,TLS1.2,EV,cloud,yes,3,no,0,legacy
+apnews.com,False,172,False,none,1,0.8,France,200,0.05,55,high,False,True,True,False,CSC Corporate,daily,True,84,TLS1.3,OV,enterprise,yes,7,no,0,legacy
+zerohedge.com,False,2,False,none,1,3.3,Offshore,200,0.87,168,low,False,False,False,True,Unknown,irregular,True,32,TLS1.2,none,shared,no,60,yes,25,new
+mit.edu,True,182,True,DigiCert,1,1.8,Germany,200,0.12,39,high,True,True,True,False,CSC Corporate,hourly,True,89,TLS1.3,EV,enterprise,yes,2,no,0,legacy
+rt.com,True,4,True,none,3,1.8,USA,200,0.43,208,medium,False,True,False,False,Unknown,irregular,False,30,TLS1.2,none,cloud,no,62,no,87,new
+sputniknews.com,True,22,True,Cloudflare,2,3.8,USA,200,0.78,211,medium,False,False,False,True,Namecheap,irregular,False,26,TLS1.2,DV,shared,no,24,yes,17,growing
+abcnews.com.co,True,8,True,self-signed,1,3.9,Canada,200,0.96,53,low,False,False,False,True,eNom,irregular,True,66,TLS1.2,DV,cloud,no,60,yes,17,new
+davidwolfe.com,True,8,True,Let's Encrypt,5,4.0,Offshore,200,0.62,92,medium,False,True,False,True,Namecheap,weekly,True,68,TLS1.2,DV,offshore,no,67,yes,51,new
+nasa.gov,True,8,True,Let's Encrypt,0,1.6,Canada,200,0.15,41,high,True,True,True,False,MarkMonitor,daily,True,98,TLS1.3,OV,cloud,yes,7,no,0,new
+naturalnews.com,True,5,True,self-signed,3,3.0,Russia,200,0.94,102,low,True,False,False,True,Namecheap,daily,True,63,TLS1.2,none,offshore,no,75,no,90,new
+dailybuzzlive.com,True,4,False,Let's Encrypt,2,2.8,Offshore,200,0.68,168,none,True,False,False,False,Unknown,irregular,False,26,TLS1.2,DV,cloud,no,40,no,81,new
+abcnews.com.co,False,40,False,none,0,6.3,Offshore,200,0.81,115,none,False,False,False,True,Namecheap,daily,False,22,none,none,cloud,no,41,yes,61,established
+mit.edu,True,65,True,DigiCert,0,0.5,USA,200,0.05,61,medium,True,True,True,False,MarkMonitor,hourly,True,82,TLS1.3,OV,enterprise,yes,7,no,0,established
+cam.ac.uk,True,86,True,InCommon,0,2.5,UK,200,0.02,42,high,True,True,True,False,MarkMonitor,hourly,True,83,TLS1.3,OV,enterprise,yes,8,yes,0,established
+economist.com,True,69,True,Let's Encrypt,0,1.3,USA,200,0.19,54,high,True,True,True,False,Network Solutions,hourly,True,98,TLS1.3,OV,enterprise,yes,16,no,0,established
+davidwolfe.com,False,7,False,none,1,2.6,Offshore,200,0.6,183,low,False,False,False,True,Namecheap,daily,True,20,TLS1.1,DV,cloud,no,95,no,0,new
+sputniknews.com,True,27,True,Let's Encrypt,1,5.4,USA,200,0.52,171,low,False,False,False,True,GoDaddy,daily,True,77,TLS1.2,self_signed,shared,no,25,yes,14,established
+mercola.com,False,11,False,none,4,9.1,USA,200,0.92,188,low,False,True,False,True,GoDaddy,irregular,False,57,TLS1.2,none,cloud,no,44,yes,29,growing
+conservativetribune.com,True,47,False,Let's Encrypt,2,5.5,Offshore,200,0.74,94,none,True,False,False,True,Namecheap,irregular,True,53,TLS1.1,DV,cloud,no,66,yes,0,established
+naturalnews.com,True,44,True,Cloudflare,2,4.7,USA,200,0.77,207,low,False,True,True,False,Namecheap,daily,False,77,TLS1.0,DV,cloud,no,92,no,66,established
+sputniknews.com,True,7,True,Cloudflare,2,5.7,USA,200,0.97,97,medium,False,True,True,True,GoDaddy,irregular,False,15,TLS1.2,DV,cloud,yes,75,yes,7,new
+beforeitsnews.com,True,13,True,GeoTrust,1,5.9,USA,200,0.98,191,low,False,False,True,True,GoDaddy,irregular,True,31,TLS1.2,self_signed,offshore,no,34,yes,23,growing
+globalresearch.ca,True,14,False,Cloudflare,3,2.6,UK,200,0.81,101,none,False,False,False,True,Namecheap,irregular,True,42,TLS1.2,DV,offshore,yes,86,yes,51,growing
+sputniknews.com,True,1,False,none,1,5.2,USA,200,0.77,166,medium,True,False,False,True,Unknown,daily,True,22,TLS1.2,none,offshore,no,78,yes,27,new
+dailymail.co.uk,True,11,False,GeoTrust,2,3.8,Offshore,200,0.57,219,low,False,True,True,True,Namecheap,irregular,True,10,TLS1.2,DV,cloud,no,27,yes,94,growing
+wsj.com,True,122,True,InCommon,1,1.1,USA,200,0.11,63,high,True,True,True,False,GoDaddy,hourly,True,87,TLS1.3,OV,enterprise,yes,17,no,0,legacy
+activistpost.com,True,7,True,Let's Encrypt,2,2.6,UK,200,0.32,176,medium,False,True,False,True,eNom,daily,True,44,none,self_signed,offshore,no,77,no,17,new
+thedailysheeple.com,True,16,False,Let's Encrypt,1,3.9,UK,200,0.95,155,medium,False,False,True,True,GoDaddy,irregular,True,28,TLS1.2,DV,shared,yes,37,yes,52,growing
+mit.edu,True,192,True,DigiCert,0,0.8,UK,200,0.28,54,high,True,True,True,False,Network Solutions,hourly,True,90,TLS1.3,OV,enterprise,yes,12,no,0,legacy
+naturalnews.com,True,15,True,none,3,1.8,UK,200,0.85,53,medium,False,False,False,True,GoDaddy,irregular,True,29,TLS1.0,none,shared,yes,78,no,18,growing
+bbc.com.co,True,16,False,self-signed,0,5.6,Offshore,200,0.81,184,none,False,False,False,True,Namecheap,daily,True,11,TLS1.3,DV,shared,no,85,yes,22,growing
+thegatewaypundit.com,True,31,False,self-signed,3,7.1,Offshore,200,0.64,210,none,False,True,False,True,GoDaddy,irregular,True,17,TLS1.1,DV,cloud,no,82,yes,72,established
+beforeitsnews.com,True,14,False,GeoTrust,2,2.8,Russia,200,0.76,57,medium,False,True,False,True,GoDaddy,weekly,True,9,none,none,shared,no,60,yes,3,growing
+cdc.gov,True,165,True,InCommon,2,0.9,USA,200,0.07,40,medium,True,True,True,False,CSC Corporate,daily,True,96,TLS1.3,DV,enterprise,yes,8,no,0,legacy
+activistpost.com,True,5,True,Let's Encrypt,3,2.2,USA,200,0.94,68,medium,False,False,True,True,Unknown,irregular,True,27,TLS1.2,DV,shared,no,49,yes,23,new
+beforeitsnews.com,False,4,False,none,2,5.7,UK,200,0.9,187,low,False,True,True,False,GoDaddy,weekly,True,53,TLS1.0,self_signed,offshore,yes,72,no,27,new
+cnn.com,True,11,True,InCommon,0,0.7,Germany,200,0.05,40,high,True,True,True,False,Verisign,weekly,True,83,TLS1.3,OV,enterprise,yes,10,no,0,growing
+rt.com,True,5,True,self-signed,0,1.5,USA,200,0.9,215,medium,False,False,False,True,GoDaddy,irregular,False,46,TLS1.1,self_signed,shared,yes,37,yes,2,new
+theguardian.com,False,20,False,none,1,1.6,UK,200,0.13,30,high,True,True,True,True,Network Solutions,hourly,True,95,TLS1.3,EV,cloud,no,15,no,0,growing
+sciencemag.org,True,157,True,DigiCert,0,1.2,France,200,0.06,20,medium,True,True,False,False,CSC Corporate,daily,True,92,TLS1.2,DV,enterprise,yes,16,no,0,legacy
+ft.com,True,31,True,DigiCert,1,1.3,Canada,200,0.42,68,medium,True,True,True,False,CSC Corporate,daily,True,92,TLS1.3,EV,cloud,yes,11,no,0,established
+nature.com,True,158,True,InCommon,0,2.2,USA,200,0.3,54,high,True,True,True,False,GoDaddy,daily,True,93,TLS1.3,DV,enterprise,yes,13,no,0,legacy
+beforeitsnews.com,True,16,True,none,1,1.5,UK,200,0.54,74,low,False,False,False,True,GoDaddy,irregular,True,61,TLS1.1,DV,cloud,no,26,yes,18,growing
+britannica.com,True,181,True,Amazon,0,2.0,USA,200,0.13,22,high,True,True,True,False,GoDaddy,hourly,True,97,TLS1.3,OV,enterprise,yes,7,no,0,legacy
+rt.com,True,21,True,Let's Encrypt,3,2.2,Offshore,200,0.73,140,medium,False,True,False,True,GoDaddy,irregular,True,8,TLS1.0,DV,shared,yes,26,no,12,growing
+nypost.com,True,11,False,Cloudflare,4,6.7,Offshore,200,0.83,195,low,True,False,True,True,Unknown,irregular,True,44,TLS1.2,DV,shared,yes,48,yes,6,growing
+bipartisanreport.com,False,16,False,none,0,4.3,Offshore,200,0.9,110,medium,True,False,False,True,eNom,irregular,True,76,none,none,cloud,yes,42,no,0,growing
+conservativetribune.com,True,20,True,Cloudflare,2,4.4,UK,200,0.5,64,medium,False,True,False,True,GoDaddy,irregular,True,59,TLS1.3,DV,offshore,no,63,yes,80,growing
+newspunch.com,False,21,False,none,2,5.1,Canada,200,0.5,207,low,False,False,False,True,Namecheap,weekly,True,57,TLS1.2,DV,cloud,no,83,no,11,growing
+occupydemocrats.com,True,1,True,Let's Encrypt,4,3.8,USA,200,0.59,96,low,False,False,False,True,GoDaddy,weekly,False,16,TLS1.2,none,shared,yes,94,yes,8,new
+newspunch.com,True,10,False,Let's Encrypt,0,4.7,Canada,200,0.94,55,medium,False,True,True,True,Unknown,weekly,True,20,TLS1.0,DV,shared,yes,49,no,0,new
+wikipedia.org,True,38,True,DigiCert,0,1.1,UK,200,0.44,56,high,True,True,True,False,MarkMonitor,hourly,True,86,TLS1.3,OV,enterprise,yes,10,no,0,established
+berkeley.edu,True,182,True,DigiCert,1,1.1,USA,200,0.24,69,high,True,True,True,False,MarkMonitor,daily,True,96,TLS1.2,OV,cloud,yes,12,no,0,legacy
+beforeitsnews.com,True,49,True,none,0,3.5,Offshore,200,0.96,185,none,False,True,False,True,Namecheap,daily,True,10,TLS1.2,DV,cloud,yes,78,no,88,established
+globalresearch.ca,True,4,True,self-signed,2,3.5,USA,200,0.55,204,low,False,False,False,True,Unknown,daily,False,23,TLS1.3,self_signed,shared,no,97,yes,56,new
+globalresearch.ca,True,22,True,Let's Encrypt,0,5.0,Offshore,200,0.54,198,medium,False,True,False,True,Namecheap,irregular,True,55,TLS1.2,none,cloud,no,36,yes,31,growing
+dailybuzzlive.com,True,29,True,Let's Encrypt,1,1.5,USA,200,0.41,149,none,False,True,False,True,GoDaddy,daily,False,8,TLS1.2,OV,shared,yes,75,yes,24,established
+conservativetribune.com,True,10,False,Let's Encrypt,2,5.5,USA,200,0.8,153,medium,False,True,True,True,GoDaddy,irregular,True,70,TLS1.3,DV,cloud,yes,82,yes,28,new
+neonnettle.com,False,58,False,none,1,6.5,UK,200,0.78,96,medium,False,True,False,True,GoDaddy,irregular,True,28,TLS1.1,DV,shared,no,83,no,88,established
+nature.com,True,113,True,DigiCert,1,0.9,UK,200,0.3,68,high,True,True,True,False,GoDaddy,hourly,True,82,TLS1.3,EV,enterprise,no,2,no,0,legacy
+davidwolfe.com,False,12,False,none,3,7.3,UK,200,0.96,144,medium,False,False,False,True,Namecheap,irregular,True,74,TLS1.0,self_signed,offshore,no,51,yes,27,growing
+occupydemocrats.com,True,13,True,Cloudflare,0,6.4,UK,200,0.47,127,medium,False,True,False,True,Namecheap,daily,True,51,TLS1.1,self_signed,shared,no,48,yes,13,growing
+washingtonpost.com,True,38,True,Let's Encrypt,1,1.7,USA,200,0.09,33,high,True,True,True,False,Verisign,hourly,True,98,TLS1.3,OV,enterprise,yes,17,no,3,established
+rt.com,True,6,False,Cloudflare,0,3.9,Offshore,200,0.99,110,low,False,True,True,True,Namecheap,daily,False,33,TLS1.1,none,cloud,no,45,yes,0,new
+wakingtimes.com,True,1,False,self-signed,3,1.5,Offshore,200,0.88,156,medium,False,False,False,False,GoDaddy,irregular,False,18,none,self_signed,cloud,yes,36,yes,50,new
+zerohedge.com,True,3,False,Let's Encrypt,0,6.8,USA,200,0.84,142,low,True,False,False,False,Unknown,irregular,False,9,TLS1.1,DV,shared,no,30,yes,39,new
+theguardian.com,True,155,True,GlobalSign,0,0.5,Canada,200,0.08,69,high,True,True,True,False,Network Solutions,hourly,True,88,TLS1.3,OV,enterprise,yes,12,no,0,legacy
+zerohedge.com,True,18,True,Cloudflare,2,5.0,Canada,200,0.69,123,low,False,False,False,True,GoDaddy,weekly,True,75,TLS1.1,self_signed,shared,no,61,yes,5,growing
+britannica.com,True,103,True,GlobalSign,0,1.1,USA,200,0.17,16,high,False,True,True,True,Network Solutions,weekly,True,97,TLS1.3,OV,cloud,yes,13,no,0,legacy
+gov.uk,True,185,True,Amazon,0,0.6,Canada,200,0.05,53,high,True,True,True,False,Network Solutions,hourly,True,93,TLS1.3,EV,enterprise,yes,5,no,0,legacy
+bbc.com,True,156,True,DigiCert,0,0.6,UK,200,0.11,24,high,False,True,True,False,CSC Corporate,daily,True,99,TLS1.3,OV,cloud,yes,14,no,0,legacy
+fda.gov,True,155,True,DigiCert,0,1.3,France,200,0.27,36,high,True,True,True,False,MarkMonitor,daily,True,96,TLS1.2,OV,enterprise,no,16,no,0,legacy
+thedailysheeple.com,True,46,False,Cloudflare,0,3.6,USA,200,0.62,76,none,False,True,True,True,Unknown,weekly,True,19,none,DV,cloud,no,88,yes,89,established
+naturalnews.com,True,23,True,Let's Encrypt,0,3.5,Canada,200,0.48,180,low,False,False,False,True,GoDaddy,irregular,False,69,TLS1.2,none,shared,no,44,no,24,growing
+mayo.edu,True,176,True,DigiCert,0,1.4,USA,200,0.02,69,high,True,True,True,False,Network Solutions,weekly,True,91,TLS1.2,OV,enterprise,yes,4,no,1,legacy
+nih.gov,True,118,True,InCommon,0,0.5,UK,200,0.48,26,high,True,True,True,False,MarkMonitor,hourly,True,84,TLS1.3,EV,cloud,yes,17,no,0,legacy
+jstor.org,True,20,True,InCommon,0,1.7,UK,200,0.09,52,high,True,True,True,False,Network Solutions,daily,True,88,TLS1.2,OV,enterprise,yes,16,no,0,growing
+dailymail.co.uk,True,21,True,none,2,4.4,Offshore,200,0.6,158,medium,False,False,True,True,Namecheap,irregular,True,37,TLS1.2,DV,cloud,yes,32,yes,4,growing
+npr.org,True,175,True,DigiCert,2,0.6,UK,200,0.29,41,high,True,True,True,False,Verisign,hourly,True,96,TLS1.3,OV,cloud,no,5,no,0,legacy
+nasa.gov,True,199,True,GlobalSign,0,1.3,Canada,200,0.26,17,high,True,True,True,False,CSC Corporate,hourly,True,93,TLS1.3,DV,cloud,yes,14,no,0,legacy
+wakingtimes.com,True,17,True,Let's Encrypt,3,4.0,USA,200,0.59,121,medium,True,False,False,True,Namecheap,daily,False,41,TLS1.0,DV,cloud,yes,26,yes,21,growing
+infowars.com,False,19,False,none,5,3.8,Offshore,200,0.97,50,medium,False,False,False,False,OVH,daily,False,61,TLS1.1,DV,cloud,no,86,yes,93,growing
+infowars.com,True,19,False,Let's Encrypt,5,5.3,Offshore,200,0.7,54,low,True,False,False,False,Namecheap,weekly,True,61,TLS1.1,DV,offshore,no,90,yes,0,growing
+globalresearch.ca,False,11,False,none,0,5.2,USA,200,0.6,190,medium,True,False,True,True,OVH,weekly,True,34,none,self_signed,cloud,no,24,no,10,growing
+infowars.com,True,5,True,Let's Encrypt,1,1.5,UK,200,0.89,189,low,False,True,False,True,OVH,daily,False,37,TLS1.2,self_signed,shared,no,43,yes,3,new
+davidwolfe.com,False,3,False,none,3,7.1,USA,200,0.86,142,none,True,False,False,True,eNom,daily,False,9,TLS1.3,DV,offshore,no,20,yes,0,new
+ox.ac.uk,True,162,True,Amazon,0,1.9,UK,200,0.34,53,high,True,True,True,True,CSC Corporate,hourly,True,97,TLS1.3,DV,cloud,yes,15,no,0,legacy
+yournewswire.com,False,21,False,none,2,6.3,Canada,200,0.81,139,none,False,True,True,True,GoDaddy,irregular,False,11,none,DV,cloud,no,81,yes,6,growing
+neonnettle.com,False,1,False,none,3,7.1,USA,200,0.45,68,none,False,True,False,False,Namecheap,weekly,True,19,TLS1.2,DV,cloud,no,66,no,0,new
+newspunch.com,True,1,True,Cloudflare,5,6.9,Offshore,200,0.99,50,low,False,True,True,True,eNom,daily,True,73,TLS1.2,self_signed,cloud,no,91,no,69,new
+bipartisanreport.com,True,22,False,Let's Encrypt,4,1.5,USA,200,0.91,61,low,True,False,True,True,GoDaddy,irregular,False,8,TLS1.2,none,offshore,yes,37,yes,8,growing
+npr.org,True,11,True,InCommon,0,0.5,USA,200,0.35,48,high,True,True,True,False,Network Solutions,hourly,True,84,TLS1.3,EV,cloud,no,4,no,0,growing
+who.int,True,81,True,GlobalSign,2,1.4,UK,200,0.1,46,high,True,True,True,False,MarkMonitor,hourly,True,97,TLS1.3,OV,enterprise,yes,1,no,0,established
+thedailysheeple.com,True,27,False,Let's Encrypt,4,3.3,Russia,200,0.99,204,none,False,False,True,True,GoDaddy,daily,False,39,TLS1.1,DV,shared,no,21,no,0,established
+bipartisanreport.com,False,3,False,none,3,5.1,USA,200,0.6,143,low,True,False,False,True,Namecheap,irregular,False,21,TLS1.2,DV,shared,no,79,yes,18,new
+rt.com,True,2,False,Cloudflare,0,1.8,UK,200,0.69,192,medium,False,False,False,True,Namecheap,irregular,True,57,none,DV,shared,no,36,no,6,new
+mit.edu,True,90,True,DigiCert,0,1.4,UK,200,0.28,50,high,True,True,True,False,MarkMonitor,daily,True,87,TLS1.3,OV,cloud,no,15,no,0,established
+mercola.com,True,2,True,Cloudflare,1,7.3,USA,200,0.75,111,medium,False,True,True,True,OVH,irregular,False,11,TLS1.1,self_signed,shared,no,45,yes,44,new
+dailybuzzlive.com,True,12,False,self-signed,0,3.5,USA,200,0.47,206,medium,True,True,False,True,GoDaddy,irregular,True,19,TLS1.2,DV,cloud,no,40,yes,1,growing
+abcnews.com.co,True,4,True,Let's Encrypt,0,5.4,USA,200,0.99,86,medium,False,True,False,True,OVH,irregular,True,36,TLS1.2,none,shared,no,43,no,22,new
+washingtonpost.com,True,177,True,DigiCert,1,0.7,USA,200,0.11,18,high,True,True,True,True,CSC Corporate,hourly,False,97,TLS1.3,OV,enterprise,yes,7,no,0,legacy
+bipartisanreport.com,True,22,True,Cloudflare,1,6.4,Offshore,200,0.25,177,low,False,True,False,False,GoDaddy,irregular,True,19,TLS1.3,DV,cloud,no,74,no,89,growing
+globalresearch.ca,False,20,False,none,1,6.3,Offshore,200,0.47,202,none,False,False,False,True,Namecheap,irregular,True,29,TLS1.0,DV,cloud,no,59,yes,46,growing
+rt.com,True,10,True,Let's Encrypt,3,2.3,USA,200,0.51,178,low,True,True,False,True,Namecheap,daily,False,35,TLS1.3,self_signed,shared,no,87,no,7,new
+nypost.com,True,3,True,none,2,5.4,Canada,200,0.89,211,medium,False,False,False,True,GoDaddy,weekly,False,19,TLS1.0,self_signed,cloud,no,50,no,83,new
+dailymail.co.uk,True,16,True,self-signed,1,2.5,Offshore,200,0.97,151,low,False,False,False,True,Namecheap,irregular,False,51,TLS1.2,DV,shared,no,50,yes,0,growing
+britannica.com,True,68,True,InCommon,0,1.7,USA,200,0.19,40,high,True,True,True,True,Network Solutions,daily,True,97,TLS1.3,OV,enterprise,yes,14,no,2,established
+naturalnews.com,True,6,True,Let's Encrypt,2,2.9,UK,200,0.87,167,low,False,True,False,True,Namecheap,daily,False,11,none,self_signed,cloud,no,36,yes,22,new
+bipartisanreport.com,True,15,False,Cloudflare,2,5.7,USA,200,0.9,76,none,False,True,False,False,Namecheap,irregular,False,46,none,none,offshore,no,58,yes,0,growing
+mayo.edu,True,92,True,Amazon,1,1.5,Canada,200,0.27,21,high,True,True,True,False,MarkMonitor,hourly,True,87,TLS1.3,EV,cloud,yes,6,no,0,established
+thegatewaypundit.com,True,7,True,Let's Encrypt,2,4.0,UK,200,0.45,132,medium,False,False,False,True,Namecheap,daily,False,28,TLS1.2,self_signed,shared,yes,40,no,0,new
+sciencemag.org,True,5,True,GlobalSign,0,1.8,USA,200,0.03,17,high,True,True,True,True,MarkMonitor,weekly,True,98,TLS1.3,DV,enterprise,yes,2,no,0,new
+thedailysheeple.com,True,20,True,self-signed,2,1.5,USA,200,0.94,99,none,False,True,False,True,Namecheap,irregular,True,52,TLS1.2,none,cloud,yes,79,no,32,growing
+newspunch.com,True,52,False,none,0,3.4,USA,200,0.68,205,medium,False,False,False,True,GoDaddy,irregular,True,11,none,DV,cloud,no,94,yes,23,established
+infowars.com,True,35,True,self-signed,0,1.5,Offshore,200,0.87,71,low,False,False,False,True,GoDaddy,daily,True,34,none,none,cloud,no,59,yes,9,established
+nature.com,True,162,True,InCommon,0,1.1,UK,200,0.14,47,medium,True,True,True,False,MarkMonitor,daily,True,94,TLS1.3,EV,cloud,yes,19,no,0,legacy
+naturalnews.com,False,39,False,none,3,4.3,Offshore,200,0.9,48,medium,False,True,True,True,Unknown,irregular,False,11,TLS1.2,self_signed,cloud,yes,95,yes,0,established
+mit.edu,True,30,True,DigiCert,0,1.3,UK,200,0.13,19,high,True,True,True,True,CSC Corporate,hourly,True,91,TLS1.3,OV,cloud,yes,9,no,0,established
+npr.org,True,40,True,DigiCert,0,1.3,Germany,200,0.11,44,high,True,True,True,False,MarkMonitor,daily,True,95,TLS1.3,OV,enterprise,yes,11,no,0,established
+infowars.com,True,23,True,Cloudflare,0,4.4,USA,200,0.91,143,low,False,True,False,True,GoDaddy,daily,False,36,TLS1.3,self_signed,shared,no,73,yes,27,growing
+economist.com,True,107,True,GlobalSign,1,2.3,UK,200,0.35,63,medium,True,True,True,False,MarkMonitor,hourly,True,84,TLS1.3,EV,enterprise,yes,19,no,0,legacy
+conservativetribune.com,False,23,False,none,3,2.3,UK,200,0.93,107,low,False,False,True,True,eNom,irregular,True,72,TLS1.1,DV,cloud,no,96,no,43,growing
+nytimes.com,True,109,True,GlobalSign,0,1.5,Canada,200,0.02,47,medium,True,True,True,False,GoDaddy,daily,True,96,TLS1.3,OV,enterprise,yes,12,no,0,legacy
+berkeley.edu,True,51,True,DigiCert,0,0.9,France,200,0.21,68,medium,True,True,True,False,Network Solutions,hourly,True,98,TLS1.3,OV,enterprise,yes,15,yes,0,established
+harvard.edu,True,55,True,DigiCert,2,1.6,USA,200,0.04,29,high,False,True,True,False,MarkMonitor,daily,True,93,TLS1.2,DV,cloud,yes,12,no,0,established
+jstor.org,True,61,True,GlobalSign,1,1.0,USA,200,0.02,60,medium,True,True,True,False,Verisign,hourly,True,89,TLS1.3,EV,enterprise,yes,4,no,0,established
+nytimes.com,True,160,True,GlobalSign,0,1.2,UK,200,0.25,15,high,True,True,True,True,MarkMonitor,daily,True,95,TLS1.2,OV,enterprise,yes,9,no,0,legacy
+yournewswire.com,False,2,False,none,3,2.0,USA,200,0.94,207,low,False,False,False,True,GoDaddy,weekly,False,52,TLS1.1,none,shared,no,28,no,42,new
+dailywire.com,False,11,False,none,3,4.2,USA,200,0.55,157,none,False,False,False,True,GoDaddy,irregular,True,62,none,DV,offshore,no,77,yes,72,growing
+nih.gov,True,17,True,DigiCert,0,1.0,Germany,200,0.42,61,high,True,True,True,True,Verisign,daily,True,84,TLS1.3,EV,cloud,no,18,no,0,growing
+abcnews.com.co,False,3,False,none,2,6.7,Offshore,200,0.67,77,low,True,True,True,True,Namecheap,irregular,True,20,TLS1.3,self_signed,cloud,no,62,yes,29,new
+fda.gov,True,19,True,DigiCert,0,1.6,USA,200,0.11,18,medium,True,True,True,False,Network Solutions,hourly,True,97,TLS1.2,OV,enterprise,yes,6,yes,0,growing
+nih.gov,True,157,True,DigiCert,0,1.3,UK,200,0.05,42,high,True,True,True,False,GoDaddy,daily,True,87,TLS1.3,OV,enterprise,no,17,no,0,legacy
+newspunch.com,True,13,True,Let's Encrypt,3,1.5,USA,200,0.98,187,medium,False,True,False,True,eNom,daily,True,32,none,self_signed,cloud,yes,31,yes,0,growing
+davidwolfe.com,True,13,False,Cloudflare,3,9.8,USA,200,0.51,154,low,False,True,True,False,GoDaddy,irregular,True,71,none,DV,cloud,no,36,no,90,growing
+davidwolfe.com,False,2,False,none,3,1.5,Offshore,200,0.52,121,none,False,False,True,False,GoDaddy,weekly,False,64,TLS1.2,DV,shared,no,25,no,79,new
+economist.com,True,72,True,DigiCert,0,1.1,USA,200,0.1,57,high,True,True,True,False,Network Solutions,hourly,True,85,TLS1.3,OV,enterprise,no,18,no,0,established
+who.int,True,146,True,DigiCert,1,0.5,Canada,200,0.12,57,high,True,True,True,False,MarkMonitor,hourly,False,95,TLS1.3,OV,cloud,yes,16,no,0,legacy
+dailybuzzlive.com,True,1,False,Cloudflare,2,8.4,USA,200,0.73,201,low,True,False,True,False,Unknown,irregular,False,14,TLS1.2,self_signed,offshore,yes,26,yes,17,new
+dailymail.co.uk,True,19,True,none,2,3.1,Offshore,200,0.43,104,low,True,False,False,True,Unknown,weekly,False,52,TLS1.2,DV,shared,no,41,yes,21,growing
+yournewswire.com,True,10,True,self-signed,5,1.5,Canada,200,0.62,47,low,False,False,False,True,Namecheap,irregular,True,12,TLS1.2,DV,cloud,yes,79,yes,0,new
+beforeitsnews.com,True,20,False,Cloudflare,3,6.6,Offshore,200,0.89,72,medium,True,False,False,False,GoDaddy,irregular,True,60,TLS1.2,DV,cloud,no,37,no,45,growing
+thegatewaypundit.com,True,49,True,Let's Encrypt,3,2.9,UK,200,0.95,176,low,False,False,False,True,GoDaddy,irregular,False,30,TLS1.2,self_signed,offshore,no,60,yes,90,established
+rt.com,True,13,True,none,2,5.2,USA,200,0.5,46,low,False,True,False,True,GoDaddy,irregular,False,49,TLS1.1,none,cloud,no,45,no,1,growing
+sciencemag.org,True,65,True,GlobalSign,0,1.4,Canada,200,0.02,17,high,True,True,True,False,CSC Corporate,hourly,False,86,TLS1.3,OV,cloud,yes,19,no,0,established
+harvard.edu,True,75,True,DigiCert,1,1.4,USA,200,0.03,62,medium,True,True,True,False,CSC Corporate,daily,True,89,TLS1.3,EV,cloud,yes,19,no,0,established
+newspunch.com,True,12,True,Let's Encrypt,0,6.8,Canada,200,0.99,128,none,False,True,False,True,GoDaddy,irregular,False,24,TLS1.2,self_signed,cloud,no,84,yes,0,growing
+nature.com,True,124,True,InCommon,0,1.2,USA,200,0.11,18,high,True,True,True,False,Network Solutions,hourly,True,86,TLS1.2,EV,enterprise,yes,18,no,0,legacy
+wsj.com,True,176,True,Amazon,1,1.3,Switzerland,200,0.05,49,medium,True,True,True,True,MarkMonitor,daily,True,87,TLS1.3,OV,enterprise,no,17,no,0,legacy
+breitbart.com,True,8,False,Let's Encrypt,3,5.5,Offshore,200,0.78,144,none,False,True,True,True,Namecheap,weekly,True,25,TLS1.2,none,shared,no,22,yes,15,new
+npr.org,True,55,True,GlobalSign,1,1.5,UK,200,0.07,49,high,True,True,True,False,MarkMonitor,daily,True,94,TLS1.3,EV,enterprise,yes,15,no,0,established
+naturalnews.com,True,18,True,self-signed,0,5.1,USA,200,0.58,153,none,False,True,False,True,Namecheap,weekly,True,30,TLS1.3,none,shared,no,73,no,17,growing
+jstor.org,False,6,False,none,0,0.9,France,200,0.41,44,high,True,True,True,False,Verisign,hourly,True,86,TLS1.2,OV,enterprise,no,11,no,0,new
+zerohedge.com,True,14,True,Let's Encrypt,2,6.0,USA,200,0.62,188,medium,False,True,True,True,Namecheap,irregular,True,25,TLS1.3,self_signed,shared,no,21,no,31,growing
+bbc.com.co,True,15,True,Cloudflare,4,6.7,UK,200,0.54,140,medium,False,False,True,True,GoDaddy,irregular,False,28,TLS1.3,DV,offshore,no,83,no,0,growing
+yournewswire.com,True,10,True,Let's Encrypt,3,4.7,UK,200,0.58,125,low,False,True,False,True,OVH,daily,True,24,TLS1.2,DV,cloud,yes,82,no,87,new
+wakingtimes.com,False,16,False,none,3,3.9,Offshore,200,0.55,189,medium,True,False,True,True,eNom,weekly,False,54,none,DV,offshore,no,29,yes,95,growing
+nypost.com,True,19,True,self-signed,1,4.9,UK,200,0.64,160,none,True,False,False,False,GoDaddy,irregular,True,63,TLS1.2,none,cloud,no,29,yes,0,growing
+berkeley.edu,True,54,True,InCommon,0,1.2,France,200,0.17,33,high,True,True,True,False,MarkMonitor,daily,True,82,TLS1.2,OV,enterprise,yes,6,no,0,established
+ox.ac.uk,True,143,True,Let's Encrypt,0,0.9,USA,200,0.03,68,high,True,True,True,True,MarkMonitor,daily,True,94,TLS1.3,OV,enterprise,no,2,no,0,legacy
+yournewswire.com,False,4,False,none,3,3.2,USA,200,0.86,118,low,False,True,False,True,Namecheap,daily,True,34,TLS1.2,DV,shared,no,85,yes,44,new
+washingtonpost.com,True,114,True,Let's Encrypt,0,1.1,USA,200,0.07,26,high,True,True,True,False,Network Solutions,daily,True,95,TLS1.3,EV,cloud,yes,10,no,0,legacy
+infowars.com,True,16,False,none,0,4.8,Canada,200,0.83,127,medium,False,False,False,True,GoDaddy,irregular,False,16,TLS1.2,DV,shared,no,50,no,71,growing
+nypost.com,True,21,True,Let's Encrypt,0,5.3,UK,200,0.85,188,none,False,False,False,True,Namecheap,irregular,True,15,TLS1.0,self_signed,shared,yes,52,no,0,growing
+thedailysheeple.com,True,20,False,none,1,4.1,Offshore,200,0.97,208,low,False,True,True,True,GoDaddy,irregular,False,9,TLS1.1,DV,cloud,yes,31,no,51,growing
+ox.ac.uk,True,189,True,Amazon,1,1.6,UK,200,0.16,40,high,True,True,True,True,MarkMonitor,daily,True,93,TLS1.3,OV,enterprise,yes,8,no,0,legacy
+bloomberg.com,True,175,True,DigiCert,1,0.5,USA,200,0.35,29,high,True,True,True,False,Network Solutions,daily,True,95,TLS1.3,EV,cloud,yes,19,no,0,legacy
+nypost.com,True,53,False,Let's Encrypt,4,5.9,USA,200,0.25,132,low,False,False,True,True,Namecheap,daily,True,47,TLS1.2,self_signed,shared,yes,80,yes,8,established
+berkeley.edu,True,13,True,Amazon,2,1.8,Germany,200,0.34,31,high,True,True,True,False,MarkMonitor,weekly,True,96,TLS1.2,OV,enterprise,yes,6,no,0,growing
+beforeitsnews.com,True,49,True,Cloudflare,3,1.5,USA,200,0.97,191,none,True,False,False,True,Unknown,irregular,False,79,TLS1.2,DV,shared,no,34,yes,4,established
+neonnettle.com,False,5,False,none,2,2.2,Russia,200,0.39,188,medium,False,False,True,True,GoDaddy,weekly,True,24,none,none,cloud,no,47,yes,60,new
+cdc.gov,True,88,True,GlobalSign,1,1.2,UK,200,0.08,24,medium,True,True,False,True,MarkMonitor,weekly,True,96,TLS1.3,EV,cloud,yes,3,no,0,established
+dailymail.co.uk,False,17,False,none,1,4.4,Russia,200,0.99,182,none,False,False,False,True,Namecheap,weekly,True,41,TLS1.2,DV,cloud,yes,97,yes,25,growing
+britannica.com,True,145,True,GlobalSign,0,2.1,USA,200,0.35,24,high,True,True,True,False,Network Solutions,hourly,True,94,TLS1.2,EV,cloud,yes,19,no,0,legacy
+naturalnews.com,True,8,True,Let's Encrypt,2,2.0,USA,200,0.94,147,low,False,False,True,True,Unknown,daily,False,37,TLS1.2,DV,shared,no,55,yes,21,new
+who.int,True,130,True,GlobalSign,0,1.2,Switzerland,200,0.15,57,high,True,True,True,False,MarkMonitor,daily,True,85,TLS1.3,EV,enterprise,yes,5,no,0,legacy
+zerohedge.com,True,17,False,Let's Encrypt,4,2.5,Offshore,200,0.84,98,low,False,False,True,False,GoDaddy,irregular,True,17,TLS1.2,DV,cloud,yes,54,yes,87,growing
+npr.org,True,131,True,GlobalSign,0,1.2,USA,200,0.26,34,high,True,True,True,False,CSC Corporate,daily,True,82,TLS1.3,EV,cloud,yes,16,no,0,legacy
+berkeley.edu,True,133,True,GlobalSign,1,0.9,Canada,200,0.09,54,medium,True,True,True,False,Verisign,hourly,True,91,TLS1.3,OV,enterprise,no,13,no,0,legacy
+globalresearch.ca,True,21,False,none,3,7.3,Offshore,200,0.25,214,medium,False,False,True,True,eNom,daily,False,20,TLS1.2,none,cloud,no,34,yes,4,growing
+thedailysheeple.com,True,18,True,GeoTrust,2,4.3,UK,200,0.99,175,medium,True,False,True,True,Unknown,daily,False,59,TLS1.2,self_signed,cloud,yes,56,no,67,growing
+gov.uk,True,102,True,DigiCert,0,1.4,USA,200,0.17,50,high,True,True,True,False,Verisign,weekly,True,82,TLS1.3,OV,enterprise,yes,5,no,0,legacy
+occupydemocrats.com,True,21,True,Let's Encrypt,2,6.2,UK,200,0.62,54,medium,True,False,False,True,Unknown,irregular,True,43,TLS1.1,self_signed,shared,no,70,no,18,growing
+beforeitsnews.com,True,21,True,Cloudflare,0,5.9,Offshore,200,0.49,108,low,False,False,True,True,GoDaddy,daily,True,8,TLS1.0,none,shared,no,61,no,97,growing
+britannica.com,True,55,True,GlobalSign,0,2.1,UK,200,0.11,23,high,True,True,True,False,Verisign,daily,True,95,TLS1.2,EV,enterprise,no,14,no,0,established
+davidwolfe.com,True,7,False,Cloudflare,4,4.4,USA,200,0.9,51,low,False,True,False,True,GoDaddy,irregular,True,77,none,DV,shared,yes,40,yes,89,new
+rt.com,True,8,True,Let's Encrypt,2,3.6,USA,200,0.25,151,medium,False,False,False,False,eNom,irregular,True,77,TLS1.3,self_signed,cloud,no,74,no,97,new
+neonnettle.com,True,10,False,Cloudflare,5,9.0,USA,200,0.82,144,medium,False,False,True,True,Unknown,irregular,True,17,TLS1.2,self_signed,shared,no,97,yes,71,new
+nytimes.com,True,18,True,DigiCert,0,0.9,Germany,200,0.05,45,high,True,True,True,False,MarkMonitor,hourly,False,96,TLS1.3,OV,cloud,yes,6,no,0,growing
+gov.uk,True,174,True,GlobalSign,0,1.5,France,200,0.04,47,high,True,True,True,False,GoDaddy,daily,True,91,TLS1.3,OV,enterprise,no,19,no,0,legacy
+harvard.edu,True,24,True,Amazon,0,2.2,USA,200,0.34,35,high,True,True,True,False,Verisign,daily,True,96,TLS1.3,OV,enterprise,yes,19,no,0,growing
+wakingtimes.com,True,17,False,Cloudflare,5,2.1,Offshore,200,0.38,95,medium,False,False,True,True,Namecheap,irregular,False,50,TLS1.0,self_signed,cloud,no,32,yes,18,growing
+dailymail.co.uk,True,27,True,Let's Encrypt,2,4.2,UK,200,0.69,56,medium,False,True,False,True,eNom,irregular,True,24,TLS1.2,self_signed,cloud,no,22,yes,17,established
+wakingtimes.com,True,10,True,Let's Encrypt,3,8.2,Offshore,200,0.41,210,low,False,True,False,True,Namecheap,daily,False,62,none,DV,offshore,no,46,yes,67,new
+fda.gov,True,190,True,GlobalSign,1,1.2,UK,200,0.16,63,high,False,True,True,True,Verisign,daily,True,99,TLS1.3,DV,cloud,yes,7,yes,0,legacy
+stanford.edu,True,32,True,DigiCert,0,1.3,USA,200,0.15,63,high,True,True,True,False,MarkMonitor,daily,True,88,TLS1.3,OV,cloud,yes,16,no,0,established
+conservativetribune.com,True,3,True,self-signed,1,3.9,Offshore,200,0.93,52,medium,False,False,False,True,Namecheap,irregular,True,34,TLS1.0,none,shared,no,40,yes,4,new
+jstor.org,True,83,True,Amazon,1,1.0,USA,200,0.22,27,medium,True,True,True,False,CSC Corporate,daily,True,96,TLS1.3,EV,cloud,yes,7,no,0,established
+washingtonpost.com,True,18,True,GlobalSign,0,0.5,USA,200,0.12,31,high,True,True,True,False,CSC Corporate,hourly,True,88,TLS1.2,EV,enterprise,yes,12,no,0,growing
+nypost.com,False,5,False,none,0,7.5,Offshore,200,0.87,172,medium,True,False,False,True,eNom,irregular,False,39,TLS1.2,self_signed,cloud,no,27,yes,50,new
+nypost.com,True,25,True,Let's Encrypt,0,3.9,USA,200,0.4,101,medium,False,True,True,False,Unknown,daily,True,58,TLS1.2,DV,cloud,no,49,yes,42,growing
+newspunch.com,True,29,True,Let's Encrypt,1,4.0,Offshore,200,0.92,140,low,False,False,True,True,GoDaddy,weekly,False,37,TLS1.3,DV,shared,yes,85,yes,11,established
+reuters.com,True,121,True,GlobalSign,0,1.0,Canada,200,0.03,67,high,True,True,True,False,GoDaddy,hourly,True,88,TLS1.3,OV,enterprise,yes,3,no,0,legacy
+who.int,True,139,True,DigiCert,0,1.9,France,200,0.02,37,high,True,True,True,False,CSC Corporate,daily,True,82,TLS1.2,DV,enterprise,yes,18,no,0,legacy
+theguardian.com,True,69,True,Amazon,1,0.7,USA,200,0.06,32,high,True,True,True,False,MarkMonitor,daily,True,92,TLS1.2,EV,enterprise,yes,8,no,0,established
+nypost.com,True,4,False,Let's Encrypt,4,7.5,Offshore,200,0.99,77,medium,False,False,True,True,Unknown,weekly,True,46,TLS1.2,none,cloud,no,93,yes,45,new
+sputniknews.com,True,39,True,self-signed,3,2.8,USA,200,0.95,79,medium,True,False,True,False,GoDaddy,weekly,True,25,TLS1.2,self_signed,shared,yes,64,yes,13,established
+naturalnews.com,False,12,False,none,1,5.0,Offshore,200,0.85,82,medium,False,True,True,True,eNom,irregular,True,33,TLS1.0,none,cloud,yes,38,no,19,growing
+nytimes.com,True,44,True,Let's Encrypt,0,1.4,USA,200,0.22,26,medium,True,True,True,True,MarkMonitor,weekly,True,93,TLS1.3,OV,enterprise,yes,8,no,0,established
+naturalnews.com,True,13,True,Cloudflare,1,4.5,USA,200,0.27,64,low,False,False,False,True,Namecheap,irregular,True,77,none,DV,shared,no,97,no,57,growing
+bbc.com.co,True,52,False,Cloudflare,2,5.6,USA,200,0.92,62,none,True,False,False,False,GoDaddy,daily,True,77,TLS1.0,self_signed,cloud,yes,47,yes,70,established
+nytimes.com,True,161,True,Amazon,1,0.6,USA,200,0.13,16,high,True,True,True,False,CSC Corporate,hourly,True,86,TLS1.2,DV,cloud,yes,10,no,0,legacy
+occupydemocrats.com,True,5,True,none,5,5.5,Offshore,200,0.52,58,medium,False,True,False,False,Namecheap,weekly,True,41,TLS1.3,DV,offshore,no,33,no,18,new
+stanford.edu,True,66,True,InCommon,0,1.8,Germany,200,0.41,48,high,True,True,True,True,MarkMonitor,hourly,True,89,TLS1.3,EV,enterprise,yes,13,no,0,established
+mayo.edu,False,17,False,none,2,0.9,Germany,200,0.44,15,high,True,True,True,False,MarkMonitor,daily,False,97,TLS1.2,OV,enterprise,yes,4,no,0,growing
+bipartisanreport.com,True,11,True,Let's Encrypt,4,5.1,UK,200,0.48,201,low,True,False,False,True,Namecheap,weekly,True,40,TLS1.2,DV,cloud,no,51,yes,56,growing
+mit.edu,True,192,True,Amazon,2,1.8,USA,200,0.03,47,high,True,True,True,False,MarkMonitor,daily,True,89,TLS1.3,DV,cloud,yes,11,no,0,legacy
+newspunch.com,True,4,True,Cloudflare,0,5.9,Offshore,200,0.89,211,medium,True,False,False,False,Unknown,weekly,True,28,TLS1.1,DV,shared,no,92,no,20,new
+newspunch.com,True,10,True,Cloudflare,0,1.5,USA,200,0.99,154,low,False,True,False,True,GoDaddy,daily,True,43,TLS1.2,DV,offshore,yes,62,no,21,new
+wsj.com,True,183,True,InCommon,0,1.2,Switzerland,200,0.07,27,medium,True,True,True,False,MarkMonitor,hourly,True,94,TLS1.2,OV,enterprise,yes,18,no,0,legacy
+sciencemag.org,True,178,True,GlobalSign,0,0.5,UK,200,0.04,23,high,True,False,True,False,MarkMonitor,hourly,True,90,TLS1.3,OV,enterprise,no,11,no,0,legacy
+naturalnews.com,False,4,False,none,2,1.9,Russia,200,0.9,40,none,False,False,False,True,Namecheap,irregular,False,57,TLS1.2,self_signed,shared,no,31,yes,21,new
+npr.org,True,175,True,DigiCert,1,0.5,France,200,0.32,38,high,True,True,True,False,MarkMonitor,weekly,True,88,TLS1.3,OV,enterprise,yes,18,no,0,legacy
+wsj.com,True,22,True,DigiCert,0,1.8,Switzerland,200,0.07,45,high,True,True,True,False,CSC Corporate,hourly,True,89,TLS1.3,OV,cloud,no,7,no,0,growing
+ox.ac.uk,True,67,True,Let's Encrypt,0,1.2,UK,200,0.25,26,high,True,True,True,False,MarkMonitor,daily,True,93,TLS1.2,OV,enterprise,yes,8,no,0,established
+newspunch.com,True,57,True,Cloudflare,3,6.6,Offshore,200,0.97,107,none,False,False,True,True,Namecheap,daily,True,11,TLS1.2,DV,cloud,no,23,no,74,established
+infowars.com,True,17,True,self-signed,3,6.0,Offshore,200,0.99,185,low,False,False,False,True,GoDaddy,daily,False,43,TLS1.1,OV,offshore,yes,74,no,0,growing
+gov.uk,True,75,True,GlobalSign,2,1.2,Switzerland,200,0.02,69,high,True,True,True,False,Network Solutions,hourly,True,98,TLS1.3,EV,cloud,yes,2,no,0,established
+beforeitsnews.com,True,1,False,self-signed,4,3.0,USA,200,0.68,118,low,False,False,False,True,Unknown,weekly,False,13,none,none,cloud,no,49,yes,89,new
+neonnettle.com,True,6,True,Cloudflare,2,4.7,UK,200,0.79,188,none,False,True,False,True,Namecheap,irregular,False,57,TLS1.2,self_signed,shared,yes,77,no,74,new
+wakingtimes.com,True,50,True,Cloudflare,5,3.5,Russia,200,0.99,209,medium,False,True,False,True,Namecheap,irregular,False,40,TLS1.1,self_signed,shared,no,64,yes,94,established
+bbc.com,True,43,True,GlobalSign,1,1.0,USA,200,0.38,32,high,True,True,True,False,GoDaddy,daily,True,93,TLS1.3,OV,cloud,yes,5,no,0,established
+thegatewaypundit.com,False,10,False,none,1,1.5,Offshore,200,0.83,201,medium,False,False,False,True,GoDaddy,weekly,True,48,none,self_signed,cloud,no,90,yes,24,new
+thegatewaypundit.com,True,5,False,Cloudflare,3,5.4,Offshore,200,0.46,212,low,True,False,True,False,GoDaddy,irregular,False,62,TLS1.2,DV,cloud,yes,90,yes,48,new
+activistpost.com,True,16,True,none,1,5.1,Offshore,200,0.82,145,low,False,False,False,True,Namecheap,daily,False,50,TLS1.2,none,offshore,no,43,yes,19,growing
+bloomberg.com,True,175,True,InCommon,1,1.0,UK,200,0.34,15,medium,True,True,True,True,MarkMonitor,weekly,False,94,TLS1.3,EV,cloud,yes,6,no,3,legacy
+yournewswire.com,True,4,False,none,1,3.6,USA,200,0.45,81,low,True,False,False,True,Namecheap,weekly,False,8,TLS1.2,DV,cloud,yes,72,no,40,new
+infowars.com,True,21,True,self-signed,3,5.5,Canada,200,0.61,43,medium,False,True,False,True,GoDaddy,irregular,False,28,TLS1.2,OV,cloud,no,28,yes,35,growing
+infowars.com,True,8,False,Cloudflare,4,1.5,Offshore,200,0.65,152,low,False,False,False,True,GoDaddy,irregular,True,32,TLS1.0,none,cloud,no,26,yes,10,new
+dailybuzzlive.com,False,5,False,none,2,4.9,Offshore,200,0.91,197,low,False,False,False,True,Namecheap,daily,False,58,none,self_signed,cloud,no,80,yes,42,new
+jstor.org,True,123,True,Amazon,0,1.2,UK,200,0.07,34,high,True,True,True,False,GoDaddy,hourly,True,94,TLS1.3,OV,enterprise,yes,17,no,0,legacy
+wakingtimes.com,False,21,False,none,1,6.6,Offshore,200,0.89,114,none,True,True,False,True,GoDaddy,weekly,False,72,TLS1.2,none,offshore,no,97,yes,6,growing
+cam.ac.uk,True,33,True,Amazon,0,1.8,Germany,200,0.46,33,medium,True,True,True,False,MarkMonitor,daily,True,99,TLS1.3,OV,cloud,no,15,no,0,established
+zerohedge.com,True,7,False,Cloudflare,2,1.9,Offshore,200,0.89,181,low,False,False,False,True,Namecheap,irregular,False,9,TLS1.1,none,shared,no,64,yes,34,new
+zerohedge.com,True,16,True,Let's Encrypt,1,1.8,USA,200,0.6,60,none,False,True,False,True,Namecheap,daily,True,34,TLS1.2,self_signed,cloud,no,22,yes,52,growing
+thegatewaypundit.com,True,23,True,self-signed,4,5.4,UK,200,0.41,106,low,True,False,False,True,eNom,irregular,True,72,TLS1.1,none,cloud,no,95,yes,0,growing
+dailybuzzlive.com,True,38,False,Let's Encrypt,1,5.5,USA,200,0.84,49,low,True,True,True,True,Namecheap,daily,True,79,TLS1.2,self_signed,shared,no,67,yes,40,established
+theguardian.com,True,19,True,GlobalSign,0,0.5,USA,200,0.15,69,medium,True,True,True,False,GoDaddy,daily,True,90,TLS1.3,OV,enterprise,yes,19,no,0,growing
+nypost.com,True,4,True,none,1,5.6,USA,200,0.84,213,medium,False,True,True,False,OVH,daily,True,30,TLS1.2,DV,cloud,no,22,yes,35,new
+cam.ac.uk,True,98,True,Amazon,0,0.6,UK,200,0.1,49,high,True,True,True,False,MarkMonitor,hourly,True,95,TLS1.2,OV,cloud,no,7,no,0,established
+nih.gov,True,59,True,DigiCert,0,0.5,USA,200,0.1,27,high,True,True,True,False,MarkMonitor,daily,True,99,TLS1.3,EV,cloud,yes,8,no,0,established
+wikipedia.org,True,194,True,Amazon,0,1.2,USA,200,0.07,46,high,True,True,True,False,GoDaddy,weekly,True,89,TLS1.3,OV,cloud,no,18,no,0,legacy
+cnn.com,True,192,True,Amazon,0,0.9,Canada,200,0.12,40,high,True,True,True,False,MarkMonitor,hourly,True,82,TLS1.3,OV,cloud,yes,5,no,0,legacy
+nih.gov,True,52,True,DigiCert,0,1.5,France,200,0.04,63,medium,True,True,True,False,GoDaddy,daily,True,93,TLS1.3,EV,enterprise,yes,18,yes,0,established
+beforeitsnews.com,True,11,True,GeoTrust,2,2.4,UK,200,0.84,78,low,False,False,False,True,GoDaddy,irregular,True,44,TLS1.2,none,cloud,yes,46,no,11,growing
+zerohedge.com,True,30,True,Let's Encrypt,3,4.2,USA,200,0.78,104,low,False,False,False,True,GoDaddy,weekly,True,51,none,DV,cloud,no,69,yes,23,established
+abcnews.com.co,True,21,True,Let's Encrypt,2,2.3,USA,200,0.78,49,medium,False,True,True,False,Namecheap,irregular,True,51,TLS1.1,DV,cloud,yes,94,yes,4,growing
+neonnettle.com,True,47,False,Let's Encrypt,1,4.2,USA,200,0.9,155,low,False,False,False,False,GoDaddy,weekly,True,66,TLS1.2,DV,shared,no,90,yes,66,established
+bbc.com.co,True,11,True,Let's Encrypt,2,3.0,USA,200,0.95,63,low,False,True,False,True,Namecheap,weekly,True,70,TLS1.1,self_signed,cloud,no,74,yes,5,growing
+wakingtimes.com,True,53,True,none,1,4.2,USA,200,0.63,78,medium,False,True,False,True,GoDaddy,weekly,True,41,TLS1.0,self_signed,cloud,yes,55,yes,58,established
+wikipedia.org,True,33,True,DigiCert,1,1.8,France,200,0.21,19,medium,True,True,True,False,Verisign,daily,True,88,TLS1.3,EV,cloud,yes,8,no,0,established
+nature.com,True,89,True,GlobalSign,2,1.3,France,200,0.17,52,medium,True,True,True,False,Verisign,daily,True,88,TLS1.3,OV,enterprise,yes,10,no,0,established
+theguardian.com,True,21,True,DigiCert,1,1.5,USA,200,0.35,28,high,True,True,True,True,MarkMonitor,hourly,True,83,TLS1.3,EV,cloud,yes,6,no,0,growing
+nypost.com,True,36,False,Let's Encrypt,1,4.1,Russia,200,0.99,113,medium,True,False,False,False,GoDaddy,irregular,False,62,TLS1.2,DV,cloud,yes,56,yes,90,established
+bloomberg.com,True,142,True,GlobalSign,0,1.5,Germany,200,0.3,27,high,True,True,True,False,Verisign,hourly,True,99,TLS1.3,OV,cloud,yes,4,no,0,legacy
+occupydemocrats.com,True,15,False,Let's Encrypt,2,3.4,Offshore,200,0.88,177,medium,True,True,False,True,GoDaddy,irregular,False,69,TLS1.3,self_signed,cloud,no,36,no,19,growing
+wakingtimes.com,True,19,True,Let's Encrypt,3,4.6,Offshore,200,0.82,109,none,False,True,True,True,Namecheap,irregular,True,27,TLS1.2,self_signed,offshore,yes,32,yes,0,growing
+occupydemocrats.com,True,23,True,Cloudflare,3,4.3,Canada,200,0.97,167,none,False,False,False,True,Namecheap,weekly,False,59,none,DV,cloud,no,23,no,50,growing
+breitbart.com,True,2,True,none,1,2.1,UK,200,0.99,127,medium,True,False,False,True,GoDaddy,irregular,False,45,TLS1.1,DV,cloud,no,38,no,22,new
+who.int,True,66,True,DigiCert,0,0.5,Canada,200,0.1,44,high,True,True,True,False,MarkMonitor,daily,True,88,TLS1.3,OV,cloud,yes,13,no,0,established
+nih.gov,True,196,True,DigiCert,0,1.4,USA,200,0.04,43,high,True,True,True,False,MarkMonitor,daily,True,93,TLS1.3,EV,cloud,yes,2,no,0,legacy
+who.int,True,152,True,DigiCert,0,0.7,USA,200,0.08,21,high,True,True,True,False,CSC Corporate,hourly,True,88,TLS1.3,EV,enterprise,no,3,no,0,legacy
+harvard.edu,True,177,True,InCommon,0,1.0,USA,200,0.37,52,high,True,True,False,False,MarkMonitor,daily,True,92,TLS1.3,EV,cloud,yes,12,no,0,legacy
+who.int,True,175,True,GlobalSign,1,1.2,Canada,200,0.22,17,high,True,True,True,False,CSC Corporate,hourly,True,86,TLS1.3,EV,enterprise,yes,11,no,0,legacy
+dailybuzzlive.com,True,15,False,Let's Encrypt,2,7.9,USA,200,0.88,92,low,False,True,True,True,Namecheap,daily,True,17,TLS1.2,DV,shared,yes,85,yes,63,growing
+ft.com,True,49,True,InCommon,2,1.2,Germany,200,0.04,20,medium,True,True,True,False,Network Solutions,daily,True,83,TLS1.3,EV,enterprise,no,6,no,0,established
+infowars.com,False,19,False,none,3,3.7,USA,200,0.88,174,medium,False,False,True,True,GoDaddy,weekly,True,65,TLS1.2,none,cloud,no,24,yes,6,growing
+newspunch.com,False,20,False,none,2,7.0,Offshore,200,0.76,76,medium,False,False,False,True,Namecheap,irregular,True,65,TLS1.3,none,cloud,no,64,no,69,growing
+fda.gov,True,17,True,InCommon,1,1.6,UK,200,0.02,61,high,True,True,True,False,MarkMonitor,hourly,True,97,TLS1.3,EV,enterprise,yes,12,no,0,growing
+mayo.edu,True,18,True,Let's Encrypt,0,1.1,Switzerland,200,0.34,59,high,True,True,True,False,MarkMonitor,weekly,True,96,TLS1.2,EV,cloud,yes,1,no,0,growing
+economist.com,True,88,True,InCommon,1,1.5,UK,200,0.31,42,high,True,True,True,True,MarkMonitor,daily,True,91,TLS1.3,DV,cloud,yes,19,no,0,established
+jstor.org,True,6,True,GlobalSign,1,0.9,USA,200,0.26,32,high,False,True,True,False,Verisign,daily,True,99,TLS1.3,EV,enterprise,yes,12,no,0,new
+nature.com,True,60,True,DigiCert,1,1.9,USA,200,0.33,68,high,False,True,True,False,Verisign,daily,True,92,TLS1.3,OV,enterprise,yes,15,no,0,established
+sciencemag.org,True,64,True,Let's Encrypt,1,1.4,UK,200,0.12,63,high,True,True,True,False,GoDaddy,hourly,True,90,TLS1.2,OV,cloud,yes,14,no,0,established
+occupydemocrats.com,True,7,True,GeoTrust,5,5.8,USA,200,0.96,96,low,False,False,True,True,Namecheap,irregular,True,18,TLS1.2,DV,shared,no,66,yes,8,new
+nypost.com,True,5,True,Cloudflare,5,2.0,Canada,200,0.56,165,medium,False,False,False,False,Unknown,irregular,False,14,TLS1.2,self_signed,cloud,no,78,yes,70,new
+harvard.edu,True,37,True,DigiCert,0,1.0,UK,200,0.08,16,medium,True,True,True,True,GoDaddy,daily,True,96,TLS1.2,OV,enterprise,yes,2,no,0,established
+dailybuzzlive.com,True,19,True,Let's Encrypt,2,5.9,USA,200,0.89,185,none,False,True,True,True,OVH,weekly,False,20,TLS1.1,none,shared,no,78,yes,22,growing
+nasa.gov,True,104,True,GlobalSign,0,1.7,UK,200,0.19,52,high,True,True,True,False,Network Solutions,hourly,True,95,TLS1.3,OV,enterprise,yes,9,no,0,legacy
+ft.com,True,24,True,Amazon,1,2.2,USA,200,0.1,32,high,True,True,True,False,Network Solutions,hourly,True,87,TLS1.3,EV,enterprise,yes,17,no,0,growing
+reuters.com,True,14,True,InCommon,0,1.4,UK,200,0.11,50,high,True,True,True,False,CSC Corporate,hourly,True,85,TLS1.3,EV,enterprise,yes,7,no,0,growing
+globalresearch.ca,True,10,True,Let's Encrypt,3,3.8,USA,200,0.69,202,none,False,False,True,True,Unknown,irregular,True,18,none,none,shared,yes,72,yes,0,new
+who.int,True,75,True,Amazon,1,0.5,UK,200,0.06,60,high,True,True,False,False,Network Solutions,hourly,True,94,TLS1.2,DV,enterprise,yes,11,no,0,established
+jstor.org,True,82,True,Amazon,0,0.8,Germany,200,0.08,55,high,True,True,True,False,CSC Corporate,hourly,True,83,TLS1.2,DV,enterprise,yes,3,no,0,established
+naturalnews.com,True,1,False,Let's Encrypt,2,6.2,Offshore,200,0.71,68,low,False,False,False,True,OVH,daily,True,45,TLS1.0,none,shared,yes,69,yes,59,new
+nypost.com,True,5,True,none,0,4.1,Offshore,200,0.89,46,low,False,False,False,True,Namecheap,irregular,True,48,TLS1.2,self_signed,offshore,yes,46,yes,8,new
+cnn.com,True,65,True,GlobalSign,0,1.3,USA,200,0.02,36,high,True,True,True,False,CSC Corporate,daily,True,84,TLS1.3,OV,cloud,yes,10,no,0,established
+britannica.com,True,11,True,GlobalSign,0,1.7,UK,200,0.16,57,high,True,True,True,False,Verisign,hourly,True,89,TLS1.3,EV,enterprise,yes,14,no,0,growing
+who.int,True,30,True,DigiCert,1,1.3,UK,200,0.33,33,high,True,True,True,False,CSC Corporate,daily,True,84,TLS1.2,EV,cloud,yes,15,no,0,established
+newspunch.com,False,2,False,none,2,2.7,UK,200,0.85,146,medium,False,False,True,True,eNom,weekly,True,26,TLS1.2,self_signed,offshore,no,47,yes,28,new
+mit.edu,True,57,True,DigiCert,0,1.5,UK,200,0.12,46,high,True,True,True,False,Verisign,hourly,False,97,TLS1.2,EV,enterprise,yes,2,no,0,established
+mercola.com,True,46,True,self-signed,3,5.0,USA,200,0.35,93,low,False,True,False,False,GoDaddy,weekly,False,21,TLS1.2,DV,offshore,no,23,no,26,established
+breitbart.com,False,46,False,none,5,3.5,Offshore,200,0.41,60,medium,False,False,True,True,Namecheap,irregular,False,48,TLS1.2,DV,shared,yes,84,no,21,established
+harvard.edu,True,96,True,GlobalSign,0,1.4,USA,200,0.08,60,high,True,True,True,True,CSC Corporate,daily,True,85,TLS1.3,OV,enterprise,yes,9,no,0,established
+fda.gov,True,28,True,GlobalSign,2,1.8,Canada,200,0.1,29,high,True,True,True,False,Network Solutions,hourly,True,94,TLS1.2,OV,enterprise,yes,13,no,0,established
+apnews.com,True,44,True,DigiCert,2,1.3,USA,200,0.02,23,high,True,True,True,True,Network Solutions,weekly,True,88,TLS1.3,OV,enterprise,no,8,no,0,established
+beforeitsnews.com,False,32,False,none,1,2.7,USA,200,0.76,126,low,False,False,False,True,GoDaddy,daily,True,70,TLS1.2,self_signed,cloud,no,77,yes,55,established
+mit.edu,True,173,True,DigiCert,1,1.0,USA,200,0.15,63,medium,True,True,True,False,CSC Corporate,weekly,True,92,TLS1.3,EV,enterprise,yes,16,no,0,legacy
+activistpost.com,True,13,True,Cloudflare,1,5.6,USA,200,0.83,177,medium,False,True,False,True,GoDaddy,weekly,False,17,TLS1.2,DV,cloud,yes,37,yes,6,growing
+thegatewaypundit.com,True,2,False,GeoTrust,5,3.5,USA,200,0.91,164,medium,False,False,False,True,GoDaddy,daily,True,19,TLS1.3,DV,shared,no,70,no,25,new
+bipartisanreport.com,True,21,True,GeoTrust,0,6.4,Canada,200,0.93,205,low,True,False,True,True,OVH,irregular,True,26,TLS1.3,none,cloud,yes,91,no,0,growing
+newspunch.com,True,22,False,GeoTrust,2,3.4,USA,200,0.26,169,medium,False,False,False,True,Namecheap,irregular,True,17,TLS1.2,DV,offshore,yes,90,no,10,growing
+bbc.com.co,False,18,False,none,4,4.0,Offshore,200,0.48,135,medium,False,False,False,False,eNom,daily,True,39,TLS1.1,DV,cloud,no,69,yes,4,growing
+globalresearch.ca,True,7,True,Cloudflare,2,6.8,USA,200,0.82,211,medium,False,False,False,True,Unknown,weekly,True,46,TLS1.1,none,shared,no,31,no,15,new
+nypost.com,True,57,True,none,3,4.4,UK,200,0.46,108,none,False,False,False,True,Unknown,daily,True,73,TLS1.2,DV,shared,no,59,no,9,established
+dailymail.co.uk,False,45,False,none,2,5.3,USA,200,0.74,57,none,True,True,False,True,OVH,daily,True,21,TLS1.2,DV,shared,no,65,yes,28,established
+dailywire.com,True,4,False,Let's Encrypt,5,4.7,USA,200,0.56,112,none,True,True,False,True,GoDaddy,irregular,True,28,TLS1.0,DV,shared,yes,48,no,27,new
+occupydemocrats.com,False,22,False,none,0,1.5,Canada,200,0.62,90,none,False,False,False,True,eNom,daily,True,20,TLS1.3,OV,shared,no,40,no,35,growing
+nytimes.com,True,72,True,InCommon,0,1.5,Germany,200,0.02,46,high,True,True,True,False,Network Solutions,hourly,True,88,TLS1.2,EV,enterprise,no,12,no,0,established
+britannica.com,True,7,True,Amazon,1,1.9,Switzerland,200,0.29,62,high,True,True,True,False,Verisign,daily,True,92,TLS1.3,OV,enterprise,yes,1,no,0,new
+nytimes.com,True,110,True,InCommon,0,0.5,USA,200,0.33,40,high,True,True,True,False,MarkMonitor,weekly,True,85,TLS1.2,OV,enterprise,yes,5,no,0,legacy
+conservativetribune.com,True,4,True,self-signed,5,5.6,Offshore,200,0.99,62,medium,False,True,False,True,Namecheap,irregular,True,43,none,OV,offshore,no,63,yes,87,new
+wsj.com,True,46,True,InCommon,0,1.3,USA,200,0.08,61,high,True,True,True,False,MarkMonitor,hourly,True,86,TLS1.2,OV,enterprise,yes,2,no,0,established
+davidwolfe.com,True,7,True,Let's Encrypt,2,2.9,USA,200,0.55,139,none,False,False,False,True,GoDaddy,weekly,True,26,TLS1.2,DV,shared,no,43,no,0,new
+naturalnews.com,False,19,False,none,1,3.8,USA,200,0.65,168,medium,False,False,False,False,GoDaddy,weekly,True,12,none,DV,cloud,no,22,no,27,growing
+bloomberg.com,True,113,True,DigiCert,1,1.8,Germany,200,0.07,66,high,False,True,True,True,MarkMonitor,daily,True,95,TLS1.3,OV,enterprise,yes,16,yes,0,legacy
+rt.com,False,4,False,none,1,7.3,USA,200,0.29,139,medium,True,False,False,True,Namecheap,irregular,False,26,TLS1.3,OV,shared,yes,90,yes,26,new
+dailymail.co.uk,False,35,False,none,0,5.6,USA,200,0.76,210,low,False,False,True,True,Namecheap,daily,False,47,TLS1.1,self_signed,cloud,yes,71,yes,69,established
+thedailysheeple.com,True,7,False,self-signed,0,5.5,UK,200,0.96,137,low,True,False,True,True,GoDaddy,daily,True,63,TLS1.2,none,shared,no,84,no,22,new
+breitbart.com,True,13,False,Cloudflare,1,4.6,USA,200,0.8,55,medium,False,True,False,True,Namecheap,daily,False,20,TLS1.2,DV,shared,no,51,no,60,growing
+dailywire.com,True,10,True,Cloudflare,1,5.6,USA,200,0.97,90,low,False,True,False,True,Unknown,irregular,False,17,TLS1.2,DV,shared,no,67,no,0,new
+gov.uk,True,32,True,DigiCert,1,1.6,UK,200,0.07,17,high,True,True,True,False,Network Solutions,daily,False,94,TLS1.2,EV,cloud,yes,9,no,0,established
+infowars.com,False,5,False,none,2,6.8,USA,200,0.9,96,low,False,True,False,True,GoDaddy,daily,True,56,TLS1.2,none,shared,no,56,yes,8,new
+mercola.com,True,23,False,Let's Encrypt,4,8.1,Canada,200,0.61,135,low,True,True,False,True,Namecheap,irregular,True,26,TLS1.0,DV,offshore,no,63,yes,0,growing
+washingtonpost.com,True,167,True,GlobalSign,0,0.5,USA,200,0.02,18,high,True,True,True,True,Verisign,daily,True,87,TLS1.3,EV,enterprise,yes,6,no,0,legacy
+wakingtimes.com,True,13,True,Cloudflare,3,1.5,USA,200,0.68,133,medium,False,False,False,True,Namecheap,weekly,True,23,TLS1.2,DV,cloud,no,43,yes,23,growing
+wakingtimes.com,True,12,True,Cloudflare,2,5.7,USA,200,0.41,94,low,False,True,True,True,Unknown,daily,False,72,TLS1.2,self_signed,cloud,no,58,no,0,growing
+cam.ac.uk,True,122,True,InCommon,1,0.6,France,200,0.3,26,high,True,True,True,True,GoDaddy,hourly,True,95,TLS1.3,EV,enterprise,yes,11,no,0,legacy
+sputniknews.com,True,16,True,Let's Encrypt,0,4.8,USA,200,0.39,174,medium,False,False,True,True,Namecheap,irregular,True,17,TLS1.3,DV,cloud,no,59,yes,6,growing
+nature.com,True,40,True,DigiCert,1,0.9,USA,200,0.36,15,high,True,True,True,False,Network Solutions,daily,True,82,TLS1.3,OV,cloud,yes,15,no,0,established
+sputniknews.com,True,7,True,Let's Encrypt,2,6.2,USA,200,0.6,169,low,False,True,True,True,GoDaddy,daily,True,52,TLS1.2,self_signed,offshore,no,93,yes,75,new
+nature.com,False,96,False,none,0,0.8,Switzerland,200,0.03,40,medium,True,False,True,False,Network Solutions,daily,True,85,TLS1.3,OV,enterprise,yes,11,no,0,established
+thedailysheeple.com,True,43,False,self-signed,4,4.1,Russia,200,0.81,159,medium,False,True,True,True,Namecheap,weekly,True,26,TLS1.2,none,cloud,no,68,yes,0,established
+mercola.com,True,4,True,GeoTrust,1,1.5,Canada,200,0.55,210,medium,False,False,False,True,Unknown,irregular,True,55,TLS1.2,none,cloud,no,34,no,0,new
+npr.org,True,156,True,DigiCert,1,0.5,USA,200,0.03,56,high,True,True,True,False,GoDaddy,daily,True,87,TLS1.3,OV,enterprise,yes,5,no,0,legacy
+globalresearch.ca,False,42,False,none,1,5.4,Offshore,200,0.91,99,none,False,False,False,False,GoDaddy,daily,True,9,TLS1.2,DV,shared,no,56,yes,89,established
+wsj.com,True,148,True,GlobalSign,1,0.9,UK,200,0.42,25,high,True,True,True,False,Verisign,hourly,True,89,TLS1.2,OV,cloud,no,11,no,0,legacy
+mayo.edu,True,40,True,DigiCert,1,1.5,UK,200,0.14,59,high,True,True,True,False,CSC Corporate,daily,True,87,TLS1.3,OV,cloud,no,9,no,0,established
+davidwolfe.com,True,18,True,Cloudflare,4,1.9,Russia,200,0.79,149,low,False,False,False,True,GoDaddy,daily,True,34,TLS1.2,DV,cloud,no,36,yes,14,growing
+theguardian.com,True,39,True,InCommon,2,1.0,USA,200,0.29,20,medium,True,True,True,False,Verisign,hourly,True,96,TLS1.3,OV,cloud,yes,3,no,0,established
+infowars.com,True,6,False,Cloudflare,1,1.5,Canada,200,0.88,73,medium,False,False,False,True,Namecheap,weekly,True,23,TLS1.0,DV,cloud,no,82,yes,73,new
+thedailysheeple.com,True,7,True,GeoTrust,4,4.8,USA,200,0.93,212,medium,False,False,False,True,GoDaddy,irregular,True,21,TLS1.2,self_signed,cloud,no,38,yes,96,new
+abcnews.com.co,True,7,True,Cloudflare,2,6.9,Offshore,200,0.85,101,low,False,False,False,False,Namecheap,daily,False,57,TLS1.2,DV,shared,no,48,no,52,new
+dailywire.com,True,22,True,Let's Encrypt,0,5.8,Offshore,200,0.42,175,none,False,False,False,True,Namecheap,weekly,False,49,TLS1.1,self_signed,cloud,yes,66,no,22,growing
+breitbart.com,True,8,False,none,2,6.7,UK,200,0.92,154,low,False,True,False,False,eNom,weekly,True,32,TLS1.0,self_signed,shared,no,62,no,52,new
+washingtonpost.com,True,144,True,Amazon,0,1.8,USA,200,0.23,42,high,True,True,True,False,MarkMonitor,daily,True,90,TLS1.2,OV,enterprise,yes,4,no,0,legacy
+breitbart.com,True,12,True,Cloudflare,3,3.0,Russia,200,0.99,103,low,True,False,False,True,Namecheap,irregular,False,10,TLS1.2,DV,shared,no,68,yes,19,growing
+ft.com,True,107,True,GlobalSign,0,1.5,USA,200,0.37,40,medium,True,True,True,False,Network Solutions,daily,True,82,TLS1.2,EV,enterprise,yes,13,yes,0,legacy
+economist.com,True,122,True,DigiCert,0,1.4,USA,200,0.19,34,high,True,True,True,False,CSC Corporate,daily,True,95,TLS1.3,EV,enterprise,yes,14,no,0,legacy
+rt.com,False,12,False,none,2,3.6,USA,200,0.74,203,medium,False,False,False,False,GoDaddy,daily,False,48,none,none,shared,no,88,yes,3,growing
+naturalnews.com,False,1,False,none,0,7.5,USA,200,0.91,60,low,False,False,False,True,GoDaddy,irregular,False,35,TLS1.2,DV,cloud,no,54,yes,10,new
+economist.com,True,92,True,GlobalSign,0,1.3,Germany,200,0.09,38,high,True,True,True,False,Verisign,hourly,True,87,TLS1.3,EV,enterprise,yes,10,no,0,established
+beforeitsnews.com,True,1,True,none,5,6.4,USA,200,0.34,105,low,False,False,False,True,GoDaddy,irregular,True,25,TLS1.3,DV,shared,yes,26,yes,47,new
+naturalnews.com,True,10,True,Let's Encrypt,3,1.8,USA,200,0.91,133,medium,True,False,True,True,GoDaddy,daily,False,29,TLS1.2,none,offshore,no,90,yes,27,new
+bbc.com.co,True,11,True,Cloudflare,0,1.5,USA,200,0.96,156,medium,True,False,True,True,GoDaddy,daily,False,71,TLS1.2,DV,offshore,no,27,yes,0,growing
+cam.ac.uk,True,81,True,DigiCert,1,1.1,USA,200,0.05,65,high,True,True,True,False,CSC Corporate,daily,True,94,TLS1.3,EV,enterprise,yes,19,no,0,established
+theguardian.com,True,118,True,InCommon,0,0.6,USA,200,0.09,30,high,True,True,True,False,MarkMonitor,hourly,True,84,TLS1.2,DV,enterprise,yes,4,yes,0,legacy
+bbc.com.co,True,14,True,GeoTrust,1,3.5,UK,200,0.51,49,low,False,False,False,False,GoDaddy,daily,True,50,TLS1.2,self_signed,cloud,no,27,yes,0,growing
+infowars.com,False,29,False,none,1,2.9,USA,200,0.92,213,none,False,True,False,True,Namecheap,irregular,False,17,TLS1.2,DV,cloud,no,61,yes,40,established
+npr.org,True,129,True,Let's Encrypt,1,1.2,UK,200,0.43,37,medium,True,True,True,False,Verisign,hourly,True,95,TLS1.2,EV,cloud,yes,4,no,0,legacy
+theguardian.com,True,177,False,none,1,1.4,USA,200,0.06,21,high,True,True,True,False,MarkMonitor,daily,True,99,TLS1.3,EV,cloud,yes,9,no,0,legacy
+ox.ac.uk,True,73,True,DigiCert,0,1.6,USA,200,0.13,15,high,True,True,True,False,CSC Corporate,hourly,True,95,TLS1.3,OV,cloud,yes,1,no,0,established
+yournewswire.com,True,17,False,Let's Encrypt,4,1.8,Offshore,200,0.97,48,none,False,True,True,True,eNom,daily,False,42,TLS1.2,DV,shared,no,22,no,23,growing
+zerohedge.com,True,31,True,Cloudflare,2,3.5,USA,200,0.69,81,medium,False,False,True,True,eNom,irregular,False,68,TLS1.1,DV,offshore,yes,40,yes,45,established
+berkeley.edu,True,75,True,InCommon,0,1.3,France,200,0.08,47,high,True,True,True,False,CSC Corporate,hourly,True,93,TLS1.3,OV,cloud,no,18,no,0,established
+mit.edu,True,60,True,Amazon,0,0.5,UK,200,0.33,23,high,True,True,True,False,CSC Corporate,daily,True,94,TLS1.2,OV,enterprise,yes,17,no,0,established
+zerohedge.com,True,11,True,Let's Encrypt,1,4.8,UK,200,0.47,214,low,False,True,False,True,Unknown,weekly,True,67,TLS1.3,none,cloud,no,94,yes,22,growing
+newspunch.com,True,17,False,self-signed,3,4.1,USA,200,0.89,107,low,False,True,False,True,GoDaddy,irregular,False,17,TLS1.2,DV,offshore,no,56,yes,63,growing
+wsj.com,True,22,True,DigiCert,0,1.0,USA,200,0.05,16,high,True,True,True,False,MarkMonitor,daily,True,83,TLS1.3,OV,enterprise,yes,16,no,0,growing
+nasa.gov,True,50,True,DigiCert,1,1.4,Canada,200,0.34,67,medium,True,True,True,False,CSC Corporate,hourly,True,86,TLS1.3,EV,cloud,yes,12,no,0,established
+davidwolfe.com,True,49,True,Let's Encrypt,0,5.7,USA,200,0.61,43,none,False,False,True,True,Unknown,weekly,False,36,TLS1.2,self_signed,cloud,yes,28,no,24,established
+infowars.com,False,8,False,none,5,8.9,USA,200,0.87,120,low,False,True,True,True,eNom,irregular,False,55,TLS1.2,none,cloud,no,43,yes,19,new
+harvard.edu,True,107,True,DigiCert,1,1.9,UK,200,0.25,61,high,True,True,True,False,CSC Corporate,daily,True,94,TLS1.2,EV,enterprise,yes,10,no,0,legacy
+dailywire.com,False,3,False,none,2,3.1,Offshore,200,0.54,119,low,False,False,False,True,eNom,weekly,False,12,none,DV,cloud,no,92,yes,4,new
+occupydemocrats.com,True,19,True,Cloudflare,1,1.8,Russia,200,0.32,162,low,True,False,False,True,GoDaddy,irregular,False,16,TLS1.2,DV,shared,no,44,yes,24,growing
+thedailysheeple.com,True,6,True,Let's Encrypt,4,4.9,USA,200,0.61,78,medium,True,False,False,True,Namecheap,irregular,False,71,TLS1.3,self_signed,offshore,no,43,yes,32,new
+activistpost.com,True,23,True,GeoTrust,1,5.7,Offshore,200,0.4,81,low,False,True,True,False,Namecheap,daily,True,34,TLS1.0,self_signed,cloud,no,35,no,8,growing
+cnn.com,True,144,True,DigiCert,0,1.8,UK,200,0.19,44,high,True,True,False,False,Network Solutions,daily,True,98,TLS1.3,EV,enterprise,no,4,no,0,legacy
+stanford.edu,True,65,True,DigiCert,0,0.5,USA,200,0.1,31,high,True,True,True,False,Verisign,daily,True,94,TLS1.3,EV,enterprise,yes,6,no,0,established
+nasa.gov,True,62,True,GlobalSign,0,1.2,Germany,200,0.12,51,medium,True,True,True,False,Network Solutions,hourly,True,93,TLS1.3,OV,enterprise,yes,6,no,0,established
+activistpost.com,False,5,False,none,5,6.5,Offshore,200,0.99,209,medium,False,False,False,True,OVH,irregular,True,69,TLS1.2,DV,shared,no,65,no,23,new
+ox.ac.uk,False,160,False,none,1,1.1,UK,200,0.04,62,medium,True,True,True,False,Verisign,daily,True,88,TLS1.3,EV,enterprise,yes,4,no,0,legacy
+wsj.com,True,65,True,Amazon,1,1.4,USA,200,0.11,56,medium,True,True,True,False,MarkMonitor,daily,True,96,TLS1.3,DV,cloud,no,6,no,0,established
+zerohedge.com,True,10,False,Cloudflare,4,5.2,USA,200,0.99,194,none,False,False,False,False,Namecheap,daily,True,35,TLS1.2,none,cloud,no,70,yes,23,new
+dailymail.co.uk,True,6,True,none,3,3.0,Offshore,200,0.9,129,low,False,False,False,True,GoDaddy,weekly,True,14,TLS1.3,DV,shared,no,27,yes,93,new
+cdc.gov,True,184,True,Amazon,0,0.9,UK,200,0.27,69,high,True,True,True,False,GoDaddy,daily,True,89,TLS1.2,DV,cloud,yes,16,no,0,legacy
+wsj.com,True,155,True,DigiCert,2,1.8,UK,200,0.15,15,high,True,True,True,True,Network Solutions,hourly,True,91,TLS1.3,OV,enterprise,no,6,no,0,legacy
+stanford.edu,True,67,True,DigiCert,0,0.9,France,200,0.17,66,high,True,True,True,False,Verisign,hourly,True,86,TLS1.3,OV,enterprise,yes,13,no,0,established
+cnn.com,True,96,True,DigiCert,1,1.7,Canada,200,0.02,49,medium,True,True,True,False,Network Solutions,weekly,True,87,TLS1.3,EV,enterprise,no,14,no,0,established
+sputniknews.com,True,17,False,Let's Encrypt,4,5.9,USA,200,0.87,218,low,False,True,True,False,GoDaddy,daily,False,39,TLS1.3,DV,shared,yes,45,no,65,growing
+theguardian.com,True,58,True,InCommon,1,1.6,USA,200,0.42,30,high,True,True,True,False,Network Solutions,hourly,True,99,TLS1.3,EV,enterprise,yes,17,no,0,established
+thedailysheeple.com,False,31,False,none,0,6.8,Canada,200,0.89,74,medium,False,False,False,True,GoDaddy,daily,True,28,TLS1.2,DV,cloud,yes,75,no,0,established
+thegatewaypundit.com,True,55,True,Let's Encrypt,0,3.8,Offshore,200,0.87,116,medium,False,False,False,True,Unknown,irregular,False,65,none,DV,cloud,no,71,no,4,established
+conservativetribune.com,False,18,False,none,4,2.4,Offshore,200,0.91,204,medium,False,True,False,True,eNom,irregular,False,53,TLS1.2,DV,cloud,yes,93,no,20,growing
+wsj.com,True,82,True,InCommon,1,1.6,Germany,200,0.21,32,high,True,True,True,False,CSC Corporate,daily,True,87,TLS1.3,OV,enterprise,yes,18,no,3,established
+ft.com,True,21,True,Amazon,0,0.5,UK,200,0.07,18,high,True,True,True,True,Verisign,daily,True,84,TLS1.3,EV,enterprise,yes,1,no,0,growing
+theguardian.com,True,91,True,DigiCert,2,1.6,USA,200,0.23,58,medium,True,True,True,False,MarkMonitor,hourly,False,91,TLS1.3,OV,enterprise,yes,10,no,0,established
+berkeley.edu,True,7,True,DigiCert,0,1.4,France,200,0.36,62,high,True,True,True,False,Network Solutions,daily,True,97,TLS1.3,OV,cloud,yes,1,no,0,new
+npr.org,True,72,True,Amazon,0,1.4,UK,200,0.21,46,high,True,True,True,False,MarkMonitor,daily,True,82,TLS1.3,OV,enterprise,yes,16,no,0,established
+dailymail.co.uk,True,27,True,Cloudflare,2,5.1,USA,200,0.8,100,medium,False,False,True,True,Unknown,irregular,True,56,TLS1.1,none,shared,yes,35,no,69,established
+zerohedge.com,True,1,False,none,3,4.5,Offshore,200,0.94,167,low,False,False,False,True,Namecheap,irregular,False,71,TLS1.0,DV,offshore,yes,80,yes,20,new
+infowars.com,True,4,False,self-signed,3,8.4,USA,200,0.79,145,none,False,False,False,True,GoDaddy,weekly,False,10,TLS1.2,DV,cloud,no,55,yes,89,new
+dailybuzzlive.com,True,11,True,Let's Encrypt,1,6.1,Canada,200,0.92,57,low,False,True,True,True,Unknown,weekly,True,20,none,self_signed,shared,no,64,yes,63,growing
+thegatewaypundit.com,True,17,False,Let's Encrypt,2,5.8,Offshore,200,0.95,165,medium,False,False,False,True,Unknown,daily,True,21,TLS1.0,none,offshore,no,71,yes,24,growing
+mit.edu,True,22,True,Amazon,1,1.4,Switzerland,200,0.3,64,medium,True,True,True,False,Network Solutions,daily,True,93,TLS1.3,OV,enterprise,yes,2,no,0,growing
+mit.edu,True,83,True,InCommon,1,1.3,Canada,200,0.29,37,medium,True,True,True,False,MarkMonitor,daily,True,83,TLS1.3,OV,enterprise,yes,10,no,0,established
+bbc.com,True,78,True,DigiCert,1,1.5,USA,200,0.26,29,high,True,True,True,False,Network Solutions,daily,True,83,TLS1.3,OV,cloud,yes,15,no,0,established
+bloomberg.com,True,63,True,DigiCert,0,0.5,Switzerland,200,0.29,43,medium,True,True,True,False,MarkMonitor,hourly,True,99,TLS1.2,OV,enterprise,yes,11,no,0,established
+occupydemocrats.com,False,3,False,none,1,2.2,USA,200,0.73,112,medium,False,False,False,True,GoDaddy,weekly,True,35,none,self_signed,offshore,no,90,no,41,new
+thedailysheeple.com,True,23,False,self-signed,3,5.3,Offshore,200,0.87,42,none,False,False,True,True,GoDaddy,irregular,True,21,TLS1.2,DV,cloud,no,37,yes,74,growing
+mercola.com,False,4,False,none,4,4.9,USA,200,0.8,45,none,False,False,False,True,GoDaddy,irregular,False,32,TLS1.3,self_signed,cloud,no,57,yes,24,new
+bbc.com,True,62,True,Amazon,0,1.8,USA,200,0.09,68,high,True,True,True,False,CSC Corporate,hourly,True,85,TLS1.3,EV,enterprise,yes,12,no,0,established
+harvard.edu,True,168,False,none,0,1.2,UK,200,0.37,60,high,True,True,True,False,Verisign,daily,True,93,TLS1.3,OV,cloud,yes,9,no,0,legacy
+dailymail.co.uk,True,1,False,Cloudflare,1,7.0,Offshore,200,0.75,163,none,False,False,False,True,Unknown,irregular,False,23,TLS1.2,DV,shared,no,38,yes,10,new
+reuters.com,True,35,True,GlobalSign,0,0.8,Germany,200,0.19,62,medium,False,True,True,False,Network Solutions,daily,True,89,TLS1.3,DV,enterprise,yes,3,no,0,established
+bipartisanreport.com,True,12,True,Let's Encrypt,0,2.6,USA,200,0.92,197,none,False,False,False,True,GoDaddy,weekly,True,30,TLS1.0,none,cloud,no,21,yes,6,growing
+fda.gov,True,87,True,Amazon,0,0.6,UK,200,0.07,45,medium,True,True,True,False,GoDaddy,hourly,True,82,TLS1.3,OV,cloud,yes,12,yes,0,established
+cam.ac.uk,True,141,True,GlobalSign,2,1.4,USA,200,0.08,51,high,True,True,True,True,MarkMonitor,hourly,True,85,TLS1.2,DV,enterprise,yes,14,no,0,legacy
+nature.com,True,82,True,DigiCert,0,2.1,USA,200,0.08,15,medium,True,True,True,False,Network Solutions,hourly,True,97,TLS1.3,OV,enterprise,yes,7,no,0,established
+bbc.com.co,True,18,True,none,1,8.9,USA,200,0.81,177,medium,False,True,False,True,GoDaddy,irregular,True,52,TLS1.2,DV,cloud,yes,54,no,10,growing
+mercola.com,False,16,False,none,3,9.1,Canada,200,0.45,108,medium,False,False,False,True,Unknown,daily,False,69,TLS1.2,OV,shared,yes,65,no,67,growing
+who.int,True,73,True,DigiCert,1,1.7,USA,200,0.14,62,medium,True,True,True,False,MarkMonitor,daily,True,83,TLS1.3,EV,cloud,yes,1,no,0,established
+bbc.com,True,101,True,DigiCert,0,0.7,Germany,200,0.09,63,high,True,True,True,False,CSC Corporate,weekly,True,89,TLS1.3,DV,cloud,yes,2,no,0,legacy
+jstor.org,True,171,True,DigiCert,0,0.5,UK,200,0.12,32,medium,True,True,True,True,Network Solutions,hourly,True,88,TLS1.2,OV,enterprise,yes,6,no,0,legacy
+newspunch.com,True,17,True,Let's Encrypt,3,3.2,Offshore,200,0.96,111,low,False,False,True,True,GoDaddy,daily,False,50,TLS1.2,OV,shared,no,89,no,75,growing
+breitbart.com,True,11,True,Cloudflare,4,2.6,Canada,200,0.69,48,medium,False,True,True,True,GoDaddy,weekly,False,8,TLS1.3,DV,shared,no,76,yes,14,growing
+globalresearch.ca,True,23,True,Cloudflare,3,5.7,Offshore,200,0.99,73,low,False,True,False,False,eNom,irregular,False,51,TLS1.2,DV,cloud,no,34,yes,89,growing
+conservativetribune.com,True,6,True,Let's Encrypt,2,4.9,Offshore,200,0.92,188,medium,False,False,False,True,Namecheap,daily,False,23,none,self_signed,offshore,no,28,yes,0,new
+zerohedge.com,True,10,True,none,4,5.6,Canada,200,0.84,44,low,False,True,True,True,Unknown,weekly,False,63,TLS1.2,self_signed,cloud,no,30,yes,96,new
+cnn.com,True,51,True,DigiCert,0,1.5,Switzerland,200,0.02,44,high,True,True,True,False,CSC Corporate,daily,True,93,TLS1.3,EV,cloud,yes,5,no,0,established
+bbc.com,True,162,True,DigiCert,1,1.0,UK,200,0.05,49,high,False,False,True,True,CSC Corporate,daily,True,91,TLS1.3,OV,enterprise,yes,3,no,0,legacy
+conservativetribune.com,True,44,False,Cloudflare,1,4.8,Russia,200,0.77,51,low,True,False,False,True,GoDaddy,irregular,False,20,none,none,cloud,yes,87,yes,54,established
+bbc.com,True,39,True,Let's Encrypt,0,1.3,UK,200,0.02,29,high,True,True,True,False,Verisign,daily,True,99,TLS1.3,OV,enterprise,yes,7,no,0,established
+who.int,False,84,False,none,0,1.8,UK,200,0.03,24,high,True,True,True,False,GoDaddy,hourly,True,84,TLS1.3,EV,enterprise,yes,6,yes,0,established
+naturalnews.com,True,3,True,Let's Encrypt,3,2.6,Canada,200,0.4,93,medium,True,False,False,True,Namecheap,daily,False,36,TLS1.1,DV,shared,no,31,no,17,new
+nasa.gov,True,75,True,GlobalSign,1,0.5,Germany,200,0.1,69,high,True,True,True,False,MarkMonitor,daily,True,94,TLS1.3,OV,enterprise,no,3,no,0,established
+thegatewaypundit.com,True,46,False,Let's Encrypt,2,4.2,USA,200,0.95,122,low,False,False,False,True,Namecheap,weekly,True,40,TLS1.1,DV,shared,no,56,no,14,established
+conservativetribune.com,True,15,False,none,2,4.9,Offshore,200,0.47,201,low,False,False,False,True,eNom,daily,True,20,TLS1.1,DV,shared,yes,71,no,6,growing
+fda.gov,True,175,True,GlobalSign,1,1.8,USA,200,0.35,24,medium,True,True,True,True,Network Solutions,daily,True,86,TLS1.3,OV,enterprise,yes,4,no,0,legacy
+bbc.com.co,True,57,False,Cloudflare,3,5.3,USA,200,0.43,203,low,True,True,False,True,GoDaddy,daily,True,41,TLS1.2,self_signed,shared,no,69,yes,53,established
+bloomberg.com,True,181,True,DigiCert,0,1.9,Canada,200,0.03,27,high,True,True,True,False,Network Solutions,daily,True,94,TLS1.3,EV,enterprise,yes,11,no,0,legacy
+jstor.org,True,86,True,GlobalSign,0,1.5,UK,200,0.3,50,high,True,True,True,False,CSC Corporate,daily,True,82,TLS1.2,OV,cloud,no,8,no,0,established
+economist.com,True,100,True,Amazon,0,1.3,Canada,200,0.02,64,medium,True,True,True,False,Network Solutions,weekly,True,96,TLS1.3,OV,cloud,yes,4,no,0,established
+activistpost.com,True,4,True,GeoTrust,1,3.1,UK,200,0.93,171,low,False,True,False,True,GoDaddy,daily,False,79,none,DV,cloud,no,45,yes,0,new
+occupydemocrats.com,True,30,False,Let's Encrypt,2,4.1,Offshore,200,0.86,145,low,False,False,False,True,Unknown,irregular,False,15,TLS1.2,DV,cloud,no,64,yes,24,established
+jstor.org,True,92,True,Let's Encrypt,0,0.9,Germany,200,0.45,27,high,True,True,True,False,MarkMonitor,hourly,True,87,TLS1.2,OV,cloud,yes,1,no,0,established
+wikipedia.org,True,159,True,GlobalSign,0,0.6,Canada,200,0.25,69,medium,True,True,True,False,GoDaddy,daily,True,84,TLS1.2,OV,enterprise,yes,12,no,0,legacy
+globalresearch.ca,True,5,True,self-signed,2,6.1,Canada,200,0.74,206,medium,False,True,False,False,GoDaddy,irregular,True,11,TLS1.2,self_signed,shared,yes,73,no,36,new
+who.int,True,38,True,DigiCert,1,1.2,UK,200,0.47,38,high,True,True,True,False,CSC Corporate,hourly,True,96,TLS1.3,OV,cloud,yes,16,no,0,established
+nature.com,True,99,True,InCommon,0,1.1,France,200,0.09,67,medium,True,True,True,False,Network Solutions,daily,True,87,TLS1.3,EV,enterprise,no,5,no,0,established
+conservativetribune.com,True,8,False,self-signed,1,5.7,UK,200,0.63,109,medium,True,True,False,True,Namecheap,irregular,True,24,TLS1.2,self_signed,cloud,no,50,yes,0,new
+nasa.gov,True,187,True,DigiCert,0,2.2,UK,200,0.23,45,high,True,True,True,False,CSC Corporate,hourly,True,98,TLS1.3,OV,cloud,yes,15,no,0,legacy
+yournewswire.com,True,18,True,none,2,2.7,Russia,200,0.5,151,medium,False,False,True,True,Namecheap,irregular,False,58,TLS1.2,DV,shared,no,21,no,28,growing
+naturalnews.com,True,56,True,Let's Encrypt,2,2.1,Offshore,200,0.5,112,medium,False,True,False,True,GoDaddy,weekly,True,62,TLS1.2,DV,offshore,yes,94,no,23,established
+infowars.com,True,13,False,Let's Encrypt,5,4.6,USA,200,0.87,132,medium,False,False,False,True,GoDaddy,daily,True,47,none,DV,offshore,no,71,yes,36,growing
+dailywire.com,False,6,False,none,1,3.7,Canada,200,0.75,93,low,True,False,False,False,Namecheap,daily,False,14,TLS1.2,OV,shared,no,64,yes,15,new
+neonnettle.com,True,6,True,Let's Encrypt,1,5.4,USA,200,0.44,106,low,True,True,False,True,Unknown,weekly,True,23,TLS1.2,none,shared,no,68,yes,17,new
+globalresearch.ca,True,27,True,Cloudflare,2,7.6,Canada,200,0.53,80,none,False,False,False,False,Namecheap,irregular,False,20,TLS1.1,self_signed,cloud,no,37,yes,84,established
+nih.gov,True,131,True,GlobalSign,2,1.7,UK,200,0.04,64,high,True,True,True,True,Network Solutions,hourly,True,98,TLS1.3,OV,enterprise,yes,11,no,0,legacy
+jstor.org,True,127,True,Amazon,1,0.9,Switzerland,200,0.02,52,high,True,True,True,False,CSC Corporate,hourly,True,85,TLS1.3,OV,cloud,no,9,no,0,legacy
+thedailysheeple.com,True,8,False,Let's Encrypt,1,5.3,UK,200,0.99,106,none,False,False,True,True,Namecheap,irregular,False,69,TLS1.2,self_signed,shared,no,32,no,93,new
+naturalnews.com,True,16,False,Let's Encrypt,1,4.8,USA,200,0.81,139,medium,False,False,False,True,GoDaddy,irregular,True,41,TLS1.3,DV,cloud,no,78,yes,93,growing
+stanford.edu,True,36,True,InCommon,0,1.1,UK,200,0.07,68,high,True,True,True,False,Network Solutions,weekly,True,84,TLS1.3,OV,enterprise,yes,12,no,0,established
+harvard.edu,True,161,True,GlobalSign,1,1.5,USA,200,0.2,62,high,True,True,True,False,Verisign,daily,True,88,TLS1.3,EV,enterprise,yes,14,no,0,legacy
+bbc.com,True,41,True,DigiCert,0,1.5,France,200,0.25,28,high,True,True,True,False,CSC Corporate,hourly,True,93,TLS1.2,EV,enterprise,yes,9,no,0,established
+cam.ac.uk,True,80,True,Amazon,1,1.6,France,200,0.11,17,high,True,True,True,False,MarkMonitor,hourly,True,92,TLS1.2,OV,enterprise,yes,18,no,0,established
+neonnettle.com,True,8,True,none,0,2.3,Canada,200,0.67,144,low,True,True,False,True,Namecheap,daily,True,8,TLS1.2,DV,cloud,no,57,yes,7,new
+sciencemag.org,True,129,True,GlobalSign,0,1.2,UK,200,0.13,53,medium,True,True,True,False,MarkMonitor,hourly,True,85,TLS1.2,EV,enterprise,yes,1,no,0,legacy
+bipartisanreport.com,True,5,True,GeoTrust,2,5.2,USA,200,0.61,106,low,False,False,False,True,GoDaddy,irregular,False,68,TLS1.3,DV,cloud,yes,57,yes,0,new
+rt.com,True,2,False,self-signed,1,3.9,UK,200,0.91,143,low,True,False,True,True,GoDaddy,weekly,True,10,TLS1.0,DV,shared,yes,81,no,28,new
+bbc.com,True,17,True,GlobalSign,0,1.1,France,200,0.08,43,medium,True,True,True,False,Verisign,hourly,True,91,TLS1.3,OV,cloud,yes,16,no,0,growing
+stanford.edu,True,145,True,GlobalSign,0,1.5,USA,200,0.17,17,high,True,True,True,False,Network Solutions,daily,True,86,TLS1.3,DV,enterprise,yes,5,no,0,legacy
+yournewswire.com,False,22,False,none,1,4.6,Offshore,200,0.96,111,medium,True,True,True,True,GoDaddy,daily,True,22,TLS1.2,OV,cloud,no,65,yes,90,growing
+apnews.com,True,171,True,DigiCert,0,0.7,Canada,200,0.03,32,high,True,True,True,False,CSC Corporate,hourly,False,85,TLS1.2,OV,enterprise,yes,2,no,0,legacy
+npr.org,True,48,True,InCommon,1,0.8,USA,200,0.02,66,high,True,True,True,False,Verisign,weekly,True,82,TLS1.3,EV,cloud,yes,15,no,0,established
+nypost.com,True,1,True,self-signed,0,1.5,USA,200,0.89,63,medium,False,False,False,True,Namecheap,daily,True,18,TLS1.2,DV,offshore,no,65,no,51,new
+washingtonpost.com,True,48,True,InCommon,1,0.5,USA,200,0.13,18,high,True,True,True,False,GoDaddy,weekly,True,96,TLS1.3,EV,cloud,yes,3,no,0,established
+thegatewaypundit.com,True,18,False,none,1,1.6,Russia,200,0.97,99,medium,False,False,False,True,GoDaddy,irregular,False,51,TLS1.2,none,offshore,no,34,yes,52,growing
+naturalnews.com,True,39,True,Let's Encrypt,0,3.6,Canada,200,0.98,146,none,False,True,False,True,Namecheap,weekly,True,75,TLS1.2,DV,cloud,no,66,yes,56,established
+harvard.edu,False,81,False,none,1,1.3,France,200,0.05,47,medium,True,True,True,False,MarkMonitor,daily,True,95,TLS1.3,EV,enterprise,yes,5,yes,0,established
+berkeley.edu,True,189,True,DigiCert,1,1.2,USA,200,0.32,21,high,True,True,True,False,Network Solutions,hourly,True,88,TLS1.3,EV,enterprise,yes,10,no,0,legacy
+activistpost.com,True,11,False,Let's Encrypt,0,6.0,USA,200,0.56,148,none,True,True,True,True,GoDaddy,weekly,True,16,none,self_signed,shared,no,87,no,70,growing
+cnn.com,True,13,True,InCommon,0,0.6,UK,200,0.16,15,medium,True,True,True,False,CSC Corporate,daily,True,92,TLS1.3,EV,enterprise,no,5,no,0,growing
+occupydemocrats.com,True,38,False,none,1,1.5,Russia,200,0.26,195,low,False,True,False,False,Namecheap,irregular,True,15,TLS1.2,none,offshore,no,85,yes,0,established
+who.int,True,88,True,InCommon,1,1.7,USA,200,0.1,23,high,False,True,True,False,CSC Corporate,daily,True,98,TLS1.3,OV,enterprise,yes,18,no,0,established
+bloomberg.com,True,171,True,Let's Encrypt,1,0.8,USA,200,0.02,46,high,True,True,True,False,CSC Corporate,daily,True,83,TLS1.3,EV,cloud,yes,7,yes,0,legacy
+mayo.edu,True,178,True,DigiCert,0,1.4,Germany,200,0.2,53,high,True,True,True,True,MarkMonitor,weekly,True,91,TLS1.3,OV,cloud,yes,7,no,0,legacy
+who.int,True,133,True,DigiCert,0,0.9,France,200,0.03,43,high,False,True,True,False,MarkMonitor,daily,True,90,TLS1.3,OV,enterprise,yes,8,no,0,legacy
+dailybuzzlive.com,True,6,False,Cloudflare,2,5.7,Offshore,200,0.69,126,medium,False,False,False,True,eNom,weekly,False,34,TLS1.1,none,shared,no,24,yes,34,new
+globalresearch.ca,True,17,True,Cloudflare,1,4.4,UK,200,0.41,161,medium,False,True,True,False,Namecheap,weekly,False,45,TLS1.1,DV,shared,no,54,no,83,growing
+bipartisanreport.com,True,8,True,Cloudflare,3,3.4,USA,200,0.91,121,low,True,True,False,True,GoDaddy,weekly,True,35,TLS1.3,DV,cloud,no,50,yes,4,new
+abcnews.com.co,True,21,True,self-signed,3,1.5,Offshore,200,0.74,62,none,False,False,False,True,Namecheap,irregular,False,57,TLS1.3,DV,cloud,yes,89,yes,22,growing
+conservativetribune.com,True,17,True,Cloudflare,2,10.0,Offshore,200,0.62,86,medium,False,False,True,True,GoDaddy,irregular,True,20,TLS1.2,self_signed,offshore,no,95,yes,3,growing
+dailywire.com,True,7,True,Cloudflare,0,2.9,Canada,200,0.39,68,none,False,False,False,True,Namecheap,daily,False,72,TLS1.0,DV,cloud,no,67,yes,32,new
+wsj.com,True,189,True,GlobalSign,0,0.5,Germany,200,0.38,38,medium,True,True,True,False,Verisign,weekly,True,86,TLS1.3,OV,cloud,yes,6,no,0,legacy
+theguardian.com,True,32,True,Let's Encrypt,0,1.2,USA,200,0.07,59,medium,True,True,True,False,MarkMonitor,hourly,True,99,TLS1.3,EV,enterprise,yes,17,no,0,established
+zerohedge.com,True,3,False,none,3,5.6,Offshore,200,0.25,192,low,True,True,True,True,Namecheap,irregular,False,36,TLS1.3,DV,cloud,no,32,no,65,new
+thedailysheeple.com,True,17,True,Let's Encrypt,3,1.5,USA,200,0.87,58,medium,True,True,True,True,Namecheap,daily,True,8,TLS1.3,DV,cloud,no,56,no,34,growing
+apnews.com,True,73,True,GlobalSign,0,0.6,USA,200,0.05,35,high,True,True,True,False,MarkMonitor,weekly,True,94,TLS1.3,OV,enterprise,yes,6,no,0,established
+yournewswire.com,True,52,True,none,3,3.6,Offshore,200,0.97,167,low,False,False,False,True,Namecheap,irregular,True,65,TLS1.3,DV,shared,no,21,yes,84,established
+sputniknews.com,False,12,False,none,1,2.0,USA,200,0.89,178,none,False,True,False,True,GoDaddy,irregular,True,29,TLS1.2,DV,cloud,yes,21,yes,48,growing
+bipartisanreport.com,True,23,False,Let's Encrypt,0,3.3,USA,200,0.53,171,low,False,False,False,False,eNom,irregular,False,28,TLS1.2,DV,offshore,no,35,yes,28,growing
+rt.com,True,5,True,Let's Encrypt,3,5.7,Russia,200,0.66,137,medium,True,False,False,True,Unknown,irregular,True,48,TLS1.2,none,offshore,yes,54,yes,55,new
+nypost.com,False,49,False,none,5,2.8,UK,200,0.91,47,medium,False,False,False,True,Namecheap,daily,False,71,TLS1.3,none,shared,no,76,yes,84,established
+naturalnews.com,True,12,False,Let's Encrypt,2,1.5,USA,200,0.53,215,low,False,False,False,True,GoDaddy,weekly,False,47,none,DV,offshore,yes,30,yes,0,growing
+cdc.gov,True,11,True,InCommon,0,0.6,Germany,200,0.09,61,high,True,True,True,True,Verisign,weekly,True,97,TLS1.3,DV,cloud,yes,17,no,0,growing
+nih.gov,True,113,True,DigiCert,1,1.9,Switzerland,200,0.29,20,medium,True,True,True,False,MarkMonitor,hourly,True,98,TLS1.2,OV,enterprise,yes,11,no,0,legacy
+ox.ac.uk,True,51,True,DigiCert,0,1.5,USA,200,0.22,50,medium,True,True,True,False,CSC Corporate,daily,True,87,TLS1.3,DV,enterprise,yes,14,no,0,established
+nature.com,True,156,True,DigiCert,1,0.9,USA,200,0.35,41,medium,True,True,True,False,Verisign,daily,True,86,TLS1.2,OV,enterprise,yes,11,no,1,legacy
+thedailysheeple.com,True,17,False,Let's Encrypt,1,5.6,USA,200,0.76,101,low,False,True,False,True,GoDaddy,weekly,True,57,TLS1.2,none,shared,no,63,yes,59,growing
+npr.org,True,37,True,DigiCert,0,1.3,USA,200,0.04,50,high,True,False,True,False,GoDaddy,hourly,True,95,TLS1.3,EV,enterprise,yes,3,no,0,established
+stanford.edu,True,102,True,GlobalSign,0,0.7,UK,200,0.02,63,high,True,True,True,True,MarkMonitor,daily,True,96,TLS1.3,OV,cloud,yes,10,no,0,legacy
+mit.edu,True,70,True,Amazon,0,0.8,Germany,200,0.15,53,high,True,True,True,False,GoDaddy,daily,True,94,TLS1.2,OV,cloud,yes,13,no,0,established
+neonnettle.com,True,22,True,Let's Encrypt,1,5.5,USA,200,0.88,185,none,False,False,False,True,Namecheap,irregular,True,12,TLS1.1,DV,shared,yes,83,yes,78,growing
+activistpost.com,True,6,True,Cloudflare,4,7.7,USA,200,0.59,150,low,False,True,False,True,Unknown,daily,False,19,none,none,shared,no,28,no,0,new
+nytimes.com,True,95,True,DigiCert,1,0.5,USA,200,0.1,61,high,True,True,True,False,CSC Corporate,hourly,True,99,TLS1.3,EV,enterprise,yes,15,no,0,established
+newspunch.com,True,6,True,none,0,2.5,Offshore,200,0.64,96,medium,True,True,True,True,Unknown,irregular,False,46,TLS1.2,self_signed,shared,no,86,yes,90,new
+rt.com,True,7,True,Let's Encrypt,2,3.6,Offshore,200,0.76,201,low,True,False,False,True,eNom,weekly,True,21,TLS1.3,self_signed,shared,no,70,yes,6,new
+bipartisanreport.com,True,21,True,Let's Encrypt,3,2.5,UK,200,0.86,84,medium,False,False,False,True,GoDaddy,weekly,False,27,TLS1.2,DV,shared,yes,57,yes,7,growing
+abcnews.com.co,True,22,False,Cloudflare,0,5.3,UK,200,0.85,128,low,False,False,True,True,Namecheap,daily,False,11,TLS1.2,DV,shared,no,23,no,11,growing
+nytimes.com,True,37,True,Amazon,0,1.7,Switzerland,200,0.02,16,high,True,True,True,False,MarkMonitor,hourly,True,94,TLS1.3,OV,enterprise,yes,8,no,0,established
+zerohedge.com,True,54,True,Let's Encrypt,4,2.6,Russia,200,0.85,135,medium,False,False,False,True,GoDaddy,daily,False,72,TLS1.0,OV,shared,yes,29,no,0,established
+naturalnews.com,True,11,False,none,2,2.7,Offshore,200,0.43,198,none,False,True,True,True,Namecheap,daily,False,15,TLS1.2,self_signed,shared,no,81,yes,0,growing
+breitbart.com,True,14,True,self-signed,3,3.8,Offshore,200,0.99,182,medium,False,True,False,True,Namecheap,irregular,True,11,TLS1.2,none,cloud,yes,72,no,0,growing
+mayo.edu,True,51,True,InCommon,0,1.3,USA,200,0.32,44,high,True,True,True,False,MarkMonitor,weekly,True,85,TLS1.2,EV,enterprise,yes,4,no,0,established
+occupydemocrats.com,False,13,False,none,4,2.0,Offshore,200,0.55,196,low,False,True,False,True,GoDaddy,daily,True,31,TLS1.3,DV,offshore,yes,60,yes,83,growing
+stanford.edu,True,13,True,DigiCert,0,1.2,Germany,200,0.43,39,high,True,True,True,False,CSC Corporate,daily,True,92,TLS1.3,EV,enterprise,yes,8,no,0,growing
+npr.org,True,189,True,DigiCert,0,1.7,France,200,0.02,39,high,True,True,True,True,Network Solutions,daily,True,86,TLS1.2,OV,enterprise,yes,6,no,0,legacy
+thegatewaypundit.com,True,10,False,self-signed,5,1.9,Canada,200,0.87,81,low,False,True,True,False,GoDaddy,irregular,False,13,TLS1.3,DV,shared,no,80,yes,38,new
+economist.com,True,66,True,GlobalSign,0,0.7,USA,200,0.29,53,medium,True,True,True,False,Network Solutions,weekly,True,89,TLS1.3,DV,enterprise,yes,16,no,0,established
+bbc.com.co,True,30,True,Let's Encrypt,4,6.3,USA,200,0.86,174,medium,False,True,False,True,Unknown,daily,False,65,TLS1.2,DV,shared,no,74,yes,56,established
+nature.com,True,145,True,DigiCert,0,0.8,Switzerland,200,0.33,40,high,True,True,True,True,MarkMonitor,daily,True,90,TLS1.3,OV,cloud,yes,10,no,1,legacy
+davidwolfe.com,True,5,True,GeoTrust,0,8.7,Offshore,200,0.73,81,none,False,False,False,True,Unknown,irregular,True,33,TLS1.2,DV,cloud,yes,83,yes,60,new
+jstor.org,True,89,True,DigiCert,0,0.6,UK,200,0.22,25,high,True,True,True,False,Network Solutions,daily,True,93,TLS1.3,OV,enterprise,yes,16,no,0,established
+bipartisanreport.com,True,8,True,Cloudflare,1,6.8,Offshore,200,0.75,185,low,True,True,False,True,eNom,weekly,False,15,TLS1.2,none,shared,yes,67,yes,12,new
+wakingtimes.com,True,18,False,Let's Encrypt,4,5.8,USA,200,0.9,201,low,True,True,False,True,eNom,daily,True,50,TLS1.0,DV,cloud,no,78,yes,70,growing
+bbc.com.co,True,5,True,none,4,3.9,Offshore,200,0.89,149,medium,True,False,False,False,eNom,daily,True,17,TLS1.1,self_signed,cloud,yes,92,yes,0,new
+conservativetribune.com,False,12,False,none,0,5.2,USA,200,0.91,60,low,True,False,False,True,GoDaddy,daily,False,48,none,none,shared,no,66,yes,15,growing
+fda.gov,True,194,True,GlobalSign,0,1.9,Germany,200,0.24,18,high,True,True,True,False,GoDaddy,daily,True,89,TLS1.2,OV,enterprise,yes,4,no,0,legacy
+neonnettle.com,True,8,False,GeoTrust,3,3.0,Canada,200,0.38,57,medium,False,True,False,True,Namecheap,weekly,False,57,TLS1.3,DV,shared,no,51,yes,5,new
+cam.ac.uk,True,63,True,InCommon,1,0.9,France,200,0.02,47,high,True,True,True,False,MarkMonitor,daily,True,94,TLS1.3,OV,enterprise,yes,10,no,0,established
+beforeitsnews.com,True,22,False,GeoTrust,1,4.5,Russia,200,0.92,148,medium,False,True,False,True,GoDaddy,weekly,True,43,TLS1.2,DV,cloud,yes,77,yes,6,growing
+harvard.edu,True,8,True,DigiCert,0,1.4,Germany,200,0.02,39,high,True,True,True,False,CSC Corporate,daily,True,94,TLS1.3,EV,enterprise,yes,14,no,0,new
+nytimes.com,True,134,True,DigiCert,0,1.0,Canada,200,0.34,46,high,True,False,True,True,Network Solutions,hourly,False,96,TLS1.3,DV,cloud,yes,9,no,0,legacy
+wakingtimes.com,True,22,True,GeoTrust,1,3.6,USA,200,0.96,176,low,False,False,True,True,GoDaddy,daily,False,30,TLS1.2,none,shared,no,56,no,40,growing
+nypost.com,False,10,False,none,4,1.5,Offshore,200,0.63,122,low,False,False,False,False,GoDaddy,irregular,False,50,none,DV,shared,no,66,no,56,new
+mit.edu,True,184,True,Amazon,0,1.8,USA,200,0.08,54,medium,True,False,True,False,CSC Corporate,daily,True,96,TLS1.3,EV,cloud,yes,10,no,0,legacy
+davidwolfe.com,False,18,False,none,3,2.2,Offshore,200,0.87,183,medium,False,False,False,True,eNom,irregular,True,79,TLS1.2,self_signed,shared,no,71,yes,75,growing
+wakingtimes.com,True,19,False,Let's Encrypt,1,1.5,Offshore,200,0.5,105,low,False,False,False,True,GoDaddy,weekly,False,30,TLS1.2,none,shared,no,79,yes,89,growing
+davidwolfe.com,False,1,False,none,2,3.2,Offshore,200,0.47,136,medium,False,False,True,False,Unknown,daily,True,41,TLS1.2,none,shared,yes,59,no,11,new
+beforeitsnews.com,False,17,False,none,4,3.2,UK,200,0.65,132,low,False,True,True,True,GoDaddy,weekly,False,19,TLS1.3,none,shared,no,84,yes,4,growing
+nypost.com,True,14,True,GeoTrust,1,2.3,USA,200,0.89,141,medium,True,False,False,True,GoDaddy,irregular,True,35,TLS1.1,DV,cloud,yes,87,yes,30,growing
+thedailysheeple.com,True,37,True,Let's Encrypt,0,5.5,Russia,200,0.99,145,low,False,True,True,True,eNom,weekly,True,9,TLS1.1,DV,cloud,no,67,yes,63,established
+cnn.com,True,155,True,Amazon,0,2.1,UK,200,0.32,59,high,True,True,True,False,MarkMonitor,hourly,True,83,TLS1.3,OV,cloud,yes,18,no,0,legacy
+ft.com,True,67,True,DigiCert,0,1.3,UK,200,0.35,22,high,True,True,True,False,MarkMonitor,daily,True,90,TLS1.2,OV,cloud,yes,13,no,0,established
+dailybuzzlive.com,False,3,False,none,3,4.4,Offshore,200,0.33,143,medium,False,False,True,True,GoDaddy,weekly,False,54,TLS1.2,DV,shared,yes,60,yes,40,new
+ox.ac.uk,True,46,True,InCommon,0,0.9,Canada,200,0.17,30,medium,True,True,True,False,Verisign,hourly,True,88,TLS1.3,OV,cloud,yes,11,no,0,established
+bipartisanreport.com,True,6,False,none,1,4.4,Offshore,200,0.99,109,low,False,True,False,True,GoDaddy,daily,True,25,TLS1.0,none,offshore,no,39,yes,88,new
+davidwolfe.com,True,23,True,Cloudflare,4,4.2,Offshore,200,0.76,94,medium,False,False,False,True,Namecheap,weekly,True,46,TLS1.2,DV,cloud,no,45,yes,95,growing
+bipartisanreport.com,False,4,False,none,0,8.0,Offshore,200,0.86,128,low,False,False,True,True,Namecheap,weekly,False,46,TLS1.0,OV,offshore,no,82,yes,15,new
+mayo.edu,True,31,True,DigiCert,0,0.9,UK,200,0.11,39,high,True,True,True,False,CSC Corporate,hourly,True,99,TLS1.3,OV,cloud,no,19,no,0,established
+conservativetribune.com,False,12,False,none,4,5.7,Offshore,200,0.42,130,medium,False,True,False,False,OVH,daily,False,49,TLS1.1,self_signed,cloud,no,48,yes,0,growing
+cdc.gov,True,103,True,Let's Encrypt,0,1.3,Germany,200,0.08,34,high,True,True,True,False,MarkMonitor,hourly,True,84,TLS1.3,EV,cloud,no,3,no,0,legacy
+bipartisanreport.com,True,18,False,Cloudflare,3,7.2,Offshore,200,0.99,142,medium,True,False,False,True,Namecheap,irregular,False,10,TLS1.2,DV,cloud,no,93,yes,23,growing
+nypost.com,True,50,True,Cloudflare,2,4.7,USA,200,0.67,81,medium,True,False,False,True,eNom,irregular,True,40,TLS1.2,DV,shared,no,82,yes,0,established
+dailybuzzlive.com,True,1,False,Cloudflare,1,2.4,Offshore,200,0.31,214,low,False,True,False,True,Namecheap,irregular,False,35,TLS1.2,none,cloud,no,96,yes,0,new
+naturalnews.com,True,8,False,Cloudflare,0,5.4,Offshore,200,0.82,216,low,True,False,False,True,eNom,irregular,False,35,TLS1.3,none,cloud,no,52,yes,64,new
+thedailysheeple.com,False,56,False,none,2,5.2,UK,200,0.82,154,medium,False,True,False,True,Unknown,weekly,True,55,TLS1.2,self_signed,offshore,yes,77,yes,0,established
+reuters.com,True,144,True,Amazon,1,1.6,UK,200,0.07,64,high,True,True,True,False,CSC Corporate,daily,True,92,TLS1.3,EV,cloud,yes,13,no,0,legacy
+globalresearch.ca,True,45,True,Cloudflare,3,4.5,Offshore,200,0.47,142,medium,False,True,True,True,GoDaddy,weekly,False,67,TLS1.3,DV,cloud,yes,42,yes,24,established
+naturalnews.com,True,14,False,Let's Encrypt,1,3.5,USA,200,0.41,204,low,True,False,False,True,eNom,irregular,False,63,TLS1.1,self_signed,shared,no,92,no,59,growing
+dailybuzzlive.com,False,7,False,none,1,5.6,Offshore,200,0.53,219,medium,False,True,False,True,Unknown,daily,False,37,TLS1.1,DV,offshore,no,92,yes,52,new
+npr.org,True,97,True,GlobalSign,0,1.2,Switzerland,200,0.25,17,high,True,True,True,False,MarkMonitor,daily,True,95,TLS1.2,DV,cloud,yes,14,no,0,established
+thedailysheeple.com,True,3,True,Let's Encrypt,1,3.6,Offshore,200,0.54,129,low,False,False,False,True,eNom,weekly,False,22,none,self_signed,cloud,yes,32,yes,51,new
+neonnettle.com,True,56,True,self-signed,3,6.7,Canada,200,0.85,216,none,False,True,False,True,GoDaddy,irregular,True,40,none,DV,cloud,no,57,yes,65,established
+yournewswire.com,False,5,False,none,0,1.5,Russia,200,0.99,100,none,False,False,False,True,GoDaddy,irregular,True,14,TLS1.0,DV,shared,no,47,no,18,new
+newspunch.com,True,20,True,Cloudflare,5,6.0,Offshore,200,0.75,145,low,False,False,False,True,GoDaddy,irregular,False,31,TLS1.2,DV,cloud,no,56,yes,1,growing
+globalresearch.ca,False,31,False,none,5,5.7,USA,200,0.98,44,none,True,False,False,True,Namecheap,weekly,False,10,TLS1.2,DV,cloud,no,22,no,65,established
+infowars.com,False,3,False,none,3,4.2,USA,200,0.97,181,low,False,False,True,True,GoDaddy,weekly,False,42,TLS1.0,self_signed,offshore,no,29,no,66,new
+britannica.com,True,70,True,Let's Encrypt,1,1.7,USA,200,0.02,37,high,True,True,True,True,GoDaddy,hourly,True,92,TLS1.3,EV,cloud,yes,6,no,0,established
+reuters.com,True,122,True,Amazon,0,1.5,Switzerland,200,0.05,19,high,True,True,True,False,MarkMonitor,weekly,True,88,TLS1.3,OV,cloud,yes,11,no,0,legacy
+yournewswire.com,True,3,True,GeoTrust,4,7.3,USA,200,0.81,112,medium,True,True,True,True,GoDaddy,irregular,False,24,TLS1.2,self_signed,offshore,yes,91,no,21,new
+cdc.gov,True,54,True,Let's Encrypt,0,0.9,USA,200,0.36,51,high,True,True,True,False,GoDaddy,hourly,True,82,TLS1.2,OV,cloud,yes,4,no,0,established
+rt.com,False,16,False,none,0,6.5,Canada,200,0.5,144,low,False,True,True,True,Unknown,daily,True,20,TLS1.2,DV,shared,no,31,yes,52,growing
+reuters.com,True,42,True,Amazon,1,1.3,Canada,200,0.48,31,medium,True,True,True,True,Verisign,daily,True,89,TLS1.3,OV,enterprise,yes,15,yes,0,established
+occupydemocrats.com,False,16,False,none,2,1.5,UK,200,0.69,81,low,False,False,False,False,Namecheap,irregular,False,30,TLS1.2,self_signed,cloud,yes,45,yes,10,growing
+dailywire.com,False,2,False,none,3,3.7,USA,200,0.5,73,none,False,True,False,True,GoDaddy,weekly,False,8,TLS1.2,DV,shared,no,78,no,0,new
+bbc.com.co,False,11,False,none,4,4.5,UK,200,0.87,43,none,False,True,False,False,GoDaddy,weekly,False,24,TLS1.0,DV,shared,no,32,yes,22,growing
+occupydemocrats.com,True,23,True,Let's Encrypt,5,5.6,Russia,200,0.93,194,none,False,True,False,True,GoDaddy,daily,False,18,TLS1.2,none,offshore,no,71,no,88,growing
+fda.gov,True,167,True,Amazon,0,1.6,USA,200,0.34,68,high,True,True,True,True,CSC Corporate,weekly,True,97,TLS1.3,OV,enterprise,yes,10,no,0,legacy
+davidwolfe.com,False,20,False,none,2,7.0,Offshore,200,0.76,211,medium,False,True,False,True,GoDaddy,irregular,True,60,TLS1.1,self_signed,shared,no,66,yes,0,growing
+yournewswire.com,True,7,False,Let's Encrypt,2,6.2,UK,200,0.5,196,medium,False,False,False,True,Unknown,weekly,True,12,TLS1.2,DV,shared,no,71,no,5,new
+ox.ac.uk,True,116,True,Amazon,1,1.0,UK,200,0.28,63,high,False,True,True,False,CSC Corporate,daily,True,93,TLS1.2,OV,cloud,yes,6,no,0,legacy
+cdc.gov,True,64,True,DigiCert,0,0.9,Switzerland,200,0.03,32,high,True,True,True,False,MarkMonitor,daily,True,84,TLS1.3,OV,cloud,yes,8,no,0,established
+sciencemag.org,True,185,True,GlobalSign,2,1.7,Canada,200,0.03,65,high,True,True,True,True,MarkMonitor,hourly,True,85,TLS1.3,DV,enterprise,no,19,no,0,legacy
+wakingtimes.com,True,21,True,Cloudflare,2,3.0,Offshore,200,0.99,115,none,False,True,False,False,GoDaddy,daily,False,28,TLS1.2,self_signed,cloud,yes,88,yes,21,growing
+harvard.edu,True,71,True,DigiCert,0,1.7,UK,200,0.26,31,high,False,True,True,False,MarkMonitor,daily,False,97,TLS1.3,DV,enterprise,yes,14,no,0,established
+neonnettle.com,True,12,True,self-signed,2,1.5,Offshore,200,0.99,83,medium,False,False,True,True,GoDaddy,daily,True,40,TLS1.2,DV,offshore,no,56,yes,12,growing
+mercola.com,True,25,True,Let's Encrypt,4,3.7,USA,200,0.38,218,low,False,False,False,True,GoDaddy,daily,True,13,TLS1.2,DV,shared,no,32,yes,62,growing
+conservativetribune.com,False,21,False,none,1,3.7,Russia,200,0.46,209,low,False,True,False,True,eNom,irregular,False,65,none,DV,offshore,no,42,no,79,growing
+nytimes.com,True,12,True,GlobalSign,0,1.6,France,200,0.35,28,medium,True,True,True,False,GoDaddy,daily,True,91,TLS1.3,EV,enterprise,yes,7,no,0,growing
+nasa.gov,True,119,True,GlobalSign,1,2.1,USA,200,0.07,27,high,True,True,True,True,GoDaddy,hourly,False,90,TLS1.3,OV,cloud,yes,6,no,0,legacy
+harvard.edu,True,77,True,InCommon,0,2.2,France,200,0.4,30,high,True,True,True,False,Verisign,weekly,True,88,TLS1.3,OV,enterprise,yes,12,no,0,established
+conservativetribune.com,True,42,True,none,0,9.0,Offshore,200,0.95,44,low,False,True,False,False,GoDaddy,irregular,False,70,none,DV,cloud,no,28,yes,45,established
+rt.com,True,1,False,Let's Encrypt,1,5.0,Offshore,200,0.95,93,medium,False,False,False,True,OVH,irregular,True,30,TLS1.2,DV,cloud,no,52,yes,65,new
+economist.com,True,19,True,Amazon,0,1.5,Switzerland,200,0.38,52,high,True,True,True,False,GoDaddy,hourly,True,99,TLS1.3,OV,cloud,no,6,no,0,growing
+bloomberg.com,True,117,True,DigiCert,0,1.2,UK,200,0.07,46,high,True,True,True,False,GoDaddy,hourly,True,98,TLS1.3,OV,enterprise,no,12,no,0,legacy

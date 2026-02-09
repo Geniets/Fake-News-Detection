@@ -1,0 +1,275 @@
+domain,trust_level,category,established_year,country,alexa_rank,monthly_visitors_millions,content_type,source_type,primary_language,ownership_type,editorial_transparency_score,fact_check_partnership,last_verified_year,global_region
+nytimes.com,trusted,news,1851,USA,120,250,general_news,publisher,English,public_company,95,yes,2025,North America
+bbc.com,trusted,news,1922,UK,95,485,general_news,publisher,English,public_corporation,98,yes,2026,Europe
+reuters.com,trusted,news,1851,UK,340,95,news_agency,organization,English,public_company,97,yes,2025,Europe
+apnews.com,trusted,news,1846,USA,890,45,news_agency,organization,English,nonprofit,96,yes,2025,North America
+theguardian.com,trusted,news,1821,UK,210,380,general_news,publisher,English,trust_owned,94,yes,2026,Europe
+washingtonpost.com,trusted,news,1877,USA,450,110,general_news,publisher,English,private_company,93,yes,2025,North America
+wsj.com,trusted,news,1889,USA,520,85,business_news,publisher,English,public_company,92,yes,2025,North America
+bloomberg.com,trusted,news,1981,USA,780,52,business_news,publisher,English,private_company,91,yes,2025,North America
+forbes.com,trusted,news,1917,USA,95,180,business_news,publisher,English,private_company,85,no,2025,North America
+economist.com,trusted,news,1843,UK,1850,22,business_news,publisher,English,trust_owned,96,yes,2025,Europe
+ft.com,trusted,news,1888,UK,2100,15,business_news,publisher,English,public_company,94,yes,2025,Europe
+cnn.com,trusted,news,1980,USA,65,520,general_news,publisher,English,public_company,88,yes,2026,North America
+npr.org,trusted,news,1970,USA,425,95,radio_news,publisher,English,nonprofit,97,yes,2025,North America
+pbs.org,trusted,news,1969,USA,1250,38,broadcast_news,publisher,English,nonprofit,96,yes,2025,North America
+nbcnews.com,trusted,news,1940,USA,380,145,general_news,publisher,English,public_company,89,yes,2025,North America
+cbsnews.com,trusted,news,1927,USA,520,98,general_news,publisher,English,public_company,88,yes,2025,North America
+abcnews.go.com,trusted,news,1945,USA,680,72,general_news,publisher,English,public_company,87,yes,2025,North America
+time.com,trusted,news,1923,USA,1450,65,magazine,publisher,English,private_company,86,no,2025,North America
+newsweek.com,trusted,news,1933,USA,1890,48,magazine,publisher,English,private_company,82,no,2025,North America
+theatlantic.com,trusted,news,1857,USA,2450,28,magazine,publisher,English,private_company,92,yes,2025,North America
+nature.com,trusted,academic,1869,UK,1250,42,science_journal,publisher,English,public_company,98,yes,2025,Europe
+sciencemag.org,trusted,academic,1880,USA,3200,18,science_journal,organization,English,nonprofit,98,yes,2025,North America
+thelancet.com,trusted,academic,1823,UK,4500,12,medical_journal,publisher,English,public_company,97,yes,2025,Europe
+nejm.org,trusted,academic,1812,USA,5200,8,medical_journal,organization,English,nonprofit,98,yes,2025,North America
+pnas.org,trusted,academic,1914,USA,6800,5,science_journal,organization,English,nonprofit,97,yes,2025,North America
+ncbi.nlm.nih.gov,trusted,government,1988,USA,580,285,medical_database,government,English,government,99,yes,2025,North America
+cdc.gov,trusted,government,1946,USA,820,165,health_agency,government,English,government,99,yes,2026,North America
+who.int,trusted,government,1948,Switzerland,1450,95,health_agency,government,English,government,98,yes,2026,Europe
+nasa.gov,trusted,government,1958,USA,980,120,space_agency,government,English,government,98,yes,2025,North America
+whitehouse.gov,trusted,government,1792,USA,3500,25,government,government,English,government,95,no,2025,North America
+gov.uk,trusted,government,1066,UK,2100,78,government,government,English,government,97,yes,2025,Europe
+usa.gov,trusted,government,1997,USA,4200,15,government,government,English,government,96,no,2025,North America
+nih.gov,trusted,government,1887,USA,1850,42,health_research,government,English,government,98,yes,2025,North America
+fda.gov,trusted,government,1906,USA,2850,35,health_agency,government,English,government,97,yes,2025,North America
+epa.gov,trusted,government,1970,USA,3650,18,environment_agency,government,English,government,96,yes,2025,North America
+nationalgeographic.com,trusted,magazine,1888,USA,1250,85,science_magazine,publisher,English,private_company,90,yes,2025,North America
+smithsonianmag.com,trusted,magazine,1846,USA,3850,22,history_magazine,publisher,English,nonprofit,93,yes,2025,North America
+scientificamerican.com,trusted,magazine,1845,USA,4200,18,science_magazine,publisher,English,private_company,91,yes,2025,North America
+harvard.edu,trusted,academic,1636,USA,2150,45,university,university,English,academic,97,yes,2025,North America
+mit.edu,trusted,academic,1861,USA,2650,32,university,university,English,academic,97,yes,2025,North America
+stanford.edu,trusted,academic,1885,USA,2450,38,university,university,English,academic,96,yes,2025,North America
+ox.ac.uk,trusted,academic,1096,UK,3200,28,university,university,English,academic,98,yes,2025,Europe
+cam.ac.uk,trusted,academic,1209,UK,3150,30,university,university,English,academic,98,yes,2025,Europe
+berkeley.edu,trusted,academic,1868,USA,2850,35,university,university,English,academic,96,yes,2025,North America
+politico.com,trusted,news,2007,USA,2100,52,political_news,publisher,English,private_company,89,yes,2025,North America
+thehill.com,trusted,news,1994,USA,1850,68,political_news,publisher,English,private_company,87,yes,2025,North America
+propublica.org,trusted,news,2007,USA,5200,12,investigative_journalism,organization,English,nonprofit,98,yes,2025,North America
+factcheck.org,trusted,factcheck,2003,USA,8500,5,fact_checking,organization,English,nonprofit,99,yes,2026,North America
+snopes.com,trusted,factcheck,1994,USA,4200,18,fact_checking,organization,English,private_company,97,yes,2026,North America
+politifact.com,trusted,factcheck,2007,USA,6800,8,fact_checking,organization,English,nonprofit,98,yes,2026,North America
+aljazeera.com,trusted,news,1996,Qatar,580,245,international_news,publisher,English,government,84,yes,2025,Middle East
+dw.com,trusted,news,1953,Germany,1450,65,international_news,publisher,English,public_corporation,92,yes,2025,Europe
+france24.com,trusted,news,2006,France,2650,35,international_news,publisher,English,government,91,yes,2025,Europe
+theverge.com,trusted,tech,2011,USA,850,125,tech_news,publisher,English,public_company,83,no,2025,North America
+techcrunch.com,trusted,tech,2005,USA,920,110,tech_news,publisher,English,public_company,84,no,2025,North America
+wired.com,trusted,tech,1993,USA,1650,72,tech_magazine,publisher,English,private_company,87,yes,2025,North America
+arstechnica.com,trusted,tech,1998,USA,3850,28,tech_news,publisher,English,private_company,89,yes,2025,North America
+engadget.com,trusted,tech,2004,USA,2450,42,tech_news,publisher,English,public_company,82,no,2025,North America
+cnet.com,trusted,tech,1994,USA,680,165,tech_news,publisher,English,private_company,83,no,2025,North America
+zdnet.com,trusted,tech,1991,USA,2100,52,tech_news,publisher,English,private_company,84,yes,2025,North America
+mayo.edu,trusted,medical,1889,USA,1250,95,medical_institution,organization,English,nonprofit,96,yes,2025,North America
+clevelandclinic.org,trusted,medical,1921,USA,1850,68,medical_institution,organization,English,nonprofit,95,yes,2025,North America
+webmd.com,trusted,medical,1996,USA,420,285,medical_information,publisher,English,private_company,78,yes,2025,North America
+healthline.com,trusted,medical,2006,USA,180,450,medical_information,publisher,English,private_company,77,yes,2025,North America
+medicalnewstoday.com,trusted,medical,2003,USA,850,185,medical_news,publisher,English,private_company,81,yes,2025,North America
+weather.gov,trusted,government,1870,USA,580,325,weather_service,government,English,government,97,no,2025,North America
+usgs.gov,trusted,government,1879,USA,2650,42,geological_survey,government,English,government,96,yes,2025,North America
+archives.gov,trusted,government,1934,USA,4500,15,historical_archives,government,English,government,95,no,2025,North America
+loc.gov,trusted,government,1800,USA,1650,75,library,government,English,government,96,yes,2025,North America
+un.org,trusted,government,1945,USA,1250,98,international_organization,government,English,government,94,yes,2025,Global
+imf.org,trusted,government,1944,USA,4200,18,international_organization,government,English,government,93,yes,2025,Global
+worldbank.org,trusted,government,1944,USA,3500,25,international_organization,government,English,government,94,yes,2025,Global
+europarl.europa.eu,trusted,government,1952,Belgium,5200,12,government,government,English,government,95,yes,2025,Europe
+britannica.com,trusted,reference,1768,USA,1450,125,encyclopedia,publisher,English,private_company,88,yes,2025,North America
+wikipedia.org,trusted,reference,2001,USA,15,6500,encyclopedia,organization,English,nonprofit,85,yes,2026,Global
+merriam-webster.com,trusted,reference,1828,USA,1850,98,dictionary,publisher,English,private_company,90,no,2025,North America
+oxforddictionaries.com,trusted,reference,1857,UK,3200,45,dictionary,publisher,English,public_company,91,no,2025,Europe
+investopedia.com,trusted,reference,1999,USA,680,285,financial_education,publisher,English,private_company,82,yes,2025,North America
+khanacademy.org,trusted,education,2008,USA,850,365,online_education,organization,English,nonprofit,93,yes,2025,North America
+coursera.org,trusted,education,2012,USA,420,485,online_education,organization,English,public_company,86,yes,2025,North America
+edx.org,trusted,education,2012,USA,1250,225,online_education,organization,English,nonprofit,90,yes,2025,North America
+ted.com,trusted,education,1984,USA,680,285,educational_videos,organization,English,nonprofit,89,yes,2025,North America
+vox.com,trusted,news,2014,USA,920,165,explanatory_journalism,publisher,English,public_company,86,yes,2025,North America
+fivethirtyeight.com,trusted,news,2008,USA,2450,52,data_journalism,publisher,English,public_company,91,yes,2025,North America
+axios.com,trusted,news,2016,USA,1450,95,news,publisher,English,private_company,88,yes,2025,North America
+theintercept.com,trusted,news,2013,USA,4500,22,investigative_journalism,organization,English,nonprofit,94,yes,2025,North America
+marketwatch.com,trusted,news,1997,USA,1250,125,financial_news,publisher,English,public_company,85,yes,2025,North America
+barrons.com,trusted,news,1921,USA,3850,28,financial_news,publisher,English,public_company,89,yes,2025,North America
+cnbc.com,trusted,news,1989,USA,320,245,business_news,publisher,English,public_company,86,yes,2026,North America
+businessinsider.com,trusted,news,2007,USA,285,385,business_news,publisher,English,private_company,80,yes,2025,North America
+vice.com,trusted,news,1994,Canada,2100,85,alternative_news,publisher,English,private_company,79,no,2025,North America
+slate.com,trusted,news,1996,USA,3200,42,magazine,publisher,English,private_company,84,yes,2025,North America
+salon.com,trusted,news,1995,USA,4500,28,magazine,publisher,English,private_company,81,yes,2025,North America
+huffpost.com,trusted,news,2005,USA,580,285,general_news,publisher,English,public_company,76,yes,2025,North America
+buzzfeednews.com,trusted,news,2011,USA,3850,35,news,publisher,English,private_company,78,yes,2025,North America
+usatoday.com,trusted,news,1982,USA,520,195,general_news,publisher,English,public_company,85,yes,2025,North America
+latimes.com,trusted,news,1881,USA,680,145,general_news,publisher,English,private_company,88,yes,2025,North America
+chicagotribune.com,trusted,news,1847,USA,1850,68,general_news,publisher,English,public_company,87,yes,2025,North America
+sfchronicle.com,trusted,news,1865,USA,2650,42,general_news,publisher,English,private_company,86,yes,2025,North America
+bostonglobe.com,trusted,news,1872,USA,3200,35,general_news,publisher,English,private_company,89,yes,2025,North America
+thestar.com,trusted,news,1892,Canada,2850,52,general_news,publisher,English,private_company,86,yes,2025,North America
+globeandmail.com,trusted,news,1844,Canada,3450,38,general_news,publisher,English,private_company,88,yes,2025,North America
+cbc.ca,trusted,news,1936,Canada,680,215,general_news,publisher,English,public_corporation,92,yes,2025,North America
+scmp.com,trusted,news,1903,Hong Kong,1650,85,international_news,publisher,English,private_company,81,yes,2025,Asia
+theaustralian.com.au,trusted,news,1964,Australia,4200,28,general_news,publisher,English,private_company,84,yes,2025,Oceania
+smh.com.au,trusted,news,1831,Australia,2450,62,general_news,publisher,English,private_company,86,yes,2025,Oceania
+abc.net.au,trusted,news,1929,Australia,850,165,general_news,publisher,English,public_corporation,94,yes,2025,Oceania
+nzherald.co.nz,trusted,news,1863,New Zealand,3850,35,general_news,publisher,English,private_company,83,yes,2025,Oceania
+japantimes.co.jp,trusted,news,1897,Japan,4500,22,international_news,publisher,English,private_company,85,yes,2025,Asia
+koreatimes.co.kr,trusted,news,1950,South Korea,5200,18,international_news,publisher,English,private_company,82,no,2025,Asia
+straitstimes.com,trusted,news,1845,Singapore,2100,68,international_news,publisher,English,private_company,87,yes,2025,Asia
+thetimes.co.uk,trusted,news,1785,UK,1250,125,general_news,publisher,English,private_company,91,yes,2025,Europe
+telegraph.co.uk,trusted,news,1855,UK,920,155,general_news,publisher,English,private_company,88,yes,2025,Europe
+independent.co.uk,trusted,news,1986,UK,1450,98,general_news,publisher,English,private_company,85,yes,2025,Europe
+spiegel.de,trusted,news,1947,Germany,680,185,general_news,publisher,German,private_company,93,yes,2025,Europe
+lemonde.fr,trusted,news,1944,France,850,165,general_news,publisher,French,private_company,92,yes,2025,Europe
+elpais.com,trusted,news,1976,Spain,1250,125,general_news,publisher,Spanish,private_company,89,yes,2025,Europe
+corriere.it,trusted,news,1876,Italy,1650,95,general_news,publisher,Italian,private_company,87,yes,2025,Europe
+nrc.nl,trusted,news,1828,Netherlands,4200,28,general_news,publisher,Dutch,private_company,91,yes,2025,Europe
+dn.se,trusted,news,1864,Sweden,5200,18,general_news,publisher,Swedish,private_company,90,yes,2025,Europe
+tagesanzeiger.ch,trusted,news,1893,Switzerland,6800,12,general_news,publisher,German,private_company,88,yes,2025,Europe
+orf.at,trusted,news,1955,Austria,2850,52,general_news,publisher,German,public_corporation,93,yes,2025,Europe
+rte.ie,trusted,news,1926,Ireland,3650,38,general_news,publisher,English,public_corporation,91,yes,2025,Europe
+jpost.com,trusted,news,1932,Israel,2450,55,international_news,publisher,English,private_company,80,no,2025,Middle East
+haaretz.com,trusted,news,1918,Israel,3850,32,international_news,publisher,English,private_company,85,yes,2025,Middle East
+thehindu.com,trusted,news,1878,India,1850,125,general_news,publisher,English,private_company,86,yes,2025,Asia
+timeofindia.indiatimes.com,trusted,news,1838,India,420,485,general_news,publisher,English,private_company,79,yes,2025,Asia
+hindustantimes.com,trusted,news,1924,India,1250,155,general_news,publisher,English,private_company,81,yes,2025,Asia
+dawn.com,trusted,news,1941,Pakistan,2650,68,general_news,publisher,English,private_company,83,yes,2025,Asia
+bangkokpost.com,trusted,news,1946,Thailand,3200,48,international_news,publisher,English,private_company,82,yes,2025,Asia
+channelnewsasia.com,trusted,news,1999,Singapore,1650,95,international_news,publisher,English,public_company,88,yes,2025,Asia
+asahi.com,trusted,news,1879,Japan,2100,85,general_news,publisher,Japanese,private_company,90,yes,2025,Asia
+yomiuri.co.jp,trusted,news,1874,Japan,850,195,general_news,publisher,Japanese,private_company,89,yes,2025,Asia
+consumerreports.org,trusted,reference,1936,USA,3850,42,consumer_advocacy,organization,English,nonprofit,94,yes,2025,North America
+cochrane.org,trusted,medical,1993,UK,8500,8,medical_research,organization,English,nonprofit,98,yes,2025,Europe
+jamanetwork.com,trusted,academic,1883,USA,4200,22,medical_journal,organization,English,nonprofit,97,yes,2025,North America
+cell.com,trusted,academic,1974,USA,5200,15,science_journal,publisher,English,public_company,97,yes,2025,North America
+springer.com,trusted,academic,1842,Germany,1850,95,academic_publisher,publisher,English,public_company,95,yes,2025,Europe
+tandfonline.com,trusted,academic,1798,UK,2450,68,academic_publisher,publisher,English,public_company,94,yes,2025,Europe
+wiley.com,trusted,academic,1807,USA,2100,75,academic_publisher,publisher,English,public_company,95,yes,2025,North America
+elsevier.com,trusted,academic,1880,Netherlands,1450,110,academic_publisher,publisher,English,public_company,96,yes,2025,Europe
+sciencedirect.com,trusted,academic,1997,Netherlands,580,285,academic_database,publisher,English,public_company,96,yes,2025,Europe
+jstor.org,trusted,academic,1995,USA,1250,165,academic_database,organization,English,nonprofit,97,yes,2025,North America
+arxiv.org,trusted,academic,1991,USA,850,225,preprint_server,organization,English,academic,92,yes,2025,North America
+biorxiv.org,trusted,academic,2013,USA,3200,52,preprint_server,organization,English,nonprofit,93,yes,2025,North America
+ssrn.com,trusted,academic,1994,USA,2650,68,preprint_server,organization,English,public_company,91,yes,2025,North America
+pubmed.gov,trusted,government,1996,USA,320,425,medical_database,government,English,government,99,yes,2025,North America
+europepmc.org,trusted,government,2007,UK,4500,28,medical_database,government,English,government,98,yes,2025,Europe
+data.gov,trusted,government,2009,USA,5200,18,open_data,government,English,government,95,yes,2025,North America
+census.gov,trusted,government,1902,USA,1650,95,statistical_agency,government,English,government,97,yes,2025,North America
+bls.gov,trusted,government,1884,USA,2850,52,labor_statistics,government,English,government,96,yes,2025,North America
+ed.gov,trusted,government,1867,USA,3650,35,education_agency,government,English,government,95,yes,2025,North America
+state.gov,trusted,government,1789,USA,2100,68,government,government,English,government,96,yes,2025,North America
+justice.gov,trusted,government,1870,USA,2450,55,government,government,English,government,95,yes,2025,North America
+treasury.gov,trusted,government,1789,USA,3200,42,government,government,English,government,96,yes,2025,North America
+hhs.gov,trusted,government,1953,USA,2650,48,health_agency,government,English,government,97,yes,2025,North America
+cms.gov,trusted,government,1965,USA,3850,38,health_agency,government,English,government,96,yes,2025,North America
+samhsa.gov,trusted,government,1992,USA,5200,22,health_agency,government,English,government,95,yes,2025,North America
+federalreserve.gov,trusted,government,1913,USA,4200,28,financial_agency,government,English,government,95,yes,2025,North America
+ftc.gov,trusted,government,1914,USA,3650,35,consumer_protection,government,English,government,94,yes,2025,North America
+sec.gov,trusted,government,1934,USA,1250,125,financial_regulation,government,English,government,96,yes,2025,North America
+nist.gov,trusted,government,1901,USA,4500,25,standards_agency,government,English,government,97,yes,2025,North America
+energy.gov,trusted,government,1977,USA,3200,38,energy_agency,government,English,government,95,yes,2025,North America
+noaa.gov,trusted,government,1970,USA,1850,85,weather_agency,government,English,government,97,yes,2025,North America
+esa.int,trusted,government,1975,France,3850,32,space_agency,government,English,government,96,yes,2025,Europe
+jaxa.jp,trusted,government,2003,Japan,6800,12,space_agency,government,English,government,95,yes,2025,Asia
+isro.gov.in,trusted,government,1969,India,5200,18,space_agency,government,English,government,94,yes,2025,Asia
+canada.ca,trusted,government,1867,Canada,920,215,government,government,English,government,96,yes,2025,North America
+gov.au,trusted,government,1901,Australia,1650,125,government,government,English,government,95,yes,2025,Oceania
+govt.nz,trusted,government,1907,New Zealand,4200,28,government,government,English,government,94,yes,2025,Oceania
+europa.eu,trusted,government,1958,Belgium,1250,165,government,government,English,government,96,yes,2025,Europe
+bundesregierung.de,trusted,government,1949,Germany,2850,68,government,government,German,government,95,yes,2025,Europe
+gouvernement.fr,trusted,government,1958,France,2450,78,government,government,French,government,94,yes,2025,Europe
+gob.es,trusted,government,1978,Spain,3200,52,government,government,Spanish,government,93,yes,2025,Europe
+governo.it,trusted,government,1946,Italy,3650,42,government,government,Italian,government,92,yes,2025,Europe
+rijksoverheid.nl,trusted,government,1815,Netherlands,4500,32,government,government,Dutch,government,95,yes,2025,Europe
+regeringen.se,trusted,government,1809,Sweden,6800,18,government,government,Swedish,government,94,yes,2025,Europe
+admin.ch,trusted,government,1848,Switzerland,5200,25,government,government,German,government,96,yes,2025,Europe
+bundeskanzleramt.at,trusted,government,1945,Austria,8500,12,government,government,German,government,93,yes,2025,Europe
+gov.ie,trusted,government,1922,Ireland,4200,28,government,government,English,government,94,yes,2025,Europe
+gov.sg,trusted,government,1965,Singapore,2100,85,government,government,English,government,96,yes,2025,Asia
+gov.hk,trusted,government,1997,Hong Kong,3200,48,government,government,English,government,94,yes,2025,Asia
+go.jp,trusted,government,1947,Japan,1850,125,government,government,Japanese,government,95,yes,2025,Asia
+korea.kr,trusted,government,1948,South Korea,2650,68,government,government,Korean,government,93,yes,2025,Asia
+gov.in,trusted,government,1947,India,1450,195,government,government,English,government,91,yes,2025,Asia
+mygov.in,trusted,government,2014,India,2450,88,government,government,English,government,90,yes,2025,Asia
+gov.il,trusted,government,1948,Israel,4500,28,government,government,Hebrew,government,92,yes,2025,Middle East
+gov.br,trusted,government,1889,Brazil,1650,145,government,government,Portuguese,government,89,yes,2025,South America
+gob.mx,trusted,government,1917,Mexico,2100,95,government,government,Spanish,government,88,yes,2025,North America
+argentina.gob.ar,trusted,government,1816,Argentina,3850,42,government,government,Spanish,government,87,yes,2025,South America
+gov.za,trusted,government,1910,South Africa,2850,55,government,government,English,government,90,yes,2025,Africa
+egypt.gov.eg,trusted,government,1952,Egypt,5200,28,government,government,Arabic,government,85,no,2025,Africa
+uae.gov.ae,trusted,government,1971,UAE,3650,38,government,government,Arabic,government,91,yes,2025,Middle East
+gov.sa,trusted,government,1932,Saudi Arabia,4200,32,government,government,Arabic,government,88,no,2025,Middle East
+yale.edu,trusted,academic,1701,USA,2850,35,university,university,English,academic,97,yes,2025,North America
+princeton.edu,trusted,academic,1746,USA,3200,28,university,university,English,academic,97,yes,2025,North America
+columbia.edu,trusted,academic,1754,USA,2450,38,university,university,English,academic,96,yes,2025,North America
+chicago.edu,trusted,academic,1890,USA,3650,25,university,university,English,academic,96,yes,2025,North America
+caltech.edu,trusted,academic,1891,USA,4200,18,university,university,English,academic,97,yes,2025,North America
+upenn.edu,trusted,academic,1740,USA,2650,32,university,university,English,academic,96,yes,2025,North America
+cornell.edu,trusted,academic,1865,USA,2100,42,university,university,English,academic,95,yes,2025,North America
+duke.edu,trusted,academic,1838,USA,3450,28,university,university,English,academic,95,yes,2025,North America
+northwestern.edu,trusted,academic,1851,USA,3850,25,university,university,English,academic,95,yes,2025,North America
+jhu.edu,trusted,academic,1876,USA,2850,32,university,university,English,academic,96,yes,2025,North America
+umich.edu,trusted,academic,1817,USA,1850,58,university,university,English,academic,94,yes,2025,North America
+ucla.edu,trusted,academic,1919,USA,1650,68,university,university,English,academic,94,yes,2025,North America
+utoronto.ca,trusted,academic,1827,Canada,2450,42,university,university,English,academic,95,yes,2025,North America
+ubc.ca,trusted,academic,1908,Canada,2850,35,university,university,English,academic,94,yes,2025,North America
+mcgill.ca,trusted,academic,1821,Canada,3200,32,university,university,English,academic,94,yes,2025,North America
+imperial.ac.uk,trusted,academic,1907,UK,2650,38,university,university,English,academic,96,yes,2025,Europe
+ucl.ac.uk,trusted,academic,1826,UK,2100,48,university,university,English,academic,96,yes,2025,Europe
+lse.ac.uk,trusted,academic,1895,UK,3450,28,university,university,English,academic,95,yes,2025,Europe
+ed.ac.uk,trusted,academic,1582,UK,2850,35,university,university,English,academic,95,yes,2025,Europe
+manchester.ac.uk,trusted,academic,1824,UK,3650,28,university,university,English,academic,93,yes,2025,Europe
+ethz.ch,trusted,academic,1855,Switzerland,3200,32,university,university,English,academic,97,yes,2025,Europe
+tum.de,trusted,academic,1868,Germany,3850,28,university,university,German,academic,96,yes,2025,Europe
+sorbonne-universite.fr,trusted,academic,1257,France,4200,25,university,university,French,academic,95,yes,2025,Europe
+nus.edu.sg,trusted,academic,1905,Singapore,2450,42,university,university,English,academic,94,yes,2025,Asia
+ntu.edu.sg,trusted,academic,1991,Singapore,3200,32,university,university,English,academic,93,yes,2025,Asia
+u-tokyo.ac.jp,trusted,academic,1877,Japan,2650,38,university,university,Japanese,academic,96,yes,2025,Asia
+kyoto-u.ac.jp,trusted,academic,1897,Japan,3450,28,university,university,Japanese,academic,95,yes,2025,Asia
+snu.ac.kr,trusted,academic,1946,South Korea,3850,25,university,university,Korean,academic,94,yes,2025,Asia
+hku.hk,trusted,academic,1911,Hong Kong,2850,35,university,university,English,academic,94,yes,2025,Asia
+anu.edu.au,trusted,academic,1946,Australia,3650,28,university,university,English,academic,94,yes,2025,Oceania
+unsw.edu.au,trusted,academic,1949,Australia,2450,42,university,university,English,academic,93,yes,2025,Oceania
+unimelb.edu.au,trusted,academic,1853,Australia,2100,48,university,university,English,academic,94,yes,2025,Oceania
+auckland.ac.nz,trusted,academic,1883,New Zealand,3850,28,university,university,English,academic,92,yes,2025,Oceania
+iitb.ac.in,trusted,academic,1958,India,4200,25,university,university,English,academic,91,yes,2025,Asia
+iisc.ac.in,trusted,academic,1909,India,4500,22,university,university,English,academic,92,yes,2025,Asia
+tau.ac.il,trusted,academic,1956,Israel,3650,28,university,university,Hebrew,academic,93,yes,2025,Middle East
+technion.ac.il,trusted,academic,1912,Israel,4200,22,university,university,Hebrew,academic,94,yes,2025,Middle East
+usp.br,trusted,academic,1934,Brazil,2650,42,university,university,Portuguese,academic,90,yes,2025,South America
+unam.mx,trusted,academic,1551,Mexico,2100,58,university,university,Spanish,academic,91,yes,2025,North America
+uba.ar,trusted,academic,1821,Argentina,3200,35,university,university,Spanish,academic,89,yes,2025,South America
+uct.ac.za,trusted,academic,1829,South Africa,4500,22,university,university,English,academic,91,yes,2025,Africa
+ifj.org,trusted,organization,1926,Belgium,8500,5,journalism_advocacy,organization,English,nonprofit,96,yes,2025,Europe
+cpj.org,trusted,organization,1981,USA,9500,4,journalism_protection,organization,English,nonprofit,97,yes,2025,North America
+rsf.org,trusted,organization,1985,France,7800,6,press_freedom,organization,English,nonprofit,96,yes,2025,Europe
+icij.org,trusted,news,1997,USA,8200,5,investigative_journalism,organization,English,nonprofit,98,yes,2025,North America
+bellingcat.com,trusted,news,2014,Netherlands,5200,18,investigative_journalism,organization,English,nonprofit,95,yes,2025,Europe
+themarkup.org,trusted,news,2018,USA,6800,8,investigative_journalism,organization,English,nonprofit,96,yes,2025,North America
+reveal.org,trusted,news,2013,USA,7500,6,investigative_journalism,organization,English,nonprofit,95,yes,2025,North America
+afp.com,trusted,news,1835,France,2450,52,news_agency,organization,French,public_company,95,yes,2025,Europe
+ansa.it,trusted,news,1945,Italy,4200,22,news_agency,organization,Italian,cooperative,93,yes,2025,Europe
+dpa.com,trusted,news,1949,Germany,6800,8,news_agency,organization,German,cooperative,94,yes,2025,Europe
+efe.com,trusted,news,1939,Spain,5200,15,news_agency,organization,Spanish,government,92,yes,2025,Europe
+tass.com,trusted,news,1902,Russia,3850,28,news_agency,organization,Russian,government,78,no,2025,Europe
+xinhuanet.com,trusted,news,1931,China,1250,165,news_agency,organization,Chinese,government,72,no,2025,Asia
+pti.org.in,trusted,news,1947,India,8500,5,news_agency,organization,English,cooperative,85,yes,2025,Asia
+kyodonews.net,trusted,news,1945,Japan,5200,18,news_agency,organization,Japanese,cooperative,89,yes,2025,Asia
+yonhapnews.co.kr,trusted,news,1980,South Korea,4200,25,news_agency,organization,Korean,public_company,87,yes,2025,Asia
+themoscowtimes.com,trusted,news,1992,Russia,6800,12,independent_news,publisher,English,private_company,83,yes,2025,Europe
+codastory.com,trusted,news,2016,Netherlands,9500,3,investigative_journalism,organization,English,nonprofit,93,yes,2025,Europe
+mediapart.fr,trusted,news,2008,France,4500,25,investigative_journalism,organization,French,cooperative,94,yes,2025,Europe
+correctiv.org,trusted,news,2014,Germany,8500,5,investigative_journalism,organization,German,nonprofit,96,yes,2025,Europe
+frontiermyanmar.net,trusted,news,2015,Myanmar,9500,2,independent_news,organization,English,nonprofit,88,yes,2025,Asia
+rappler.com,trusted,news,2012,Philippines,4200,32,independent_news,publisher,English,private_company,90,yes,2025,Asia
+malaysiakini.com,trusted,news,1999,Malaysia,8500,8,independent_news,publisher,English,private_company,87,yes,2025,Asia
+thewire.in,trusted,news,2015,India,3850,38,independent_news,organization,English,nonprofit,91,yes,2025,Asia
+scroll.in,trusted,news,2014,India,4500,28,independent_news,publisher,English,private_company,89,yes,2025,Asia
+quartz.com,trusted,news,2012,USA,3200,52,business_news,publisher,English,private_company,87,yes,2025,North America
+fastcompany.com,trusted,news,1995,USA,2450,68,business_news,publisher,English,private_company,84,yes,2025,North America
+inccom,trusted,news,1979,USA,2850,55,business_news,publisher,English,private_company,83,yes,2025,North America
+entrepreneur.com,trusted,news,1977,USA,2100,78,business_news,publisher,English,private_company,82,yes,2025,North America
+fortune.com,trusted,news,1929,USA,1450,115,business_news,publisher,English,public_company,88,yes,2025,North America
+hbr.org,trusted,academic,1922,USA,3650,42,business_journal,organization,English,academic,93,yes,2025,North America
+mitsmr.com,trusted,academic,1959,USA,5200,22,business_journal,organization,English,academic,92,yes,2025,North America
+foreignaffairs.com,trusted,academic,1922,USA,4500,28,international_affairs,organization,English,nonprofit,95,yes,2025,North America
+foreignpolicy.com,trusted,news,1970,USA,3850,38,international_affairs,publisher,English,private_company,91,yes,2025,North America
+chathamhouse.org,trusted,academic,1920,UK,8500,8,think_tank,organization,English,nonprofit,95,yes,2025,Europe
+brookings.edu,trusted,academic,1916,USA,5200,25,think_tank,organization,English,nonprofit,94,yes,2025,North America
+cfr.org,trusted,academic,1921,USA,6800,15,think_tank,organization,English,nonprofit,95,yes,2025,North America
+rand.org,trusted,academic,1948,USA,4200,32,think_tank,organization,English,nonprofit,94,yes,2025,North America
+carnegieendowment.org,trusted,academic,1910,USA,7500,12,think_tank,organization,English,nonprofit,95,yes,2025,North America

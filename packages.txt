@@ -1,0 +1,11 @@
+# System-level dependencies for Streamlit Cloud
+# These packages will be installed via apt-get
+
+# For image processing (Pillow dependencies)
+libjpeg-dev
+libpng-dev
+libtiff-dev
+
+# For web scraping
+libxml2-dev
+libxslt1-dev
