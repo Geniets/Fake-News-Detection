@@ -7,7 +7,7 @@ import os
 from utils.webscraper import scrape_website_metadata, format_metadata_for_display
 from PIL import Image
 import io
-import google.generativeai as genai
+from google import genai
 
 # Page configuration
 st.set_page_config(
@@ -100,10 +100,10 @@ def load_image_model():
 # Initialize Gemini API
 def initialize_gemini(api_key):
     try:
-        genai.configure(api_key=api_key)
-        return True, None
+        client = genai.Client(api_key=api_key)
+        return True, None, client
     except Exception as e:
-        return False, str(e)
+        return False, str(e), None
 
 # Load all models
 website_model, feature_names, model_info, website_model_loaded = load_website_model()
@@ -160,9 +160,10 @@ with st.sidebar:
     
     if gemini_api_key:
         if 'gemini_initialized' not in st.session_state or st.session_state.get('gemini_key') != gemini_api_key:
-            success, error = initialize_gemini(gemini_api_key)
+            success, error, client = initialize_gemini(gemini_api_key)
             st.session_state['gemini_initialized'] = success
             st.session_state['gemini_key'] = gemini_api_key
+            st.session_state['gemini_client'] = client
             if success:
                 st.success("Gemini API: Connected")
             else:
@@ -818,8 +819,11 @@ with tab5:
             if article_text and len(article_text.strip()) > 0:
                 with st.spinner("Validating content type..."):
                     try:
-                        # Initialize Gemini model
-                        model = genai.GenerativeModel('gemini-2.0-flash-lite')
+                        # Get Gemini client
+                        client = st.session_state.get('gemini_client')
+                        if not client:
+                            st.error("Gemini client not initialized")
+                            st.stop()
                         
                         # First, validate content type
                         validation_prompt = f"""Analyze this text and determine if it's suitable for fake news detection. 
@@ -835,7 +839,10 @@ Respond with ONLY ONE WORD:
 
 Response:"""
                         
-                        validation_response = model.generate_content(validation_prompt)
+                        validation_response = client.models.generate_content(
+                            model='gemini-2.0-flash-lite',
+                            contents=validation_prompt
+                        )
                         content_type = validation_response.text.strip().upper()
                         
                         # Check if content is appropriate
@@ -887,7 +894,10 @@ Response:"""
                 
                 with st.spinner("Analyzing article with Gemini AI..."):
                     try:
-                        model = genai.GenerativeModel('gemini-2.0-flash-lite')
+                        client = st.session_state.get('gemini_client')
+                        if not client:
+                            st.error("Gemini client not initialized")
+                            st.stop()
                         
                         # Create detailed prompt for fake news detection
                         prompt = f"""You are a professional fact-checker and misinformation analyst. Analyze the following article/text for signs of fake news, misinformation, or unreliable content.
@@ -913,7 +923,10 @@ RED_FLAGS: [comma-separated list of concerning elements, or "None" if legitimate
 RECOMMENDATION: [specific action user should take]"""
                         
                         # Get response from Gemini
-                        response = model.generate_content(prompt)
+                        response = client.models.generate_content(
+                            model='gemini-2.0-flash-lite',
+                            contents=prompt
+                        )
                         result_text = response.text
                         
                         # Parse response
