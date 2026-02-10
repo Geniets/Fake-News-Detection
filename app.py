@@ -816,9 +816,77 @@ with tab5:
         
         if st.button("Analyze Article", type="primary", use_container_width=True):
             if article_text and len(article_text.strip()) > 0:
-                with st.spinner("Analyzing article with Gemini AI..."):
+                with st.spinner("Validating content type..."):
                     try:
                         # Initialize Gemini model
+                        model = genai.GenerativeModel('gemini-2.0-flash-lite')
+                        
+                        # First, validate content type
+                        validation_prompt = f"""Analyze this text and determine if it's suitable for fake news detection. 
+
+Text to check:
+{article_text[:500]}
+
+Respond with ONLY ONE WORD:
+- "NEWS" if it's a news article, blog post, social media post, or written content making factual claims
+- "CODE" if it's programming code (Python, JavaScript, etc.)
+- "DATA" if it's structured data (JSON, CSV, tables)
+- "OTHER" if it's poetry, fiction, recipes, instructions, or casual conversation
+
+Response:"""
+                        
+                        validation_response = model.generate_content(validation_prompt)
+                        content_type = validation_response.text.strip().upper()
+                        
+                        # Check if content is appropriate
+                        if "CODE" in content_type:
+                            st.error("❌ **Programming Code Detected**")
+                            st.warning("""
+                            This tool is designed for **news articles and factual content** only.
+                            
+                            You've pasted programming code, which cannot be analyzed for fake news.
+                            
+                            **What this tool analyzes:**
+                            - News articles
+                            - Blog posts
+                            - Social media posts with factual claims
+                            - Press releases
+                            - Opinion pieces
+                            
+                            Please paste news or article content instead.
+                            """)
+                            st.stop()
+                        
+                        elif "DATA" in content_type:
+                            st.error("❌ **Structured Data Detected**")
+                            st.warning("""
+                            This tool is designed for **news articles and text content** only.
+                            
+                            You've pasted structured data (JSON, CSV, etc.), which cannot be analyzed for fake news.
+                            
+                            Please paste actual article or news content instead.
+                            """)
+                            st.stop()
+                        
+                        elif "OTHER" in content_type and len(article_text.split()) < 50:
+                            st.warning("⚠️ **Short Text Detected**")
+                            st.info("""
+                            The text you provided is very short. Fake news detection works best with:
+                            - Complete articles (100+ words)
+                            - Full paragraphs with context
+                            - Substantial content to analyze
+                            
+                            Short snippets may not provide accurate results.
+                            """)
+                            if not st.button("Analyze Anyway", type="secondary"):
+                                st.stop()
+                    
+                    except Exception as e:
+                        st.error(f"Error during content validation: {e}")
+                        st.info("Proceeding with analysis anyway...")
+                
+                with st.spinner("Analyzing article with Gemini AI..."):
+                    try:
                         model = genai.GenerativeModel('gemini-2.0-flash-lite')
                         
                         # Create detailed prompt for fake news detection
