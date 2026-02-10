@@ -7,7 +7,7 @@ import os
 from utils.webscraper import scrape_website_metadata, format_metadata_for_display
 from PIL import Image
 import io
-from google import genai
+import google.genai as genai
 
 # Page configuration
 st.set_page_config(
