@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 import json
 import os
-from webscraper import scrape_website_metadata, format_metadata_for_display
+from utils.webscraper import scrape_website_metadata, format_metadata_for_display
 from PIL import Image
 import io
 import google.generativeai as genai
@@ -84,7 +84,7 @@ def load_image_model():
         
         # Load the Keras model (.keras file is a zip format in Keras 3.x)
         # Using FIXED version with data_format parameter removed from RandomFlip
-        model = keras.models.load_model('resnet50_best_FIXED.keras')
+        model = keras.models.load_model('models/resnet50_best_FIXED.keras')
         
         return model, True
     except Exception as e:
@@ -126,7 +126,7 @@ with st.sidebar:
         st.caption("Model ready for analysis")
     else:
         st.error("Status: Not Loaded")
-        st.caption("Check if stacking_model.joblib exists")
+        st.caption("Check if models/stacking_model.joblib exists")
     
     st.divider()
     
