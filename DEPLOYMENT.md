@@ -1,13 +1,23 @@
 # AI Detection Suite - Deployment Guide
 
-This application is a Streamlit-based AI Detection Suite that includes website credibility analysis, AI image detection, and fake news detection.
+This application is a Streamlit-based AI Detection Suite that includes website credibility analysis, AI image detection, and fake news detection (powered by Gemini AI).
 
 ## 📋 Prerequisites
 
 Before deploying, ensure you have:
-- All model files (`.joblib`, `.keras` files)
-- Python 3.9 or higher
+- Model files for website credibility (`.joblib` files) and image detection (`.keras` file)
+- **Gemini API Key** for fake news detection (free at https://makersuite.google.com/app/apikey)
+- Python 3.11 (specified in runtime.txt)
 - Git installed and configured
+
+## 🎯 Key Updates (v2.0)
+
+**Fake News Detection Now Uses Gemini API:**
+- ✅ No more 1.2GB model download
+- ✅ Faster and more accurate analysis
+- ✅ Easier deployment (no large files)
+- ✅ Real-time AI-powered fact-checking
+- 🔑 Requires free Gemini API key (get at https://makersuite.google.com/app/apikey)
 
 ## 🚀 Deployment Options
 
@@ -20,7 +30,7 @@ Before deploying, ensure you have:
    # Initialize git if not already done
    git init
    git add .
-   git commit -m "Initial commit for deployment"
+   git commit -m "Deploy AI Detection Suite with Gemini integration"
    
    # Create a new repository on GitHub and then:
    git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
@@ -35,25 +45,18 @@ Before deploying, ensure you have:
    - Select your repository, branch (main), and main file (app.py)
    - Click "Deploy"
 
+3. **Configure API Key (Important!)**
+   - Users will need to enter their Gemini API key in the app sidebar
+   - Alternatively, set as Streamlit Secret for automatic use:
+     - In Streamlit Cloud dashboard, go to your app
+     - Click "Settings" → "Secrets"
+     - Add: `GEMINI_API_KEY = "your-api-key-here"`
+
 **Important Notes:**
 - Free tier includes 1 GB of storage and resources
-- Your model files must be under 1 GB combined
-- GitHub repo size limit is 100 MB per file (use Git LFS for larger model files)
-
-**If model files are too large:**
-```bash
-# Install Git LFS
-git lfs install
-
-# Track large files
-git lfs track "*.joblib"
-git lfs track "*.keras"
-
-# Add .gitattributes
-git add .gitattributes
-git commit -m "Configure Git LFS"
-git push
-```
+- Website and image models are small enough for free tier
+- No large fake news model needed anymore (uses API instead)
+- Python 3.11 specified in runtime.txt for compatibility
 
 ---
 

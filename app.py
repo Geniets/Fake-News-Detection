@@ -4,10 +4,10 @@ import numpy as np
 import joblib
 import json
 import os
-import gdown
 from webscraper import scrape_website_metadata, format_metadata_for_display
 from PIL import Image
 import io
+import google.generativeai as genai
 
 # Page configuration
 st.set_page_config(
@@ -97,55 +97,17 @@ def load_image_model():
         return None, False
 
 # Download large model from Google Drive if not present
-def download_fake_news_model():
-    model_path = 'fake_news_model.joblib'
-    if not os.path.exists(model_path):
-        try:
-            st.info("📥 Downloading fake news detection model from Google Drive (~1.2 GB)...")
-            st.info("⏱️ This is a one-time download and may take 2-5 minutes.")
-            
-            # Google Drive file ID
-            file_id = '1w4NNUJEFchCCIqQrdPeV78WrrTzN9wmJ'
-            url = f'https://drive.google.com/uc?id={file_id}'
-            
-            # Download using gdown
-            gdown.download(url, model_path, quiet=False)
-            st.success("✅ Model downloaded successfully!")
-        except Exception as e:
-            st.error(f"❌ Failed to download model: {str(e)}")
-            st.info("Please check your internet connection and try again.")
-            raise
-
-# Load fake news detection model
-@st.cache_resource
-def load_fake_news_model():
+# Initialize Gemini API
+def initialize_gemini(api_key):
     try:
-        import torch
-        from transformers import AutoTokenizer, AutoModelForSequenceClassification
-        
-        # Download model if needed
-        download_fake_news_model()
-        
-        model = joblib.load('fake_news_model.joblib')
-        tokenizer = joblib.load('tokenizer.joblib')
-        config = joblib.load('config.joblib')
-        
-        # Set model to evaluation mode
-        model.eval()
-        
-        # Determine device
-        device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        model = model.to(device)
-        
-        return model, tokenizer, config, device, True, None
+        genai.configure(api_key=api_key)
+        return True, None
     except Exception as e:
-        error_msg = str(e)
-        return None, None, None, None, False, error_msg
+        return False, str(e)
 
 # Load all models
 website_model, feature_names, model_info, website_model_loaded = load_website_model()
 image_model, image_model_loaded = load_image_model()
-fake_news_model, fake_news_tokenizer, fake_news_config, fake_news_device, fake_news_model_loaded, fake_news_error = load_fake_news_model()
 
 # Header
 st.markdown('<h1 class="main-header">AI Detection Suite</h1>', unsafe_allow_html=True)
@@ -187,17 +149,30 @@ with st.sidebar:
     
     st.divider()
     
-    # Fake News Model Status
-    st.markdown("#### Fake News Detection Model")
-    if fake_news_model_loaded:
-        st.success("Status: Loaded")
-        st.caption("Model ready for text analysis")
-    else:
-        st.error("Status: Not Loaded")
-        if fake_news_error:
-            st.caption(f"Error: {fake_news_error[:100]}")
+    # Gemini API Configuration
+    st.markdown("#### Fake News Detection (Gemini AI)")
+    gemini_api_key = st.text_input(
+        "Gemini API Key",
+        type="password",
+        help="Enter your Google Gemini API key. Get one at https://makersuite.google.com/app/apikey",
+        key="gemini_api_key"
+    )
+    
+    if gemini_api_key:
+        if 'gemini_initialized' not in st.session_state or st.session_state.get('gemini_key') != gemini_api_key:
+            success, error = initialize_gemini(gemini_api_key)
+            st.session_state['gemini_initialized'] = success
+            st.session_state['gemini_key'] = gemini_api_key
+            if success:
+                st.success("Gemini API: Connected")
+            else:
+                st.error(f"Gemini API: Failed - {error}")
         else:
-            st.caption("Check if model files exist")
+            if st.session_state.get('gemini_initialized'):
+                st.success("Gemini API: Connected")
+    else:
+        st.info("Enter API key to enable fake news detection")
+        st.session_state['gemini_initialized'] = False
     
     st.divider()
     st.caption("AI Detection Suite v2.0")
@@ -799,20 +774,19 @@ with tab4:
                         - Check that the model file is not corrupted
                         """)
 
-# Tab 5: Fake News Detection
+# Tab 5: Fake News Detection with Gemini
 with tab5:
-    st.markdown("### Fake News Detection")
-    st.markdown("Analyze news articles or text content to detect potential misinformation.")
+    st.markdown("### Fake News Detection (Powered by Gemini AI)")
+    st.markdown("Analyze news articles or text content to detect potential misinformation using advanced AI.")
     st.divider()
     
-    if not fake_news_model_loaded:
+    if not st.session_state.get('gemini_initialized', False):
         st.warning("""
-        **Fake News Detection Model Not Loaded**
+        **Gemini API Key Required**
         
-        To enable this feature, ensure the following files are present:
-        - fake_news_model.joblib
-        - tokenizer.joblib
-        - config.joblib
+        Please enter your Gemini API key in the sidebar to enable fake news detection.
+        
+        Get your free API key at: https://makersuite.google.com/app/apikey
         """)
     else:
         # Input method selection
@@ -842,49 +816,78 @@ with tab5:
         
         if st.button("Analyze Article", type="primary", use_container_width=True):
             if article_text and len(article_text.strip()) > 0:
-                with st.spinner("Analyzing article..."):
+                with st.spinner("Analyzing article with Gemini AI..."):
                     try:
-                        import torch
+                        # Initialize Gemini model
+                        model = genai.GenerativeModel('gemini-2.0-flash-lite')
                         
-                        # Tokenize the text
-                        max_length = fake_news_config.get('max_length', 128)
-                        encoded = fake_news_tokenizer(
-                            article_text,
-                            max_length=max_length,
-                            padding='max_length',
-                            truncation=True,
-                            return_tensors='pt'
-                        )
+                        # Create detailed prompt for fake news detection
+                        prompt = f"""You are a professional fact-checker and misinformation analyst. Analyze the following article/text for signs of fake news, misinformation, or unreliable content.
+
+Consider these factors:
+1. Factual accuracy and verifiability
+2. Source credibility indicators
+3. Emotional manipulation or sensationalism
+4. Logical consistency and reasoning
+5. Use of credible citations or lack thereof
+6. Bias, propaganda, or misleading framing
+7. Writing quality and professionalism
+
+Article to analyze:
+{article_text}
+
+Provide your analysis in this EXACT format:
+
+VERDICT: [LEGITIMATE or FAKE or MISLEADING]
+CONFIDENCE: [percentage as number only, e.g., 85]
+REASONING: [2-3 sentence explanation of your verdict]
+RED_FLAGS: [comma-separated list of concerning elements, or "None" if legitimate]
+RECOMMENDATION: [specific action user should take]"""
                         
-                        # Move to device
-                        input_ids = encoded['input_ids'].to(fake_news_device)
-                        attention_mask = encoded['attention_mask'].to(fake_news_device)
+                        # Get response from Gemini
+                        response = model.generate_content(prompt)
+                        result_text = response.text
                         
-                        # Make prediction
-                        with torch.no_grad():
-                            outputs = fake_news_model(
-                                input_ids=input_ids,
-                                attention_mask=attention_mask
-                            )
-                            logits = outputs.logits
-                            probabilities = torch.nn.functional.softmax(logits, dim=1)
-                            prediction = torch.argmax(probabilities, dim=1).item()
+                        # Parse response
+                        lines = result_text.strip().split('\n')
+                        verdict = "UNKNOWN"
+                        confidence = 0
+                        reasoning = ""
+                        red_flags = ""
+                        recommendation = ""
                         
-                        # Get probabilities (0=Real, 1=Fake)
-                        real_probability = float(probabilities[0][0].cpu())
-                        fake_probability = float(probabilities[0][1].cpu())
-                        confidence = max(real_probability, fake_probability) * 100
+                        for line in lines:
+                            if line.startswith("VERDICT:"):
+                                verdict = line.replace("VERDICT:", "").strip()
+                            elif line.startswith("CONFIDENCE:"):
+                                try:
+                                    confidence = int(line.replace("CONFIDENCE:", "").strip().replace("%", ""))
+                                except:
+                                    confidence = 0
+                            elif line.startswith("REASONING:"):
+                                reasoning = line.replace("REASONING:", "").strip()
+                            elif line.startswith("RED_FLAGS:"):
+                                red_flags = line.replace("RED_FLAGS:", "").strip()
+                            elif line.startswith("RECOMMENDATION:"):
+                                recommendation = line.replace("RECOMMENDATION:", "").strip()
                         
                         # Display results
                         st.divider()
                         st.markdown("### Analysis Result")
                         
-                        if prediction == 1:
-                            st.error("**FAKE NEWS DETECTED**")
+                        if "FAKE" in verdict.upper():
+                            st.error(f"**🚨 {verdict} DETECTED**")
+                        elif "MISLEADING" in verdict.upper():
+                            st.warning(f"**⚠️ {verdict} CONTENT**")
                         else:
-                            st.success("**LEGITIMATE NEWS**")
+                            st.success(f"**✓ {verdict} NEWS**")
                         
-                        # Additional info
+                        # Confidence meter
+                        st.markdown("### Confidence Level")
+                        st.progress(confidence / 100)
+                        st.write(f"**{confidence}%** confidence in this assessment")
+                        
+                        # Analysis details
                         st.markdown("### Analysis Details")
                         col_det1, col_det2 = st.columns(2)
                         
@@ -892,26 +895,33 @@ with tab5:
                             st.markdown("**Content Statistics**")
                             word_count = len(article_text.split())
                             char_count = len(article_text)
-                            token_count = len(encoded['input_ids'][0])
                             st.write(f"Word Count: {word_count}")
                             st.write(f"Character Count: {char_count}")
-                            st.write(f"Token Count: {token_count}")
+                            st.write(f"Analysis Model: Gemini 2.0 Flash Lite")
                         
                         with col_det2:
-                            st.markdown("**Interpretation**")
-                            if prediction == 1:
-                                st.write("This content exhibits patterns commonly found in misinformation or fake news.")
-                                st.write("")
-                                st.write("Recommendation: Verify information from multiple credible sources before sharing.")
-                            else:
-                                st.write("This content appears to be legitimate news or factual information.")
-                                st.write("")
-                                st.write("Note: Always verify important information from multiple sources.")
+                            st.markdown("**AI Reasoning**")
+                            st.write(reasoning)
+                        
+                        # Red flags if any
+                        if red_flags and red_flags.lower() != "none":
+                            st.markdown("### 🚩 Red Flags Detected")
+                            st.error(red_flags)
+                        
+                        # Recommendation
+                        if recommendation:
+                            st.markdown("### Recommendation")
+                            st.info(recommendation)
+                        
+                        # Full AI response
+                        with st.expander("View Full AI Analysis"):
+                            st.text(result_text)
                         
                         # Disclaimer
-                        st.info("""
-                        **Important:** This is an automated analysis tool. Results should be used as guidance only. 
-                        Always verify important information through multiple credible sources and critical thinking.
+                        st.divider()
+                        st.caption("""
+                        **Disclaimer:** This analysis is AI-generated and should be used as guidance only. 
+                        Always verify important information through multiple credible sources and apply critical thinking.
                         """)
                         
                     except Exception as e:
@@ -990,9 +1000,124 @@ with tab6:
     Developed for website credibility classification using advanced machine learning techniques.
     """)
 
-# Tab 7: About Image Model
+# Tab 7: Documentation
 with tab7:
-    st.markdown("### AI Image Detection Model")
+    st.markdown("### Documentation & Model Information")
+    st.divider()
+    
+    # Fake News Detection Section
+    st.markdown("### 1. Fake News Detection (Gemini AI)")
+    st.markdown("""
+    #### Overview
+    
+    The Fake News Detection feature uses Google's **Gemini 2.0 Flash Lite** AI model to analyze news articles 
+    and text content for signs of misinformation, bias, and unreliable information.
+    
+    #### How It Works
+    
+    **Advanced AI Analysis:**
+    - Evaluates factual accuracy and verifiability
+    - Identifies emotional manipulation and sensationalism
+    - Assesses logical consistency and reasoning
+    - Examines use of credible citations
+    - Detects bias, propaganda, or misleading framing
+    - Analyzes writing quality and professionalism
+    
+    **Key Benefits:**
+    - 🚀 **No Large Downloads:** API-based, no 1.2GB model files
+    - ⚡ **Fast & Accurate:** State-of-the-art Gemini AI
+    - 💡 **Detailed Explanations:** AI provides reasoning for verdicts
+    - 🔍 **Red Flag Detection:** Identifies specific concerning elements
+    - 📊 **Confidence Scoring:** Get percentage confidence in assessments
+    
+    #### Setup Instructions
+    
+    1. **Get Your Free API Key:**
+       - Visit: https://makersuite.google.com/app/apikey
+       - Sign in with your Google account
+       - Click "Create API Key"
+       - Copy the key
+    
+    2. **Configure in App:**
+       - Enter your API key in the sidebar
+       - Look for "Gemini API Key" input field
+       - The key is securely stored in your session
+    
+    3. **Start Analyzing:**
+       - Navigate to the "News Analysis" tab
+       - Paste article text or upload a .txt file
+       - Click "Analyze Article"
+    
+    #### Output Format
+    
+    The analysis provides:
+    - **Verdict:** LEGITIMATE, FAKE, or MISLEADING
+    - **Confidence Level:** Percentage score with progress bar
+    - **AI Reasoning:** 2-3 sentence explanation
+    - **Red Flags:** Specific concerning elements detected
+    - **Recommendation:** Actionable advice for users
+    - **Full Analysis:** Complete AI response available in expander
+    
+    #### Best Practices
+    
+    - Analyze complete articles for best results
+    - Use for guidance, not as sole fact-checking source
+    - Verify important claims through multiple sources
+    - Consider context and source reputation
+    - Longer articles (100+ words) yield better analysis
+    
+    
+    ---
+    
+    ### 2. Website Credibility Model
+    
+    #### Overview
+    
+    The Website Credibility feature uses a machine learning stacking ensemble to assess the trustworthiness
+    of websites based on 67 engineered features extracted from domain metadata, security indicators,
+    and infrastructure characteristics.
+    
+    #### Model Performance
+    
+    - **Accuracy:** 85.00%
+    - **F1-Score:** 0.8370
+    - **Model Type:** Extra Trees Classifier (Stacking Ensemble)
+    - **Features:** 67 total (24 base features + one-hot encoding)
+    
+    #### Key Features Analyzed
+    
+    **Security Indicators:**
+    - HTTPS/SSL certificate validity
+    - TLS version and certificate type
+    - SSL issuer reputation
+    
+    **Domain Characteristics:**
+    - Domain age and registrar
+    - WHOIS privacy settings
+    
+    **Performance Metrics:**
+    - Page load time
+    - Redirect count
+    - Server response codes
+    
+    **Content & Trust Signals:**
+    - Ads density score
+    - External links count
+    - Contact information availability
+    - Privacy policy presence
+    - Mobile responsiveness
+    
+    #### Usage
+    
+    1. Enter website URL in "URL Analysis" tab
+    2. Click "Analyze Website"
+    3. View extracted metadata and credibility score
+    
+    ---
+    
+    ### 3. AI Image Detection Model
+    """)
+    
     st.divider()
     
     st.markdown("""

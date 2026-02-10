@@ -17,9 +17,8 @@ pandas==2.2.3
 keras==3.3.3
 tensorflow==2.15.1
 
-# Deep learning for fake news detection (PyTorch)
-torch==2.5.1
-transformers==4.45.0
+# AI API for fake news detection
+google-generativeai>=0.3.0
 
 # Image processing
 Pillow==10.4.0
@@ -31,9 +30,6 @@ scipy>=1.10.0
 python-whois>=0.8.0
 requests>=2.31.0
 beautifulsoup4>=4.12.0
-
-# Google Drive downloads
-gdown>=4.7.0
 
 # Visualization (optional but used in notebook)
 matplotlib>=3.7.0
