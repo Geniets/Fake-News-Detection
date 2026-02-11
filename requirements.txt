@@ -14,8 +14,9 @@ joblib==1.4.2
 pandas==2.2.3
 
 # Deep learning for image detection
-# TensorFlow includes Keras - use compatible version for Streamlit Cloud
+# TensorFlow 2.16+ and Keras 3.x for model compatibility
 tensorflow==2.16.1
+keras==3.3.3
 
 # AI API for fake news detection (Groq uses OpenAI-compatible API)
 openai>=1.0.0
