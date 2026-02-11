@@ -50,6 +50,9 @@ desktop.ini
 # Streamlit
 .streamlit/secrets.toml
 
+# Environment variables (API keys)
+.env
+
 # Large model files (downloaded from cloud)
 fake_news_model.joblib
 

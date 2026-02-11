@@ -17,8 +17,8 @@ pandas==2.2.3
 keras==3.3.3
 tensorflow==2.15.1
 
-# AI API for fake news detection
-google-genai>=1.0.0
+# AI API for fake news detection (Groq uses OpenAI-compatible API)
+openai>=1.0.0
 
 # Image processing
 Pillow==10.4.0

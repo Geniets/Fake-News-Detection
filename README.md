@@ -4,11 +4,13 @@ A comprehensive multi-model platform for detecting fake news, AI-generated image
 
 ## 🎯 Features
 
-### 1. **Fake News Detection** (Powered by Gemini AI)
+### 1. **Fake News Detection** (Powered by Groq AI)
 - Analyzes news articles for misinformation
-- Uses Google's Gemini 2.0 Flash Lite model
+- Uses Groq's llama-3.3-70b-versatile model
 - Provides detailed verdict, confidence score, reasoning, and red flags
-- No large model downloads required
+- High-performance AI inference
+- Secure API key configuration via environment variables
+- **Note:** Training data may not be up-to-date; quick web search recommended for recent events
 
 ### 2. **Website Credibility Analysis**
 - Evaluates website trustworthiness using 67 features
@@ -33,7 +35,7 @@ AI-Detection-Suite/
 │
 ├── docs/                       # Documentation
 │   ├── DEPLOYMENT.md          # Deployment guide
-│   └── GEMINI_SETUP.md        # Gemini API setup instructions
+│   └── GROQ_SETUP.md          # Groq API setup instructions
 │
 ├── models/                     # Machine learning models
 │   ├── stacking_model.joblib  # Website credibility model
@@ -76,19 +78,37 @@ AI-Detection-Suite/
 pip install -r requirements.txt
 ```
 
-### 2. Get Gemini API Key
-1. Visit: https://makersuite.google.com/app/apikey
-2. Sign in with Google account
-3. Click "Create API Key"
+### 2. Get Groq API Key
+1. Visit: https://console.groq.com/
+2. Sign up or sign in
+3. Create an API key
 4. Copy the key
 
-### 3. Run the App
+### 3. Set Environment Variable
+
+**For Production (Streamlit Cloud):**
+- Add to Streamlit Secrets:
+  ```toml
+  GROQ_API_KEY = "your-groq-api-key-here"
+  ```
+
+**For Local Development:**
+```bash
+# Create .env file
+GROQ_API_KEY=your_groq_api_key_here
+
+# Or set in terminal
+export GROQ_API_KEY="your-groq-api-key-here"
+```
+
+### 4. Run the App
 ```bash
 streamlit run app.py
 ```
 
-### 4. Configure in App
-- Enter Gemini API key in sidebar
+### 5. Start Analyzing
+- Check sidebar for "Groq API Status: Connected"
+- Navigate to News Analysis tab
 - Start analyzing news, websites, and images!
 
 ## 📊 Model Performance

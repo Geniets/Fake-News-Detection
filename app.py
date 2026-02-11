@@ -4,10 +4,10 @@ import numpy as np
 import joblib
 import json
 import os
+from datetime import datetime
 from utils.webscraper import scrape_website_metadata, format_metadata_for_display
 from PIL import Image
 import io
-import google.genai as genai
 
 # Page configuration
 st.set_page_config(
@@ -58,9 +58,9 @@ st.markdown("""
 @st.cache_resource
 def load_website_model():
     try:
-        model = joblib.load('stacking_model.joblib')
-        features = joblib.load('feature_names.joblib')
-        with open('model_metadata.json', 'r') as f:
+        model = joblib.load('models/stacking_model.joblib')
+        features = joblib.load('models/feature_names.joblib')
+        with open('models/model_metadata.json', 'r') as f:
             metadata = json.load(f)
         
         # Fix: Use only the features the model was trained on
@@ -84,7 +84,7 @@ def load_image_model():
         
         # Load the Keras model (.keras file is a zip format in Keras 3.x)
         # Using FIXED version with data_format parameter removed from RandomFlip
-        model = keras.models.load_model('models/resnet50_best_FIXED.keras')
+        model = keras.models.load_model('models/resnet50_best_fixed.keras')
         
         return model, True
     except Exception as e:
@@ -96,18 +96,30 @@ def load_image_model():
             st.session_state['image_model_error'] = f"Error: {error_msg[:200]}"
         return None, False
 
-# Download large model from Google Drive if not present
-# Initialize Gemini API
-def initialize_gemini(api_key):
+# Initialize Groq API from environment variable
+def initialize_groq():
     try:
-        client = genai.Client(api_key=api_key)
-        return True, None, client
+        api_key = os.getenv('GROQ_API_KEY')
+        if not api_key:
+            return None, "GROQ_API_KEY environment variable not set"
+        
+        # Groq uses OpenAI-compatible API
+        from openai import OpenAI
+        client = OpenAI(
+            api_key=api_key,
+            base_url="https://api.groq.com/openai/v1"
+        )
+        return client, None
     except Exception as e:
-        return False, str(e), None
+        return None, str(e)
 
 # Load all models
 website_model, feature_names, model_info, website_model_loaded = load_website_model()
 image_model, image_model_loaded = load_image_model()
+
+# Initialize Groq API on startup
+groq_client, groq_error = initialize_groq()
+groq_initialized = groq_client is not None
 
 # Header
 st.markdown('<h1 class="main-header">AI Detection Suite</h1>', unsafe_allow_html=True)
@@ -149,31 +161,22 @@ with st.sidebar:
     
     st.divider()
     
-    # Gemini API Configuration
-    st.markdown("#### Fake News Detection (Gemini AI)")
-    gemini_api_key = st.text_input(
-        "Gemini API Key",
-        type="password",
-        help="Enter your Google Gemini API key. Get one at https://makersuite.google.com/app/apikey",
-        key="gemini_api_key"
-    )
+    # Fake News Detection - Groq API Status
+    st.markdown("#### Fake News Detection (AI-Powered)")
+    st.markdown("**Groq API Status**")
     
-    if gemini_api_key:
-        if 'gemini_initialized' not in st.session_state or st.session_state.get('gemini_key') != gemini_api_key:
-            success, error, client = initialize_gemini(gemini_api_key)
-            st.session_state['gemini_initialized'] = success
-            st.session_state['gemini_key'] = gemini_api_key
-            st.session_state['gemini_client'] = client
-            if success:
-                st.success("Gemini API: Connected")
-            else:
-                st.error(f"Gemini API: Failed - {error}")
-        else:
-            if st.session_state.get('gemini_initialized'):
-                st.success("Gemini API: Connected")
+    if groq_initialized:
+        st.success("Status: Connected")
+        st.caption("Groq AI ready for analysis")
     else:
-        st.info("Enter API key to enable fake news detection")
-        st.session_state['gemini_initialized'] = False
+        st.error("Status: Not Connected")
+        if groq_error:
+            st.caption(f"Error: {groq_error}")
+        else:
+            st.caption("Set GROQ_API_KEY environment variable")
+        st.info("""To enable this feature, set the GROQ_API_KEY environment variable.
+        
+Get your key at: https://console.groq.com/""")
     
     st.divider()
     st.caption("AI Detection Suite v2.0")
@@ -775,21 +778,35 @@ with tab4:
                         - Check that the model file is not corrupted
                         """)
 
-# Tab 5: Fake News Detection with Gemini
+# Tab 5: Fake News Detection with AI
 with tab5:
-    st.markdown("### Fake News Detection (Powered by Gemini AI)")
+    st.markdown("### Fake News Detection")
     st.markdown("Analyze news articles or text content to detect potential misinformation using advanced AI.")
     st.divider()
     
-    if not st.session_state.get('gemini_initialized', False):
+    if not groq_initialized:
         st.warning("""
-        **Gemini API Key Required**
+        **Groq API Not Available**
         
-        Please enter your Gemini API key in the sidebar to enable fake news detection.
+        The fake news detection feature requires the GROQ_API_KEY environment variable to be set.
         
-        Get your free API key at: https://makersuite.google.com/app/apikey
+        Get your API key at: https://console.groq.com/
         """)
     else:
+        st.info("""
+        🤖 **AI-Powered Analysis with Groq**
+        
+        This tool uses Groq AI to analyze news articles for potential misinformation.
+        
+        **Important Notes:**
+        - ⚠️ **Training data may not be up-to-date** - The AI model's knowledge has a cutoff date
+        - 🔍 **Quick Search Recommended** - For recent events or current news, verify with a quick web search
+        - 📰 **Best for**: Analyzing writing style, logical consistency, and common fact-checking patterns
+        - ✅ **Always verify** important claims through multiple trusted sources
+        
+        💡 **Tip:** Use this as one tool in your fact-checking toolkit, not as the sole verification method.
+        """)
+        
         # Input method selection
         input_method = st.radio(
             "Select input method:",
@@ -819,13 +836,6 @@ with tab5:
             if article_text and len(article_text.strip()) > 0:
                 with st.spinner("Validating content type..."):
                     try:
-                        # Get Gemini client
-                        client = st.session_state.get('gemini_client')
-                        if not client:
-                            st.error("Gemini client not initialized")
-                            st.stop()
-                        
-                        # First, validate content type
                         validation_prompt = f"""Analyze this text and determine if it's suitable for fake news detection. 
 
 Text to check:
@@ -839,11 +849,12 @@ Respond with ONLY ONE WORD:
 
 Response:"""
                         
-                        validation_response = client.models.generate_content(
-                            model='gemini-2.0-flash-lite',
-                            contents=validation_prompt
+                        validation_response = groq_client.chat.completions.create(
+                            model="llama-3.3-70b-versatile",
+                            messages=[{"role": "user", "content": validation_prompt}],
+                            temperature=0
                         )
-                        content_type = validation_response.text.strip().upper()
+                        content_type = validation_response.choices[0].message.content.strip().upper()
                         
                         # Check if content is appropriate
                         if "CODE" in content_type:
@@ -892,18 +903,14 @@ Response:"""
                         st.error(f"Error during content validation: {e}")
                         st.info("Proceeding with analysis anyway...")
                 
-                with st.spinner("Analyzing article with Gemini AI..."):
+                with st.spinner("Analyzing article with Groq AI..."):
                     try:
-                        client = st.session_state.get('gemini_client')
-                        if not client:
-                            st.error("Gemini client not initialized")
-                            st.stop()
-                        
-                        # Create detailed prompt for fake news detection
-                        prompt = f"""You are a professional fact-checker and misinformation analyst. Analyze the following article/text for signs of fake news, misinformation, or unreliable content.
+                        analysis_prompt = f"""You are a professional fact-checker and misinformation analyst. Analyze the following article/text for signs of fake news, misinformation, or unreliable content.
+
+**Important:** Your training data may not include recent events. Focus on analyzing writing style, logical consistency, source credibility indicators, and common misinformation patterns.
 
 Consider these factors:
-1. Factual accuracy and verifiability
+1. Factual accuracy and verifiability (based on training data)
 2. Source credibility indicators
 3. Emotional manipulation or sensationalism
 4. Logical consistency and reasoning
@@ -922,12 +929,14 @@ REASONING: [2-3 sentence explanation of your verdict]
 RED_FLAGS: [comma-separated list of concerning elements, or "None" if legitimate]
 RECOMMENDATION: [specific action user should take]"""
                         
-                        # Get response from Gemini
-                        response = client.models.generate_content(
-                            model='gemini-2.0-flash-lite',
-                            contents=prompt
+                        response = groq_client.chat.completions.create(
+                            model="llama-3.3-70b-versatile",
+                            messages=[{"role": "user", "content": analysis_prompt}],
+                            temperature=0.3,
+                            max_tokens=1500
                         )
-                        result_text = response.text
+                        result_text = response.choices[0].message.content
+                        model_name = "llama-3.3-70b-versatile (Groq)"
                         
                         # Parse response
                         lines = result_text.strip().split('\n')
@@ -978,7 +987,7 @@ RECOMMENDATION: [specific action user should take]"""
                             char_count = len(article_text)
                             st.write(f"Word Count: {word_count}")
                             st.write(f"Character Count: {char_count}")
-                            st.write(f"Analysis Model: Gemini 2.0 Flash Lite")
+                            st.write(f"Analysis Model: {model_name}")
                         
                         with col_det2:
                             st.markdown("**AI Reasoning**")
@@ -1009,7 +1018,11 @@ RECOMMENDATION: [specific action user should take]"""
                         st.error(f"Error during analysis: {e}")
                         import traceback
                         with st.expander("Error Details"):
-                            st.code(traceback.format_exc())
+                           warning("""
+                        ⚠️ **Important Reminder:** This AI analysis is based on training data that may not be up-to-date. 
+                        For recent events or current news, please verify facts with a quick web search using trusted sources.
+                        """)
+                        st. st.code(traceback.format_exc())
             else:
                 st.warning("Please enter or upload article text to analyze.")
 
@@ -1087,12 +1100,12 @@ with tab7:
     st.divider()
     
     # Fake News Detection Section
-    st.markdown("### 1. Fake News Detection (Gemini AI)")
+    st.markdown("### 1. Fake News Detection (AI-Powered)")
     st.markdown("""
     #### Overview
     
-    The Fake News Detection feature uses Google's **Gemini 2.0 Flash Lite** AI model to analyze news articles 
-    and text content for signs of misinformation, bias, and unreliable information.
+    The Fake News Detection feature uses **Groq's llama-3.3-70b-versatile** AI model 
+    to analyze news articles and text content for signs of misinformation, bias, and unreliable information.
     
     #### How It Works
     
@@ -1105,24 +1118,29 @@ with tab7:
     - Analyzes writing quality and professionalism
     
     **Key Benefits:**
-    - 🚀 **No Large Downloads:** API-based, no 1.2GB model files
-    - ⚡ **Fast & Accurate:** State-of-the-art Gemini AI
+    - 🚀 **No API Key UI:** Secure environment variable configuration for deployment
+    - ⚡ **Fast & Accurate:** Powered by Groq's high-performance AI infrastructure
     - 💡 **Detailed Explanations:** AI provides reasoning for verdicts
     - 🔍 **Red Flag Detection:** Identifies specific concerning elements
     - 📊 **Confidence Scoring:** Get percentage confidence in assessments
     
+    **Important Limitations:**
+    - ⚠️ **Training Data Cutoff:** Model knowledge may not include very recent events
+    - 🔍 **Quick Search Recommended:** For current news, verify with web search
+    - ✅ **Best Use:** Analyzing writing style, logic, and common misinformation patterns
+    
     #### Setup Instructions
     
-    1. **Get Your Free API Key:**
-       - Visit: https://makersuite.google.com/app/apikey
-       - Sign in with your Google account
-       - Click "Create API Key"
+    1. **Get Your Groq API Key:**
+       - Visit: https://console.groq.com/
+       - Sign in and create an account
+       - Generate an API key
        - Copy the key
     
-    2. **Configure in App:**
-       - Enter your API key in the sidebar
-       - Look for "Gemini API Key" input field
-       - The key is securely stored in your session
+    2. **Configure Environment Variable:**
+       - Set the `GROQ_API_KEY` environment variable
+       - For deployment: Add to your hosting platform's environment variables
+       - For local development: Use `.env` file or system environment variables
     
     3. **Start Analyzing:**
        - Navigate to the "News Analysis" tab
@@ -1143,9 +1161,10 @@ with tab7:
     
     - Analyze complete articles for best results
     - Use for guidance, not as sole fact-checking source
-    - Verify important claims through multiple sources
+    - **Verify recent events with web search** - AI training data may be outdated
     - Consider context and source reputation
     - Longer articles (100+ words) yield better analysis
+    - Cross-reference important claims through multiple trusted sources
     
     
     ---

@@ -1,23 +1,24 @@
 # AI Detection Suite - Deployment Guide
 
-This application is a Streamlit-based AI Detection Suite that includes website credibility analysis, AI image detection, and fake news detection (powered by Gemini AI).
+This application is a Streamlit-based AI Detection Suite that includes website credibility analysis, AI image detection, and fake news detection (powered by Groq AI).
 
 ## 📋 Prerequisites
 
 Before deploying, ensure you have:
 - Model files for website credibility (`.joblib` files) and image detection (`.keras` file)
-- **Gemini API Key** for fake news detection (free at https://makersuite.google.com/app/apikey)
+- **Groq API Key** for fake news detection (get at https://console.groq.com/)
 - Python 3.11 (specified in runtime.txt)
 - Git installed and configured
 
 ## 🎯 Key Updates (v2.0)
 
-**Fake News Detection Now Uses Gemini API:**
+**Fake News Detection Now Uses Groq API:**
 - ✅ No more 1.2GB model download
-- ✅ Faster and more accurate analysis
+- ✅ Faster and more accurate analysis with Groq's high-performance infrastructure
 - ✅ Easier deployment (no large files)
-- ✅ Real-time AI-powered fact-checking
-- 🔑 Requires free Gemini API key (get at https://makersuite.google.com/app/apikey)
+- ✅ AI-powered fact-checking
+- 🔑 Requires Groq API key (get at https://console.groq.com/)
+- 🔒 Secure: API key configured via environment variable (not in UI)
 
 ## 🚀 Deployment Options
 
@@ -45,12 +46,14 @@ Before deploying, ensure you have:
    - Select your repository, branch (main), and main file (app.py)
    - Click "Deploy"
 
-3. **Configure API Key (Important!)**
-   - Users will need to enter their Gemini API key in the app sidebar
-   - Alternatively, set as Streamlit Secret for automatic use:
-     - In Streamlit Cloud dashboard, go to your app
-     - Click "Settings" → "Secrets"
-     - Add: `GEMINI_API_KEY = "your-api-key-here"`
+3. **Configure API Key (Required!)**
+   - In Streamlit Cloud dashboard, go to your app
+   - Click "Settings" → "Secrets"
+   - Add the following:
+     ```toml
+     GROQ_API_KEY = "your-groq-api-key-here"
+     ```
+   - The app will automatically use this environment variable
 
 **Important Notes:**
 - Free tier includes 1 GB of storage and resources
@@ -151,11 +154,35 @@ streamlit run app.py --server.port 8501
 
 ## 🔧 Configuration
 
-### Environment Variables (if needed)
-Create `.streamlit/secrets.toml` for sensitive data:
+### Environment Variables (Required)
+
+**For Production Deployment:**
+
+Set the `GROQ_API_KEY` environment variable:
+
+**Streamlit Cloud:**
+Create `.streamlit/secrets.toml`:
 ```toml
-# API keys or secrets (if your app uses any)
-# api_key = "your-api-key"
+GROQ_API_KEY = "your-groq-api-key-here"
+```
+
+**Docker/Server:**
+```bash
+export GROQ_API_KEY="your-groq-api-key-here"
+```
+
+**Heroku:**
+```bash
+heroku config:set GROQ_API_KEY="your-groq-api-key-here"
+```
+
+**AWS/GCP/Azure:**
+Set environment variable in your deployment configuration.
+
+**Local Development:**
+Create a `.env` file (see `.env.example`):
+```
+GROQ_API_KEY=your_groq_api_key_here
 ```
 
 ### Memory Considerations
