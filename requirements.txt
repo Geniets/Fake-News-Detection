@@ -1,11 +1,11 @@
 # Website Credibility Classification Model
-# Compatible versions ensuring stability and reproducibility
+# Streamlit Cloud compatible versions
 
 # Streamlit framework
 streamlit>=1.28.0
 
 # Critical: NumPy MUST be < 2.0 for compatibility
-numpy==1.26.4
+numpy<2.0.0
 
 # Core ML libraries - Python 3.11 compatible versions
 scikit-learn==1.5.2
@@ -14,8 +14,8 @@ joblib==1.4.2
 pandas==2.2.3
 
 # Deep learning for image detection
-keras==3.3.3
-tensorflow==2.15.1
+# TensorFlow includes Keras - use compatible version for Streamlit Cloud
+tensorflow==2.16.1
 
 # AI API for fake news detection (Groq uses OpenAI-compatible API)
 openai>=1.0.0
@@ -30,7 +30,3 @@ scipy>=1.10.0
 python-whois>=0.8.0
 requests>=2.31.0
 beautifulsoup4>=4.12.0
-
-# Visualization (optional but used in notebook)
-matplotlib>=3.7.0
-seaborn>=0.12.0
